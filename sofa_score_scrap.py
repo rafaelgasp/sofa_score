@@ -4,12 +4,12 @@ import pandas as pd
 import numpy as np
 from datetime import datetime
 
-de_para_siglas = pd.read_excel("de_para_siglas_br.xlsx")
-de_para_siglas["time"] = de_para_siglas["time"].astype(str)
-de_para_siglas["time"] = de_para_siglas["time"].apply(str.strip)
-de_para_siglas.set_index("time", inplace=True)
+# de_para_siglas = pd.read_excel("de_para_siglas_br.xlsx")
+# de_para_siglas["time"] = de_para_siglas["time"].astype(str)
+# de_para_siglas["time"] = de_para_siglas["time"].apply(str.strip)
+# de_para_siglas.set_index("time", inplace=True)
 
-def parse_event_info(players_df, player_i = 0):
+def parse_event_info(players_df, de_para_siglas, player_i = 0):
     jogo = players_df.iloc[player_i].eventData
     resp = {}
     
@@ -71,8 +71,8 @@ def parse_all_info_all_players(players_df):
     return(pd.concat(resp, sort=False).reset_index())
 
 
-def get_per_player_data(players_df):
-    game_info = parse_event_info(players_df)
+def get_per_player_data(players_df, de_para_siglas):
+    game_info = parse_event_info(players_df, de_para_siglas)
     players_data = parse_all_info_all_players(players_df).drop("index", axis=1)
     
     players_data["game"] = [game_info["game"] for i in range(len(players_data))]
@@ -86,6 +86,7 @@ def get_odds(resp, map_odds = {0: "final_result",
                                4: "both_score",
                                5: "total_goals"}):
     ret = {}
+    
     
     odds = resp.json()["odds"]
     for key in map_odds:
@@ -117,8 +118,8 @@ def get_live_form(resp, prefix = "form_minute_"):
         pass
     return(ret)
 
-def game_statistics(resp, players_df, period = 0):
-    ret = parse_event_info(players_df)
+def game_statistics(resp, players_df, de_para_siglas, period = 0):
+    ret = parse_event_info(players_df, de_para_siglas)
     groups = resp.json()["statistics"]["periods"][period]["groups"]
     for i in range(len(groups)):
         items = groups[i]["statisticsItems"]
@@ -128,16 +129,20 @@ def game_statistics(resp, players_df, period = 0):
             ret[nome + "_away"] = item["away"]
     
     ret.update(get_live_form(resp))
-    ret.update(get_odds(resp))
+    try:
+        ret.update(get_odds(resp))
+    except KeyError:
+        pass
     
     return(ret)
 
-def get_info_rodada(resp):
+def get_info_rodada(resp, de_para_siglas):
     games = resp.json()['roundMatches']["tournaments"][0]['events']
     
     resp = {
         "game":[],
         "fixture": [],
+        "id":[],
         "team_home":[],
         "team_away":[],
         "date":[],
@@ -148,13 +153,14 @@ def get_info_rodada(resp):
     
     for game in games:
         resp["fixture"].append(game['roundInfo']["round"])
+        resp["id"].append(game["id"])
         resp["team_home"].append(de_para_siglas.loc[game["homeTeam"]["name"]].iloc[0])
         resp["team_away"].append(de_para_siglas.loc[game["awayTeam"]["name"]].iloc[0])
         
         try:        
             resp["home_score"].append(game['homeScore']["current"])
             resp["away_score"].append(game['awayScore']["current"])        
-        except TypeError:
+        except (TypeError, KeyError):
             resp["home_score"].append(-1)
             resp["away_score"].append(-1)
         resp["date"].append(game["formatedStartDate"].replace(".", "-")[:-1])
