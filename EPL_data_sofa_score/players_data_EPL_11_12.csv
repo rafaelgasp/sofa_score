@@ -1,0 +1,57 @@
+game;name;slug;shortName;id;national;team_name;team_id;goals;goalAssist;totalTackle;totalPass;totalDuels;minutesPlayed;position;rating;shotsOnTarget;shotsOffTarget;shotsBlocked;totalContest;totalClearance;outfielderBlock;interceptionWon;challengeLost;accuratePass;keyPass;totalCross;totalLongBalls;dispossessed;wasFouled;fouls;saves;punches;runsOut;goodHighClaim;team
+MUN X ARS 2011-08-28;Wayne Rooney;manchester-united;W. Rooney;751;False;Manchester United;35;3;1;2;40 (81%);10 (3);90';F;10;5;2;0;0 (0);0;0;1;;40 (81%);4;2 (1);7 (4);3;1;2;;;;;MUN
+MUN X ARS 2011-08-28;Ashley Young;manchester-united;A. Young;10589;False;Manchester United;35;2;3;2;48 (87%);9 (5);90';M;9.6;4;0;0;3 (1);1;0;2;;48 (87%);5;4 (1);8 (5);2;2;0;;;;;MUN
+MUN X ARS 2011-08-28;Nani;manchester-united;Nani;17740;False;Manchester United;35;1;;5;29 (80%);8 (7);68';M;7.8;1;2;0;2 (2);0;0;1;;29 (80%);2;5 (1);1 (0);1;0;0;;;;;MUN
+MUN X ARS 2011-08-28;Ji-Sung Park;manchester-united;J. Park;2496;False;Manchester United;35;1;;2;15 (93%);4 (3);22';M;7.8;1;1;0;1 (1);0;0;1;;15 (93%);1;0 (0);0 (0);1;0;0;;;;;MUN
+MUN X ARS 2011-08-28;Tomáš Rosický;arsenal;T. Rosický;108;False;Arsenal;42;;1;2;62 (88%);7 (3);90';M;7.8;0;0;1;0 (0);0;0;1;1;62 (88%);6;2 (1);1 (0);2;0;0;;;;;ARS
+MUN X ARS 2011-08-28;Tom Cleverley;manchester-united;T. Cleverley;46432;False;Manchester United;35;;;5;61 (91%);11 (6);90';M;7.7;1;1;1;1 (1);0;0;2;1;61 (91%);1;1 (0);5 (3);1;0;2;;;;;MUN
+MUN X ARS 2011-08-28;David De Gea;manchester-united;D. D. Gea;69378;False;Manchester United;35;;;0;14 (66%);0 (0);90';G;7.6;0;0;0;0 (0);1;0;0;;14 (66%);0;0 (0);10 (4);0;0;0;6;1;0 (0);1;MUN
+MUN X ARS 2011-08-28;Anderson;manchester-united;Anderson;17887;False;Manchester United;35;;1;5;39 (86%);9 (5);68';M;7.6;0;0;0;0 (0);0;0;1;1;39 (86%);2;3 (0);4 (2);2;0;1;;;;;MUN
+MUN X ARS 2011-08-28;Aaron Ramsey;arsenal;A. Ramsey;23571;False;Arsenal;42;;;3;51 (81%);13 (6);90';M;7.5;0;1;1;0 (0);0;0;3;2;51 (81%);4;0 (0);7 (4);4;3;1;;;;;ARS
+MUN X ARS 2011-08-28;Andrey Arshavin;arsenal;A. Arshavin;10906;False;Arsenal;42;;;0;32 (71%);8 (3);90';M;7.4;2;2;3;5 (3);0;0;0;1;32 (71%);2;0 (0);1 (1);1;0;2;;;;;ARS
+MUN X ARS 2011-08-28;Javier Hernández;manchester-united;J. Hernández;34312;False;Manchester United;35;;;1;21 (95%);2 (2);54';F;7.2;1;0;0;0 (0);0;0;0;;21 (95%);2;0 (0);1 (1);0;1;0;;;;;MUN
+MUN X ARS 2011-08-28;Danny Welbeck;manchester-united;D. Welbeck;33902;False;Manchester United;35;1;;0;8 (66%);3 (1);36';F;7.1;1;3;0;0 (0);0;0;2;;8 (66%);0;0 (0);0 (0);1;1;0;;;;;MUN
+MUN X ARS 2011-08-28;Patrice Evra;manchester-united;P. Evra;3063;False;Manchester United;35;;;5;33 (84%);11 (7);90';D;7.0;0;0;0;1 (1);4;0;2;1;33 (84%);1;2 (0);3 (1);1;1;2;;;;;MUN
+MUN X ARS 2011-08-28;Ryan Giggs;manchester-united;R. Giggs;754;False;Manchester United;35;;1;2;23 (95%);3 (2);22';M;7.0;0;0;0;0 (0);0;0;0;1;23 (95%);1;0 (0);2 (2);0;0;0;;;;;MUN
+MUN X ARS 2011-08-28;Phil Jones;manchester-united;P. Jones;93868;False;Manchester United;35;;;2;38 (90%);9 (7);90';D;6.9;0;0;0;4 (3);5;0;1;;38 (90%);0;0 (0);2 (2);0;1;0;;;;;MUN
+MUN X ARS 2011-08-28;Robin van Persie;arsenal;R. v. Persie;1;False;Arsenal;42;1;;0;19 (86%);6 (0);84';F;6.8;4;0;0;0 (0);0;0;0;;19 (86%);2;4 (2);1 (0);4;0;0;;;;;ARS
+MUN X ARS 2011-08-28;Chris Smalling;manchester-united;C. Smalling;47741;False;Manchester United;35;;;0;47 (88%);2 (0);90';D;6.7;0;1;0;0 (0);3;0;3;1;47 (88%);2;1 (0);3 (2);0;0;1;;;;;MUN
+MUN X ARS 2011-08-28;Theo Walcott;arsenal;T. Walcott;10501;False;Arsenal;42;1;;0;21 (80%);8 (2);84';M;6.6;2;1;0;3 (0);0;0;0;1;21 (80%);0;1 (0);0 (0);1;2;1;;;;;ARS
+MUN X ARS 2011-08-28;Alex Oxlade-Chamberlain;arsenal;A. Oxlade-Chamberlain;10577;False;Arsenal;42;;;0;8 (100%);3 (1);28';M;6.4;0;0;0;2 (1);0;0;0;;8 (100%);0;0 (0);1 (1);1;0;0;;;;;ARS
+MUN X ARS 2011-08-28;Francis Coquelin;arsenal;F. Coquelin;40672;False;Arsenal;42;;;1;29 (85%);8 (2);62';M;6.2;0;0;0;2 (0);0;0;1;;29 (85%);0;0 (0);4 (3);4;1;0;;;;;ARS
+MUN X ARS 2011-08-28;Jonny Evans;manchester-united;J. Evans;30144;False;Manchester United;35;;;0;38 (88%);5 (3);90';D;6.1;0;0;0;0 (0);7;0;3;;38 (88%);0;0 (0);7 (5);0;0;1;;;;;MUN
+MUN X ARS 2011-08-28;Carl Jenkinson;arsenal;C. Jenkinson;137844;False;Arsenal;42;;1;3;22 (73%);6 (3);77';D;6.0;0;0;1;0 (0);4;0;1;1;22 (73%);2;4 (0);3 (3);0;0;2;;;;;ARS
+MUN X ARS 2011-08-28;Laurent Koscielny;arsenal;L. Koscielny;51340;False;Arsenal;42;;;2;24 (100%);7 (6);90';D;5.9;0;2;0;0 (0);7;0;4;;24 (100%);0;0 (0);0 (0);1;1;0;;;;;ARS
+MUN X ARS 2011-08-28;Wojciech Szczęsny;arsenal;W. Szczęsny;50490;False;Arsenal;42;;;0;3 (42%);0 (0);90';G;5.8;0;0;0;0 (0);3;0;0;;3 (42%);0;0 (0);6 (2);0;0;0;6;1;4 (4);1;ARS
+MUN X ARS 2011-08-28;Armand Traore;arsenal;A. Traore;21415;False;Arsenal;42;;;2;29 (85%);9 (3);90';D;4.8;0;0;0;2 (1);6;0;1;2;29 (85%);0;2 (0);0 (0);3;0;0;;;;;ARS
+MUN X ARS 2011-08-28;Johan Djourou;arsenal;J. Djourou;536;False;Arsenal;42;;;2;18 (85%);7 (4);90';D;4.8;0;0;0;0 (0);3;0;3;1;18 (85%);0;0 (0);2 (1);0;1;2;;;;;ARS
+MUN X ARS 2011-08-28;Henri Lansbury;arsenal;H. Lansbury;44326;False;Arsenal;42;;;0;5 (83%);0 (0);6';M;–;0;0;0;0 (0);0;0;0;;5 (83%);1;0 (0);2 (1);0;0;0;;;;;ARS
+MUN X ARS 2011-08-28;Marouane Chamakh;arsenal;M. Chamakh;3233;False;Arsenal;42;;;0;2 (50%);4 (2);6';F;–;0;0;0;0 (0);0;0;0;;2 (50%);0;0 (0);0 (0);1;1;0;;;;;ARS
+ARS X CHE 2012-04-21;Wojciech Szczęsny;arsenal;W. Szczęsny;50490;False;Arsenal;42;;;0;12 (100%);0 (0);90';G;7.8;0;0;0;0 (0);2;0;0;;12 (100%);0;0 (0);2 (2);0;0;0;2;1;5 (4);2;ARS
+ARS X CHE 2012-04-21;Thomas Vermaelen;arsenal;T. Vermaelen;1954;False;Arsenal;42;;;4;43 (95%);6 (5);90';D;7.7;0;0;0;1 (1);5;0;2;;43 (95%);0;0 (0);6 (4);0;0;1;;;;;ARS
+ARS X CHE 2012-04-21;Florent Malouda;chelsea;F. Malouda;3304;False;Chelsea;38;;;5;43 (87%);18 (9);90';M;7.6;0;0;1;0 (0);0;0;0;;43 (87%);5;9 (6);2 (2);5;3;1;;;;;CHE
+ARS X CHE 2012-04-21;John Terry;chelsea;J. Terry;1205;False;Chelsea;38;;;0;34 (89%);2 (1);90';D;7.6;0;1;1;0 (0);9;0;3;;34 (89%);0;0 (0);5 (2);0;1;1;;;;;CHE
+ARS X CHE 2012-04-21;Fernando Torres;chelsea;F. Torres;2436;False;Chelsea;38;;;5;14 (77%);16 (11);90';F;7.5;0;0;2;4 (3);0;0;0;2;14 (77%);2;2 (0);0 (0);2;2;0;;;;;CHE
+ARS X CHE 2012-04-21;Ryan Bertrand;chelsea;R. Bertrand;20756;False;Chelsea;38;;;3;27 (81%);8 (7);77';D;7.4;0;0;0;0 (0);3;0;3;;27 (81%);0;0 (0);1 (1);0;2;0;;;;;CHE
+ARS X CHE 2012-04-21;Petr Čech;chelsea;P. Čech;1185;False;Chelsea;38;;;0;10 (43%);0 (0);90';G;7.4;0;0;0;0 (0);1;0;0;;10 (43%);0;0 (0);17 (4);0;0;0;4;1;0 (0);3;CHE
+ARS X CHE 2012-04-21;Robin van Persie;arsenal;R. v. Persie;1;False;Arsenal;42;;;0;12 (63%);3 (2);90';F;7.4;3;4;0;0 (0);0;0;0;;12 (63%);3;7 (0);0 (0);0;2;1;;;;;ARS
+ARS X CHE 2012-04-21;Jose Bosingwa;chelsea;J. Bosingwa;6255;False;Chelsea;38;;;6;32 (82%);12 (7);90';D;7.3;0;0;1;1 (1);2;0;2;2;32 (82%);0;5 (0);2 (2);1;0;1;;;;;CHE
+ARS X CHE 2012-04-21;Gary Cahill;chelsea;G. Cahill;9628;False;Chelsea;38;;;0;23 (85%);3 (1);90';D;7.2;0;2;1;0 (0);4;0;1;;23 (85%);0;0 (0);4 (2);0;1;2;;;;;CHE
+ARS X CHE 2012-04-21;Michael Essien;chelsea;M. Essien;3300;False;Chelsea;38;;;1;38 (90%);7 (4);90';M;7.1;0;1;1;0 (0);4;0;0;;38 (90%);1;1 (0);1 (1);1;3;1;;;;;CHE
+ARS X CHE 2012-04-21;Laurent Koscielny;arsenal;L. Koscielny;51340;False;Arsenal;42;;;2;46 (83%);7 (3);90';D;7.0;0;1;0;0 (0);4;0;1;1;46 (83%);0;0 (0);7 (2);1;1;1;;;;;ARS
+ARS X CHE 2012-04-21;Kieran Gibbs;arsenal;K. Gibbs;24814;False;Arsenal;42;;;3;49 (87%);9 (7);90';D;7.0;0;0;0;2 (2);1;0;0;1;49 (87%);0;3 (0);4 (2);1;0;0;;;;;ARS
+ARS X CHE 2012-04-21;Alex Song;arsenal;A. Song;12987;False;Arsenal;42;;;2;49 (84%);10 (4);90';M;7.0;0;0;0;1 (1);1;0;2;1;49 (84%);2;1 (0);5 (3);3;1;2;;;;;ARS
+ARS X CHE 2012-04-21;Bacary Sagna;arsenal;B. Sagna;1053;False;Arsenal;42;;;1;58 (85%);12 (9);90';D;7.0;0;0;0;0 (0);6;0;1;1;58 (85%);0;3 (0);1 (1);0;1;1;;;;;ARS
+ARS X CHE 2012-04-21;Tomáš Rosický;arsenal;T. Rosický;108;False;Arsenal;42;;;2;21 (87%);7 (4);65';M;6.9;1;0;0;3 (2);0;0;0;;21 (87%);0;1 (0);1 (0);0;0;2;;;;;ARS
+ARS X CHE 2012-04-21;André Santos;arsenal;A. Santos;56766;False;Arsenal;42;;;1;16 (88%);4 (2);20';M;6.8;0;0;0;0 (0);0;0;2;;16 (88%);2;2 (1);0 (0);2;1;0;;;;;ARS
+ARS X CHE 2012-04-21;Alex Oxlade-Chamberlain;arsenal;A. Oxlade-Chamberlain;10577;False;Arsenal;42;;;3;18 (78%);12 (8);70';M;6.8;0;0;1;0 (0);0;0;0;;18 (78%);0;3 (0);5 (3);3;4;1;;;;;ARS
+ARS X CHE 2012-04-21;Salomon Kalou;chelsea;S. Kalou;10086;False;Chelsea;38;;;1;21 (70%);8 (3);74';F;6.8;0;0;0;2 (2);1;0;0;;21 (70%);2;0 (0);1 (1);1;0;1;;;;;CHE
+ARS X CHE 2012-04-21;John Mikel Obi;chelsea;J. O. Mikel;7311;False;Chelsea;38;;;0;19 (95%);1 (0);24';M;6.8;0;0;0;0 (0);1;0;2;;19 (95%);0;0 (0);0 (0);0;0;1;;;;;CHE
+ARS X CHE 2012-04-21;Abou Diaby;arsenal;A. Diaby;1006;False;Arsenal;42;;;1;18 (85%);3 (1);25';M;6.8;0;0;1;0 (0);1;0;0;;18 (85%);0;0 (0);0 (0);1;0;1;;;;;ARS
+ARS X CHE 2012-04-21;Oriol Romeu;chelsea;O. Romeu;69416;False;Chelsea;38;;;1;32 (94%);6 (1);66';M;6.7;0;0;0;0 (0);2;0;3;3;32 (94%);0;0 (0);3 (3);1;0;1;;;;;CHE
+ARS X CHE 2012-04-21;Gervinho;arsenal;Gervinho;26991;False;Arsenal;42;;;0;14 (87%);4 (0);30';F;6.7;0;0;1;1 (0);0;0;1;;14 (87%);1;1 (0);0 (0);1;0;2;;;;;ARS
+ARS X CHE 2012-04-21;Aaron Ramsey;arsenal;A. Ramsey;23571;False;Arsenal;42;;;4;63 (96%);13 (6);90';M;6.7;0;1;0;2 (1);0;0;1;2;63 (96%);1;1 (0);6 (6);4;0;0;;;;;ARS
+ARS X CHE 2012-04-21;Theo Walcott;arsenal;T. Walcott;10501;False;Arsenal;42;;;1;11 (68%);7 (2);60';M;6.5;0;0;0;2 (0);0;0;0;;11 (68%);1;3 (1);0 (0);1;1;0;;;;;ARS
+ARS X CHE 2012-04-21;Daniel Sturridge;chelsea;D. Sturridge;20963;False;Chelsea;38;;;0;12 (66%);13 (0);90';F;6.3;2;1;0;1 (0);1;0;0;;12 (66%);0;2 (0);3 (2);9;0;1;;;;;CHE
+ARS X CHE 2012-04-21;Juan Mata;chelsea;J. Mata;28367;False;Chelsea;38;;;0;5 (55%);1 (0);16';F;6.2;0;0;0;0 (0);0;0;0;;5 (55%);0;2 (0);2 (1);1;0;0;;;;;CHE
+ARS X CHE 2012-04-21;Ashley Cole;chelsea;A. Cole;2;False;Chelsea;38;;;0;1 (100%);2 (0);13';D;5.9;0;0;0;0 (0);0;0;0;;1 (100%);0;0 (0);0 (0);1;0;1;;;;;CHE

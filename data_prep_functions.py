@@ -3,6 +3,7 @@ import numpy as np
 from datetime import datetime, timedelta
 import geopy.distance
 import gc
+from tqdm import tqdm_notebook
 
 def get_last_games(df, data, team_name, n = 5, filter="all", verbose=False):
     """
@@ -35,7 +36,7 @@ def get_last_games(df, data, team_name, n = 5, filter="all", verbose=False):
     return(last_games)
 
 def get_avg_last_games(last_games, team_name, home_columns, away_columns,
-                       n = 5, data_ref = None, rivals = False, 
+                       n = 5, data_ref = None, rivals = False, fl_result="fl_home_win",
                        to_drop=['TEAM_NAME_misc_away', 'GAME', 'TEAM_NAME_playertrack_home', 
                                 'fl_win', 'fl_home_win', 'TEAM_NAME_playertrack_away', 'TEAM_NAME_scoring_home', 
                                 'team_game_num', 'GAME_DATE_home', 'SEASON', 'TEAM_NAME_advanced_away', 
@@ -72,7 +73,7 @@ def get_avg_last_games(last_games, team_name, home_columns, away_columns,
         last_games_away.columns = [x.replace("_away","_opponent") for x in last_games_away.columns]
     
     if(n == 10000 or n <= (len(last_games_home) + len(last_games_away))):
-        n = len(last_games_home) + len(last_games_away)        
+        n = len(last_games_home) + len(last_games_away)       
     
     if(len(last_games_home) == 0):
         if(rivals):
@@ -85,7 +86,7 @@ def get_avg_last_games(last_games, team_name, home_columns, away_columns,
             resp = (last_games_home/n)
         else:
             resp = last_games_home/n
-            
+    
     if(len(last_games_away) > 0 and len(last_games_home) > 0):
         if(rivals):
             resp = ((last_games_home + last_games_away) / n)
@@ -180,7 +181,7 @@ def get_days_from_last_game(df, data, team_name):
     if(len(last_game) == 0):
         return(np.nan)
 
-    return(-(last_game.DATE - data).iloc[0].days)
+    return(-(last_game["data"] - data).iloc[0].days)
 
 def cria_variaveis_sumarizacao(last_games, team_name, n = 5, data_ref = None, verbose = False):
     """
@@ -196,7 +197,9 @@ def cria_variaveis_sumarizacao(last_games, team_name, n = 5, data_ref = None, ve
     
     resp = {}
     
+    # -------------------------
     # Cria variávies de Win %
+    # -------------------------
     # Visão home
     resp["N_WINS_HOME"] = [np.where((last_games["team_home"] == team_name) &
                              (last_games["fl_home_win"] == 1) , 1, 0).sum()]
@@ -212,107 +215,133 @@ def cria_variaveis_sumarizacao(last_games, team_name, n = 5, data_ref = None, ve
     # Visão geral
     resp["N_WINS_TOTAL"] = [resp["N_WINS_AWAY"][0] + resp["N_WINS_HOME"][0]]
     resp["WIN_PCT"] = [resp["N_WINS_TOTAL"][0]/(resp["N_GAMES_AWAY"][0] + resp["N_GAMES_HOME"][0])]
+    # -------------------------
+    
+    # -------------------------
+    # Cria variáveis de Draw %
+    # -------------------------
+    if "fl_draw" in last_games.columns:
+        # Visão home
+        resp["N_WINS_HOME"] = [np.where((last_games["team_home"] == team_name) &
+                                 (last_games["fl_draw"] == 1) , 1, 0).sum()]
+        resp["N_GAMES_HOME"] = [np.where(last_games["team_home"] == team_name, 1, 0).sum()]
+        resp["WIN_HOME_PCT"] = [(resp["N_WINS_HOME"][0] / resp["N_GAMES_HOME"][0])]
+
+        # Visão Away
+        resp["N_WINS_AWAY"] = [np.where((last_games["team_away"] == team_name) & 
+                                          (last_games["fl_draw"] == 0), 1, 0).sum()]
+        resp["N_GAMES_AWAY"] = [np.where(last_games["team_away"] == team_name, 1, 0).sum()]
+        resp["WIN_AWAY_PCT"] = [(resp["N_WINS_AWAY"][0] / resp["N_GAMES_AWAY"][0])]
+
+        # Visão geral
+        resp["N_WINS_TOTAL"] = [resp["N_WINS_AWAY"][0] + resp["N_WINS_HOME"][0]]
+        resp["WIN_PCT"] = [resp["N_WINS_TOTAL"][0]/(resp["N_GAMES_AWAY"][0] + resp["N_GAMES_HOME"][0])]
+    # -------------------------
     
     if verbose:
         print("Win_PCT", resp["WIN_PCT"][0], resp["N_WINS_AWAY"][0], resp["N_WINS_HOME"][0])
     
     # Cria variáveis de data
     if(data_ref is None):
-        data_ref = np.max(last_games["DATE"]) + timedelta(days=1)
+        data_ref = np.max(last_games["data"]) + timedelta(days=1)
     
     # Visão da série
-    resp["TOTAL_DAYS_DIFF"] = [(np.max(last_games["DATE"]) - np.min(last_games["DATE"])).days]
+    resp["TOTAL_DAYS_DIFF"] = [(np.max(last_games["data"]) - np.min(last_games["data"])).days]
     days_diff_last_games = [-x.days if not np.isnan(x.days) else 0 
-                            for x in last_games["DATE"].sub(last_games["DATE"].shift(-1).fillna(data_ref))]
+                            for x in last_games["data"].sub(last_games["data"].shift(-1).fillna(data_ref))]
     resp["DAYS_DIFF_LG_STD"] = [np.std(days_diff_last_games)]
     resp["DAYS_DIFF_LG_MEAN"] = [np.mean(days_diff_last_games)]
     
     if verbose:
         print("Days_Diff", days_diff_last_games, resp["DAYS_DIFF_LG_MEAN"][0], resp["TOTAL_DAYS_DIFF"][0]) 
     
+    # ---------------------
     # All
-    resp["N_GAMES_L2_days"] = [np.where((last_games["DATE"] >= (data_ref - timedelta(days=2))) & 
-                            (last_games["DATE"] < data_ref) &
+    # ---------------------
+    resp["N_GAMES_L2_days"] = [np.where((last_games["data"] >= (data_ref - timedelta(days=2))) & 
+                            (last_games["data"] < data_ref) &
                             ((last_games["team_home"] == team_name) |
                              (last_games["team_away"] == team_name)), 1, 0).sum()]
     
-    resp["N_GAMES_L4_days"] = [np.where((last_games["DATE"] >= (data_ref - timedelta(days=4))) & 
-                            (last_games["DATE"] < data_ref) &
+    resp["N_GAMES_L4_days"] = [np.where((last_games["data"] >= (data_ref - timedelta(days=4))) & 
+                            (last_games["data"] < data_ref) &
                             ((last_games["team_home"] == team_name) |
                              (last_games["team_away"] == team_name)), 1, 0).sum()]
                              
-    resp["N_GAMES_L6_days"] = [np.where((last_games["DATE"] >= (data_ref - timedelta(days=6))) & 
-                            (last_games["DATE"] < data_ref) &
+    resp["N_GAMES_L6_days"] = [np.where((last_games["data"] >= (data_ref - timedelta(days=6))) & 
+                            (last_games["data"] < data_ref) &
                             ((last_games["team_home"] == team_name) |
                              (last_games["team_away"] == team_name)), 1, 0).sum()]
     
-    resp["N_GAMES_L8_days"] = [np.where((last_games["DATE"] >= (data_ref - timedelta(days=8))) & 
-                            (last_games["DATE"] < data_ref) &
+    resp["N_GAMES_L8_days"] = [np.where((last_games["data"] >= (data_ref - timedelta(days=8))) & 
+                            (last_games["data"] < data_ref) &
                             ((last_games["team_home"] == team_name) |
                              (last_games["team_away"] == team_name)), 1, 0).sum()]
     
-    resp["N_GAMES_L10_days"] = [np.where((last_games["DATE"] >= (data_ref - timedelta(days=10))) & 
-                            (last_games["DATE"] < data_ref) &
+    resp["N_GAMES_L10_days"] = [np.where((last_games["data"] >= (data_ref - timedelta(days=10))) & 
+                            (last_games["data"] < data_ref) &
                             ((last_games["team_home"] == team_name) |
                              (last_games["team_away"] == team_name)), 1, 0).sum()]
     
     # Away
-    resp["N_GAMES_AWAY_L2_days"] = [np.where((last_games["DATE"] >= (data_ref - timedelta(days=2))) & 
-                                    (last_games["DATE"] < data_ref) &
+    resp["N_GAMES_AWAY_L2_days"] = [np.where((last_games["data"] >= (data_ref - timedelta(days=2))) & 
+                                    (last_games["data"] < data_ref) &
                                     (last_games["team_away"] == team_name), 1, 0).sum()]
     
-    resp["N_GAMES_AWAY_L4_days"] = [np.where((last_games["DATE"] >= (data_ref - timedelta(days=4))) & 
-                                    (last_games["DATE"] < data_ref) &
+    resp["N_GAMES_AWAY_L4_days"] = [np.where((last_games["data"] >= (data_ref - timedelta(days=4))) & 
+                                    (last_games["data"] < data_ref) &
                                     (last_games["team_away"] == team_name), 1, 0).sum()]
     
-    resp["N_GAMES_AWAY_L6_days"] = [np.where((last_games["DATE"] >= (data_ref - timedelta(days=6))) & 
-                                    (last_games["DATE"] < data_ref) &
+    resp["N_GAMES_AWAY_L6_days"] = [np.where((last_games["data"] >= (data_ref - timedelta(days=6))) & 
+                                    (last_games["data"] < data_ref) &
                                     (last_games["team_away"] == team_name), 1, 0).sum()] 
     
-    resp["N_GAMES_AWAY_L8_days"] = [np.where((last_games["DATE"] >= (data_ref - timedelta(days=8))) & 
-                                    (last_games["DATE"] < data_ref) &
+    resp["N_GAMES_AWAY_L8_days"] = [np.where((last_games["data"] >= (data_ref - timedelta(days=8))) & 
+                                    (last_games["data"] < data_ref) &
                                     (last_games["team_away"] == team_name), 1, 0).sum()]
     
-    resp["N_GAMES_AWAY_L8_days"] = [np.where((last_games["DATE"] >= (data_ref - timedelta(days=10))) & 
-                                    (last_games["DATE"] < data_ref) &
+    resp["N_GAMES_AWAY_L8_days"] = [np.where((last_games["data"] >= (data_ref - timedelta(days=10))) & 
+                                    (last_games["data"] < data_ref) &
                                     (last_games["team_away"] == team_name), 1, 0).sum()]
     
     # Home    
-    resp["N_GAMES_AWAY_L2_days"] = [np.where((last_games["DATE"] >= (data_ref - timedelta(days=2))) & 
-                                    (last_games["DATE"] < data_ref) &
+    resp["N_GAMES_AWAY_L2_days"] = [np.where((last_games["data"] >= (data_ref - timedelta(days=2))) & 
+                                    (last_games["data"] < data_ref) &
                                     (last_games["team_home"] == team_name), 1, 0).sum()]
     
-    resp["N_GAMES_AWAY_L4_days"] = [np.where((last_games["DATE"] >= (data_ref - timedelta(days=4))) & 
-                                    (last_games["DATE"] < data_ref) &
+    resp["N_GAMES_AWAY_L4_days"] = [np.where((last_games["data"] >= (data_ref - timedelta(days=4))) & 
+                                    (last_games["data"] < data_ref) &
                                     (last_games["team_home"] == team_name), 1, 0).sum()]
     
-    resp["N_GAMES_AWAY_L6_days"] = [np.where((last_games["DATE"] >= (data_ref - timedelta(days=6))) & 
-                                    (last_games["DATE"] < data_ref) &
+    resp["N_GAMES_AWAY_L6_days"] = [np.where((last_games["data"] >= (data_ref - timedelta(days=6))) & 
+                                    (last_games["data"] < data_ref) &
                                     (last_games["team_home"] == team_name), 1, 0).sum()]
     
-    resp["N_GAMES_AWAY_L8_days"] = [np.where((last_games["DATE"] >= (data_ref - timedelta(days=8))) & 
-                                    (last_games["DATE"] < data_ref) &
+    resp["N_GAMES_AWAY_L8_days"] = [np.where((last_games["data"] >= (data_ref - timedelta(days=8))) & 
+                                    (last_games["data"] < data_ref) &
                                     (last_games["team_home"] == team_name), 1, 0).sum()]
     
-    resp["N_GAMES_AWAY_L10_days"] = [np.where((last_games["DATE"] >= (data_ref - timedelta(days=10))) & 
-                                    (last_games["DATE"] < data_ref) &
+    resp["N_GAMES_AWAY_L10_days"] = [np.where((last_games["data"] >= (data_ref - timedelta(days=10))) & 
+                                    (last_games["data"] < data_ref) &
                                     (last_games["team_home"] == team_name), 1, 0).sum()]
     
     if verbose:
         print("Num Games Last X Days", resp["N_GAMES_L6_days"][0], resp["N_GAMES_AWAY_L6_days"][0])
         
-        
+    # -------------
     # Distance KM
-    resp["SUM_DIST_KM"] = [last_games[last_games["team_home"] == team_name]["DISTANCE_KM_home"].sum()
-                           + last_games[last_games["team_away"] == team_name]["DISTANCE_KM_away"].sum()]
-    
-    dist_list = (list(last_games[last_games["team_home"] == team_name]["DISTANCE_KM_home"])
-                 + list(last_games[last_games["team_away"] == team_name]["DISTANCE_KM_away"]))
-    
-    resp["AVG_DIST_KM"] = [np.average(dist_list)]
-    
-    # Back to Back
-    resp["BACK_TO_BACK"] = [np.where(pd.Series(dist_list) > 3500, 1, 0).sum()]
+    # -------------
+    if "DISTANCE_KM_home" in last_games.columns:
+        resp["SUM_DIST_KM"] = [last_games[last_games["team_home"] == team_name]["DISTANCE_KM_home"].sum()
+                               + last_games[last_games["team_away"] == team_name]["DISTANCE_KM_away"].sum()]
+
+        dist_list = (list(last_games[last_games["team_home"] == team_name]["DISTANCE_KM_home"])
+                     + list(last_games[last_games["team_away"] == team_name]["DISTANCE_KM_away"]))
+
+        resp["AVG_DIST_KM"] = [np.average(dist_list)]
+
+        # Back to Back
+        resp["BACK_TO_BACK"] = [np.where(pd.Series(dist_list) > 3500, 1, 0).sum()]
     
     
     # Days from last Game
@@ -328,6 +357,22 @@ def cria_variaveis_sumarizacao(last_games, team_name, n = 5, data_ref = None, ve
         resp["STD_DAYS_FROM_LG"] = [np.nan]
         resp["MIN_DAYS_FROM_LG"] = [np.nan]
     
+    
+    # Dominance Variables
+    resp["total_minutes_dominant"] = last_games[last_games["team_home"] == team_name]["minutes_dominant_home"].sum() + last_games[last_games["team_away"] == team_name]["minutes_dominant_away"].sum()
+    
+    resp["total_dominance"] = last_games[last_games["team_home"] == team_name]["total_dominance_home"].sum() + last_games[last_games["team_away"] == team_name]["total_dominance_away"].sum()
+    
+    resp["avg_total_minutes_dominant"] = np.mean(list(last_games[last_games["team_home"] == team_name]["minutes_dominant_home"]) +  list(last_games[last_games["team_away"] == team_name]["minutes_dominant_away"]))
+    
+    resp["avg_total_dominance"] = np.mean(list(last_games[last_games["team_home"] == team_name]["total_dominance_home"]) +  list(last_games[last_games["team_away"] == team_name]["total_dominance_away"]))
+        
+    resp["max_dominance"] = np.mean(list(last_games[last_games["team_home"] == team_name]["max_dominance_home"]) + list(last_games[last_games["team_away"] == team_name]["max_dominance_away"]))
+    
+    resp["min_dominance"] = np.mean(list(last_games[last_games["team_home"] == team_name]["min_dominance_home"]) + list(last_games[last_games["team_away"] == team_name]["min_dominance_away"]))
+    
+    resp["avg_dominance"] = np.mean(list(last_games[last_games["team_home"] == team_name]["max_dominance_home"]) + list(last_games[last_games["team_away"] == team_name]["max_dominance_away"]))
+    
     return(pd.DataFrame(resp))
 
 def prepara_base(base):
@@ -335,7 +380,7 @@ def prepara_base(base):
         Faz a prepração inicial da base cru que vem do NBA_Stats. 
         Cria as variáveis básicas e junta o time mandante e o visitante na mesma linha.
     """
-    base["fl_home"] = np.where(base["GAME"].str[6:9] == base["TEAM_ABBREVIATION"], 1, 0)
+    base["fl_home"] = np.where(base["game"].str[6:9] == base["TEAM_ABBREVIATION"], 1, 0)
     
     home_games = base[base["fl_home"] == 1].set_index("GAME")
     away_games = base[base["fl_home"] == 0].set_index("GAME")
@@ -345,7 +390,7 @@ def prepara_base(base):
                 "MIN_home", "MIN_away", 'PTS_hustle_home', 'PTS_hustle_away',
                 "fl_home_away", "fl_home_home"], axis=1, inplace=True, errors="ignore")
     
-    all_games["DATE"] = [datetime.strptime(str(x), '%Y-%m-%d') for x in all_games.GAME_DATE_home]
+    all_games["data"] = [datetime.strptime(str(x), '%Y-%m-%d') for x in all_games.GAME_DATE_home]
     all_games["SEASON"] = [get_season(x) for x in all_games.DATE]
     all_games["fl_playoff"] = [is_playoff(x) for x in all_games.DATE]
     all_games['fl_home_win'] = np.where(all_games['PTS_home'] > all_games['PTS_away'], 1, 0)
@@ -387,7 +432,8 @@ def cria_features(new_games, all_games = None, dist_matrix_path="../old_files/di
     return(new_games)
     
     
-def gera_last_N_games(new_games, all_games = None, N = [5]):
+def gera_last_N_games(new_games, all_games = None, N = [5],
+                      to_drop=["fl_win", "Total_passes", "result", "Accurate passes", "hora", "game"]):
     """
         Gera as variáveis em relação ao desempenho médio nos últimos N jogos nas visões LAST_GAMES, AS_HOME, AS_AWAY e RIVALS.
         
@@ -406,50 +452,50 @@ def gera_last_N_games(new_games, all_games = None, N = [5]):
     home_columns = [x for x in all_games.columns if x.endswith("_home") and x not in ['GAME_ID_home', 'TEAM_CITY_home', 'GAME_DATE_home', 'GAME_PLACE_home', 'TEAM_NICKNAME_home']]
     away_columns = [x for x in all_games.columns if x.endswith("_away") and x not in ['TEAM_CITY_away', 'TEAM_NICKNAME_away']]
 
-    for index, row in new_games.reset_index().iterrows():
+    for index, row in tqdm_notebook(new_games.reset_index().iterrows()):
         game_line_n = []
         for n_games in N:
             # Home team
-            home_last_games = get_last_games(all_games, row["DATE"], row["team_home"], n=n_games)
-            home_last_games_as_home = get_last_games(all_games, row["DATE"], row["team_home"], filter="home", n=n_games)
+            home_last_games = get_last_games(all_games, row["data"], row["team_home"], n=n_games)
+            home_last_games_as_home = get_last_games(all_games, row["data"], row["team_home"], filter="home", n=n_games)
 
-            home_avg_last_games = get_avg_last_games(home_last_games, row["team_home"], home_columns, away_columns, data_ref=row["DATE"])
-            home_avg_last_games_as_home = get_avg_last_games(home_last_games_as_home, row["team_home"], home_columns, away_columns, data_ref=row["DATE"])
-            home_rivals_last_games = get_avg_last_games(home_last_games, row["team_home"], home_columns, away_columns, rivals=True, data_ref=row["DATE"])
+            home_avg_last_games = get_avg_last_games(home_last_games, row["team_home"], home_columns, away_columns, data_ref=row["data"], to_drop=to_drop)
+            home_avg_last_games_as_home = get_avg_last_games(home_last_games_as_home, row["team_home"], home_columns, away_columns, data_ref=row["data"], to_drop=to_drop)
+            home_rivals_last_games = get_avg_last_games(home_last_games, row["team_home"], home_columns, away_columns, rivals=True, data_ref=row["data"], to_drop=to_drop)
 
-            home_avg_last_games["game_ref"] = [row.GAME]
+            home_avg_last_games["game_ref"] = [row["game"]]
             home_avg_last_games.set_index("game_ref", inplace=True)
-            home_avg_last_games.drop(["team_home", "team_away", 0],axis=1 ,errors="ignore", inplace=True)
+            home_avg_last_games.drop(["team_home", "team_away", 0] + to_drop,axis=1 ,errors="ignore", inplace=True)
 
-            home_avg_last_games_as_home["game_ref"] = [row.GAME]
+            home_avg_last_games_as_home["game_ref"] = [row["game"]]
             home_avg_last_games_as_home.set_index("game_ref", inplace=True)
             home_avg_last_games_as_home.drop(["team_home", "team_away", 0], axis=1 ,errors="ignore", inplace=True)
 
-            home_rivals_last_games["game_ref"] = [row.GAME]
+            home_rivals_last_games["game_ref"] = [row["game"]]
             home_rivals_last_games.set_index("game_ref", inplace=True)
             home_rivals_last_games.drop(["team_home", "team_away", 0],axis=1 ,errors="ignore", inplace=True)
 
             #print(home_rivals_last_games.index, home_avg_last_games.index)
 
             # Away team
-            away_last_games = get_last_games(all_games, row["DATE"], row["team_away"], n=n_games).reset_index()
-            away_last_games_as_away = get_last_games(all_games, row["DATE"], row["team_away"], filter="away", n=n_games).reset_index()
+            away_last_games = get_last_games(all_games, row["data"], row["team_away"], n=n_games).reset_index()
+            away_last_games_as_away = get_last_games(all_games, row["data"], row["team_away"], filter="away", n=n_games).reset_index()
 
-            away_avg_last_games = get_avg_last_games(away_last_games, row["team_away"], home_columns, away_columns, data_ref=row["DATE"])
-            away_avg_last_games_as_away = get_avg_last_games(away_last_games_as_away, row["team_away"], home_columns, away_columns, data_ref=row["DATE"])
-            away_rivals_last_games = get_avg_last_games(away_last_games, row["team_away"], home_columns, away_columns, rivals=True, data_ref=row["DATE"])
+            away_avg_last_games = get_avg_last_games(away_last_games, row["team_away"], home_columns, away_columns, data_ref=row["data"])
+            away_avg_last_games_as_away = get_avg_last_games(away_last_games_as_away, row["team_away"], home_columns, away_columns, data_ref=row["data"])
+            away_rivals_last_games = get_avg_last_games(away_last_games, row["team_away"], home_columns, away_columns, rivals=True, data_ref=row["data"])
 
-            away_avg_last_games["game_ref"] = [row.GAME]
+            away_avg_last_games["game_ref"] = [row["game"]]
             away_avg_last_games.set_index("game_ref", inplace=True)
-            away_avg_last_games.drop(["team_home", "team_away", 0],axis=1 ,errors="ignore", inplace=True)
+            away_avg_last_games.drop(["team_home", "team_away", 0] + to_drop,axis=1 ,errors="ignore", inplace=True)
 
-            away_avg_last_games_as_away["game_ref"] = [row.GAME]
+            away_avg_last_games_as_away["game_ref"] = [row["game"]]
             away_avg_last_games_as_away.set_index("game_ref", inplace=True)
-            away_avg_last_games_as_away.drop(["team_home", "team_away", 0],axis=1 ,errors="ignore", inplace=True)
+            away_avg_last_games_as_away.drop(["team_home", "team_away", 0] + to_drop,axis=1 ,errors="ignore", inplace=True)
 
-            away_rivals_last_games["game_ref"] = [row.GAME]
+            away_rivals_last_games["game_ref"] = [row["game"]]
             away_rivals_last_games.set_index("game_ref", inplace=True)
-            away_rivals_last_games.drop(["team_home", "team_away", 0],axis=1 ,errors="ignore", inplace=True)
+            away_rivals_last_games.drop(["team_home", "team_away", 0] + to_drop,axis=1 ,errors="ignore", inplace=True)
 
             #print(away_rivals_last_games.index, away_avg_last_games.index)
 
@@ -473,13 +519,13 @@ def gera_last_N_games(new_games, all_games = None, N = [5]):
 
             #print(rivals_last_games.columns)
 
-            game_line = avg_last_games.join(rivals_last_games, how="inner")
+            game_line = avg_last_games.join(rivals_last_games, how="inner", rsuffix="_rivals")
 
             game_line = game_line.join(avg_last_games_as, how="inner")
 
-            game_line = pd.concat([row.to_frame().transpose().set_index("GAME"), game_line], axis=1)
+            game_line = pd.concat([row.to_frame().transpose().set_index("game"), game_line], axis=1)
 
-            print(str(row.GAME) + " " + str(n_games), end="\r")
+            print(str(row["game"]) + " " + str(n_games), end="\r")
 
             game_line_n.append(game_line)
 
