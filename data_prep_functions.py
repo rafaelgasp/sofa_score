@@ -69,8 +69,8 @@ def get_avg_last_games(last_games, team_name, home_columns, away_columns,
         last_games_home = last_games[last_games["team_home"] != team_name].sum().to_frame().transpose().drop(away_columns + to_drop + ["team_home"], axis=1, errors="ignore")
         last_games_away = last_games[last_games["team_away"] != team_name].sum().to_frame().transpose().drop(home_columns + to_drop + ["team_away"], axis=1, errors="ignore")
             
-        last_games_home.columns = [x.replace("_home","_opponent") for x in last_games_home.columns]
-        last_games_away.columns = [x.replace("_away","_opponent") for x in last_games_away.columns]
+        last_games_home.columns = [x.replace("_home","") for x in last_games_home.columns]
+        last_games_away.columns = [x.replace("_away","") for x in last_games_away.columns]
     
     if(n == 10000 or n <= (len(last_games_home) + len(last_games_away))):
         n = len(last_games_home) + len(last_games_away)       
@@ -245,13 +245,19 @@ def cria_variaveis_sumarizacao(last_games, team_name, n = 5, data_ref = None, ve
     if(data_ref is None):
         data_ref = np.max(last_games["data"]) + timedelta(days=1)
     
-    # Visão da série
-    resp["TOTAL_DAYS_DIFF"] = [(np.max(last_games["data"]) - np.min(last_games["data"])).days]
-    days_diff_last_games = [-x.days if not np.isnan(x.days) else 0 
-                            for x in last_games["data"].sub(last_games["data"].shift(-1).fillna(data_ref))]
-    resp["DAYS_DIFF_LG_STD"] = [np.std(days_diff_last_games)]
-    resp["DAYS_DIFF_LG_MEAN"] = [np.mean(days_diff_last_games)]
+    try:
+        # Visão da série
+        resp["TOTAL_DAYS_DIFF"] = [(np.max(last_games["data"]) - np.min(last_games["data"])).days]
     
+        days_diff_last_games = [-x.days if not np.isnan(x.days) else 0 
+                                for x in last_games["data"].sub(last_games["data"].shift(-1).fillna(data_ref))]
+        resp["DAYS_DIFF_LG_STD"] = [np.std(days_diff_last_games)]
+        resp["DAYS_DIFF_LG_MEAN"] = [np.mean(days_diff_last_games)]
+    except:
+        resp["TOTAL_DAYS_DIFF"] = [0]
+        resp["DAYS_DIFF_LG_STD"] = [0]
+        resp["DAYS_DIFF_LG_MEAN"] = [0]
+        
     if verbose:
         print("Days_Diff", days_diff_last_games, resp["DAYS_DIFF_LG_MEAN"][0], resp["TOTAL_DAYS_DIFF"][0]) 
     
@@ -359,19 +365,11 @@ def cria_variaveis_sumarizacao(last_games, team_name, n = 5, data_ref = None, ve
     
     
     # Dominance Variables
-    resp["total_minutes_dominant"] = last_games[last_games["team_home"] == team_name]["minutes_dominant_home"].sum() + last_games[last_games["team_away"] == team_name]["minutes_dominant_away"].sum()
+    resp["total_minutes_dominant"] = [last_games[last_games["team_home"] == team_name]["minutes_dominant_home"].sum() + last_games[last_games["team_away"] == team_name]["minutes_dominant_away"].sum()]
     
-    resp["total_dominance"] = last_games[last_games["team_home"] == team_name]["total_dominance_home"].sum() + last_games[last_games["team_away"] == team_name]["total_dominance_away"].sum()
+    resp["avg_total_minutes_dominant"] = [np.mean(list(last_games[last_games["team_home"] == team_name]["minutes_dominant_home"]) +  list(last_games[last_games["team_away"] == team_name]["minutes_dominant_away"]))]
     
-    resp["avg_total_minutes_dominant"] = np.mean(list(last_games[last_games["team_home"] == team_name]["minutes_dominant_home"]) +  list(last_games[last_games["team_away"] == team_name]["minutes_dominant_away"]))
-    
-    resp["avg_total_dominance"] = np.mean(list(last_games[last_games["team_home"] == team_name]["total_dominance_home"]) +  list(last_games[last_games["team_away"] == team_name]["total_dominance_away"]))
-        
-    resp["max_dominance"] = np.mean(list(last_games[last_games["team_home"] == team_name]["max_dominance_home"]) + list(last_games[last_games["team_away"] == team_name]["max_dominance_away"]))
-    
-    resp["min_dominance"] = np.mean(list(last_games[last_games["team_home"] == team_name]["min_dominance_home"]) + list(last_games[last_games["team_away"] == team_name]["min_dominance_away"]))
-    
-    resp["avg_dominance"] = np.mean(list(last_games[last_games["team_home"] == team_name]["max_dominance_home"]) + list(last_games[last_games["team_away"] == team_name]["max_dominance_away"]))
+    resp["avg_total_dominance"] = [np.mean(list(last_games[last_games["team_home"] == team_name]["total_dominance_home"]) +  list(last_games[last_games["team_away"] == team_name]["total_dominance_away"]))]
     
     return(pd.DataFrame(resp))
 
@@ -452,104 +450,120 @@ def gera_last_N_games(new_games, all_games = None, N = [5],
     home_columns = [x for x in all_games.columns if x.endswith("_home") and x not in ['GAME_ID_home', 'TEAM_CITY_home', 'GAME_DATE_home', 'GAME_PLACE_home', 'TEAM_NICKNAME_home']]
     away_columns = [x for x in all_games.columns if x.endswith("_away") and x not in ['TEAM_CITY_away', 'TEAM_NICKNAME_away']]
 
-    for index, row in tqdm_notebook(new_games.reset_index().iterrows()):
-        game_line_n = []
-        for n_games in N:
-            # Home team
-            home_last_games = get_last_games(all_games, row["data"], row["team_home"], n=n_games)
-            home_last_games_as_home = get_last_games(all_games, row["data"], row["team_home"], filter="home", n=n_games)
+    pbar = tqdm_notebook(total=len(new_games))
+    
+    try:
+        for index, row in new_games.reset_index().iterrows():
+            game_line_n = []
+            for n_games in N:
+                # Home team
+                home_last_games = get_last_games(all_games, row["data"], row["team_home"], n=n_games)
+                home_last_games_as_home = get_last_games(all_games, row["data"], row["team_home"], filter="home", n=n_games)
 
-            home_avg_last_games = get_avg_last_games(home_last_games, row["team_home"], home_columns, away_columns, data_ref=row["data"], to_drop=to_drop)
-            home_avg_last_games_as_home = get_avg_last_games(home_last_games_as_home, row["team_home"], home_columns, away_columns, data_ref=row["data"], to_drop=to_drop)
-            home_rivals_last_games = get_avg_last_games(home_last_games, row["team_home"], home_columns, away_columns, rivals=True, data_ref=row["data"], to_drop=to_drop)
+                home_avg_last_games = get_avg_last_games(home_last_games, row["team_home"], home_columns, away_columns, data_ref=row["data"], to_drop=to_drop)
+                home_avg_last_games_as_home = get_avg_last_games(home_last_games_as_home, row["team_home"], home_columns, away_columns, data_ref=row["data"], to_drop=to_drop)
+                home_rivals_last_games = get_avg_last_games(home_last_games, row["team_home"], home_columns, away_columns, rivals=True, data_ref=row["data"], to_drop=to_drop)
 
-            home_avg_last_games["game_ref"] = [row["game"]]
-            home_avg_last_games.set_index("game_ref", inplace=True)
-            home_avg_last_games.drop(["team_home", "team_away", 0] + to_drop,axis=1 ,errors="ignore", inplace=True)
+                home_avg_last_games["game_ref"] = [row["game"]]
+                home_avg_last_games.set_index("game_ref", inplace=True)
+                home_avg_last_games.drop(["team_home", "team_away", 0] + to_drop, axis=1, errors="ignore", inplace=True)
 
-            home_avg_last_games_as_home["game_ref"] = [row["game"]]
-            home_avg_last_games_as_home.set_index("game_ref", inplace=True)
-            home_avg_last_games_as_home.drop(["team_home", "team_away", 0], axis=1 ,errors="ignore", inplace=True)
+                home_avg_last_games_as_home["game_ref"] = [row["game"]]
+                home_avg_last_games_as_home.set_index("game_ref", inplace=True)
+                home_avg_last_games_as_home.drop(["team_home", "team_away", 0], axis=1, errors="ignore", inplace=True)
 
-            home_rivals_last_games["game_ref"] = [row["game"]]
-            home_rivals_last_games.set_index("game_ref", inplace=True)
-            home_rivals_last_games.drop(["team_home", "team_away", 0],axis=1 ,errors="ignore", inplace=True)
+                home_rivals_last_games["game_ref"] = [row["game"]]
+                home_rivals_last_games.set_index("game_ref", inplace=True)
+                home_rivals_last_games.drop(["team_home", "team_away", 0], axis=1, errors="ignore", inplace=True)
 
-            #print(home_rivals_last_games.index, home_avg_last_games.index)
+                #print(home_rivals_last_games.index, home_avg_last_games.index)
 
-            # Away team
-            away_last_games = get_last_games(all_games, row["data"], row["team_away"], n=n_games).reset_index()
-            away_last_games_as_away = get_last_games(all_games, row["data"], row["team_away"], filter="away", n=n_games).reset_index()
+                # Away team
+                away_last_games = get_last_games(all_games, row["data"], row["team_away"], n=n_games).reset_index()
+                away_last_games_as_away = get_last_games(all_games, row["data"], row["team_away"], filter="away", n=n_games).reset_index()
 
-            away_avg_last_games = get_avg_last_games(away_last_games, row["team_away"], home_columns, away_columns, data_ref=row["data"])
-            away_avg_last_games_as_away = get_avg_last_games(away_last_games_as_away, row["team_away"], home_columns, away_columns, data_ref=row["data"])
-            away_rivals_last_games = get_avg_last_games(away_last_games, row["team_away"], home_columns, away_columns, rivals=True, data_ref=row["data"])
+                away_avg_last_games = get_avg_last_games(away_last_games, row["team_away"], home_columns, away_columns, data_ref=row["data"], to_drop=to_drop)
+                away_avg_last_games_as_away = get_avg_last_games(away_last_games_as_away, row["team_away"], home_columns, away_columns, data_ref=row["data"], to_drop=to_drop)
+                away_rivals_last_games = get_avg_last_games(away_last_games, row["team_away"], home_columns, away_columns, rivals=True, data_ref=row["data"], to_drop=to_drop)
 
-            away_avg_last_games["game_ref"] = [row["game"]]
-            away_avg_last_games.set_index("game_ref", inplace=True)
-            away_avg_last_games.drop(["team_home", "team_away", 0] + to_drop,axis=1 ,errors="ignore", inplace=True)
+                away_avg_last_games["game_ref"] = [row["game"]]
+                away_avg_last_games.set_index("game_ref", inplace=True)
+                away_avg_last_games.drop(["team_home", "team_away", 0] + to_drop,axis=1 ,errors="ignore", inplace=True)
 
-            away_avg_last_games_as_away["game_ref"] = [row["game"]]
-            away_avg_last_games_as_away.set_index("game_ref", inplace=True)
-            away_avg_last_games_as_away.drop(["team_home", "team_away", 0] + to_drop,axis=1 ,errors="ignore", inplace=True)
+                away_avg_last_games_as_away["game_ref"] = [row["game"]]
+                away_avg_last_games_as_away.set_index("game_ref", inplace=True)
+                away_avg_last_games_as_away.drop(["team_home", "team_away", 0] + to_drop,axis=1 ,errors="ignore", inplace=True)
 
-            away_rivals_last_games["game_ref"] = [row["game"]]
-            away_rivals_last_games.set_index("game_ref", inplace=True)
-            away_rivals_last_games.drop(["team_home", "team_away", 0] + to_drop,axis=1 ,errors="ignore", inplace=True)
+                away_rivals_last_games["game_ref"] = [row["game"]]
+                away_rivals_last_games.set_index("game_ref", inplace=True)
+                away_rivals_last_games.drop(["team_home", "team_away", 0] + to_drop,axis=1 ,errors="ignore", inplace=True)
 
-            #print(away_rivals_last_games.index, away_avg_last_games.index)
+                #print(away_rivals_last_games.index, away_avg_last_games.index)
 
-            # Junta bases 
+                # Junta bases 
 
-            if (n_games == 10000):
-                n_games_str = "ALL"
-            else:
-                n_games_str = str(n_games)
+                if (n_games == 10000):
+                    n_games_str = "ALL"
+                else:
+                    n_games_str = str(n_games)
 
-            avg_last_games = home_avg_last_games.join(away_avg_last_games, how="inner", 
-                                 lsuffix='_home_L' + n_games_str, rsuffix='_away_L' + n_games_str).drop('level_0', axis=1, errors="ignore")
+                avg_last_games = home_avg_last_games.join(away_avg_last_games, how="inner", 
+                                     lsuffix='_home_L' + n_games_str, rsuffix='_away_L' + n_games_str).drop('level_0', axis=1, errors="ignore")
 
-            avg_last_games_as = home_avg_last_games_as_home.join(away_avg_last_games_as_away, how="inner", 
-                                     lsuffix='_home_L' + n_games_str + '_HOME', rsuffix='_away_L' + n_games_str + '_AWAY').drop('level_0', axis=1, errors="ignore")
-
-
-            rivals_last_games = home_rivals_last_games.join(away_rivals_last_games, how="inner",
-                                    lsuffix='_home_L' + n_games_str, rsuffix='_away_L' + n_games_str).drop('level_0', axis=1, errors="ignore")
+                avg_last_games_as = home_avg_last_games_as_home.join(away_avg_last_games_as_away, how="inner", 
+                                         lsuffix='_home_L' + n_games_str + '_AS_HOME', rsuffix='_away_L' + n_games_str + '_AS_AWAY').drop('level_0', axis=1, errors="ignore")
 
 
-            #print(rivals_last_games.columns)
+                rivals_last_games = home_rivals_last_games.join(away_rivals_last_games, how="inner",
+                                        lsuffix='_home_L' + n_games_str + '_RIVALS', rsuffix='_away_L' + n_games_str + '_RIVALS').drop('level_0', axis=1, errors="ignore")
 
-            game_line = avg_last_games.join(rivals_last_games, how="inner", rsuffix="_rivals")
 
-            game_line = game_line.join(avg_last_games_as, how="inner")
+                #print(rivals_last_games.columns)
 
-            game_line = pd.concat([row.to_frame().transpose().set_index("game"), game_line], axis=1)
+                game_line = avg_last_games.join(rivals_last_games, how="inner", rsuffix="_RIVALS")
 
-            print(str(row["game"]) + " " + str(n_games), end="\r")
+                game_line = game_line.join(avg_last_games_as, how="inner")
 
-            game_line_n.append(game_line)
+                game_line = pd.concat([row.to_frame().transpose().set_index("game"), game_line], axis=1)
 
-        resp.append(game_line_n)
+                print(str(index) + " " + str(row["game"]) + " L_" + str(n_games), end="\r")
 
-        del home_last_games
-        del home_last_games_as_home
-        del home_avg_last_games
-        del home_avg_last_games_as_home
-        del home_rivals_last_games
+                game_line_n.append(game_line)
 
-        del away_last_games
-        del away_last_games_as_away
-        del away_avg_last_games
-        del away_avg_last_games_as_away
-        del away_rivals_last_games
+            resp.append(game_line_n)
 
-        del avg_last_games
-        del avg_last_games_as
-        del game_line
-        del game_line_n
+            pbar.update(1)
 
-        gc.collect()
-        
+            del home_last_games
+            del home_last_games_as_home
+            del home_avg_last_games
+            del home_avg_last_games_as_home
+            del home_rivals_last_games
+
+            del away_last_games
+            del away_last_games_as_away
+            del away_avg_last_games
+            del away_avg_last_games_as_away
+            del away_rivals_last_games
+
+            del avg_last_games
+            del avg_last_games_as
+            del game_line
+            del game_line_n
+
+            gc.collect()
+    except KeyboardInterrupt:
+        pbar.close()
+    
+        resp2 = []
+        for r in resp:
+            resp2.append(pd.concat(r, axis=1))
+
+        del resp
+        return(pd.concat(resp2))
+
+    pbar.close()
+    
     resp2 = []
     for r in resp:
         resp2.append(pd.concat(r, axis=1))
@@ -578,11 +592,11 @@ def variaveis_delta(df_resp, N = [5], to_predict = True, keep_features = ["team_
     columns_subtract = []
     for var in df_resp.columns:
         if "_home_L5" in var:
-            columns_subtract.append(var.replace("_home_L5_HOME", "").replace("_opponent_home_L5", "").replace("_home_L5", ""))
+            columns_subtract.append(var.replace("_home_L5_AS_HOME", "").replace("_home_L5_RIVALS", "").replace("_home_L5", ""))
     columns_subtract = list(set(columns_subtract))
     
     if(not to_predict):
-        keep_features += ['fl_home_win', 'team_home_game_num', 'team_away_game_num']
+        keep_features += ['fl_home_win']
 
     filtrada = df_resp[keep_features].copy()
     
@@ -596,7 +610,7 @@ def variaveis_delta(df_resp, N = [5], to_predict = True, keep_features = ["team_
             print(n_games_str + " " + str(column) + "                        ", end="\r")
 
             filtrada["D1_" + column + "_L" + n_games_str] = df_resp[column + "_home_L" + n_games_str] - df_resp[column + "_away_L" + n_games_str]
-            filtrada["D2_" + column + "_L" + n_games_str] = df_resp[column + "_home_L" + n_games_str + "_HOME"] - df_resp[column + "_away_L" + n_games_str + "_AWAY"]
+            filtrada["D2_" + column + "_L" + n_games_str] = df_resp[column + "_home_L" + n_games_str + "_AS_HOME"] - df_resp[column + "_away_L" + n_games_str + "_AS_AWAY"]
             try:
                 filtrada["C1_" + column + "_L" + n_games_str] = df_resp[column + "_opponent_home_L" + n_games_str] - df_resp[column + "_away_L" + n_games_str]
                 filtrada["C2_" + column + "_L" + n_games_str] = df_resp[column + "_opponent_away_L" + n_games_str] - df_resp[column + "_home_L" + n_games_str]
