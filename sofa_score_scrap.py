@@ -170,3 +170,21 @@ def get_info_rodada(resp, de_para_siglas):
         resp["game"].append(resp["team_home"][-1] + " X " + resp["team_away"][-1] + " " + resp["date"][-1])
     
     return(pd.DataFrame(resp).set_index("game"))
+
+def get_incidents_database(
+        resp_incidents,
+        types=['period', 'substitution', 'injuryTime', 'goal', 'card', 'varDecision']
+    ):
+
+    incidents_per_type = {}
+
+    for el in resp_incidents.json()["incidents"]:
+        if el['incidentType'] in types:
+            if not el['incidentType'] in incidents_per_type:
+                incidents_per_type[el['incidentType']] = []
+            incidents_per_type[el['incidentType']].append(el)
+    
+    for key in incidents_per_type:
+        incidents_per_type[key] = pd.DataFrame(incidents_per_type[key])
+    
+    return incidents_per_type
