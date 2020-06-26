@@ -118,15 +118,17 @@ def get_live_form(resp, prefix = "form_minute_"):
         pass
     return(ret)
 
-def game_statistics(resp, players_df, de_para_siglas, period = 0):
+def game_statistics(resp, players_df, de_para_siglas, periods = [0, 1, 2]):
     ret = parse_event_info(players_df, de_para_siglas)
-    groups = resp.json()["statistics"]["periods"][period]["groups"]
-    for i in range(len(groups)):
-        items = groups[i]["statisticsItems"]
-        for item in items:
-            nome = item["name"]
-            ret[nome + "_home"] = item["home"]
-            ret[nome + "_away"] = item["away"]
+    for period in periods:
+        period_suffix = resp.json()["statistics"]["periods"][period]['period']
+        groups = resp.json()["statistics"]["periods"][period]["groups"]
+        for i in range(len(groups)):
+            items = groups[i]["statisticsItems"]
+            for item in items:
+                nome = item["name"]
+                ret[nome + "_home_" + period_suffix] = item["home"]
+                ret[nome + "_away_" + period_suffix] = item["away"]
     
     ret.update(get_live_form(resp))
     try:
