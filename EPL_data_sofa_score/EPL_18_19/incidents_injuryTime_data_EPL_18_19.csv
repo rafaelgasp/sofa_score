@@ -1,0 +1,15 @@
+game;length;time;addedTime;incidentType
+MUN X LEI 2018-08-10;4;90;0;injuryTime
+MUN X LEI 2018-08-10;1;45;0;injuryTime
+NEW X TOT 2018-08-11;2;45;0;injuryTime
+BOU X CAR 2018-08-11;5;90;0;injuryTime
+HUD X CHE 2018-08-11;3;90;0;injuryTime
+WOL X EVE 2018-08-11;3;45;0;injuryTime
+ARS X MCI 2018-08-12;4;45;0;injuryTime
+CAR X NEW 2018-08-18;6;90;0;injuryTime
+HUD X CAR 2018-08-25;5;45;0;injuryTime
+LIV X SOU 2018-09-22;2;90;0;injuryTime
+BUR X HUD 2018-10-06;8;90;0;injuryTime
+NEW X BHA 2018-10-20;8;45;0;injuryTime
+ARS X HUD 2018-12-08;7;90;0;injuryTime
+FUL X CAR 2019-04-27;9;45;0;injuryTime
