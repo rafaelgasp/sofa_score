@@ -1,0 +1,148 @@
+game;addedTime;confirmed;id;incidentClass;incidentType;isHome;player;time
+COR X GOI 2019-08-07;;True;80;penaltyAwarded;varDecision;True;{'name': 'Júnior Urso', 'slug': 'junior-urso', 'shortName': 'J. Urso', 'position': 'M', 'userCount': 305, 'id': 243251};85
+COR X GOI 2019-08-07;2.0;True;79;penaltyNotAwarded;varDecision;True;{'name': 'Mateus Vital', 'slug': 'mateus-vital', 'shortName': 'M. Vital', 'position': 'M', 'userCount': 616, 'id': 823653};45
+COR X GOI 2019-08-07;;False;78;goalAwarded;varDecision;False;{'name': 'Michael', 'slug': 'michael', 'shortName': 'M. Delgado', 'position': 'M', 'userCount': 1693, 'id': 878084};31
+GOI X CHA 2019-06-10;;False;2;penaltyNotAwarded;varDecision;True;{'name': 'Léo Sena', 'slug': 'leo-sena', 'shortName': 'L. Sena', 'position': 'M', 'userCount': 249, 'id': 870893};33
+PAL X VAS 2019-07-27;;False;29;penaltyNotAwarded;varDecision;True;{'name': 'Arthur', 'slug': 'arthur', 'shortName': 'Arthur', 'position': 'F', 'userCount': 822, 'id': 870762};13
+FLU X SPO 2019-07-27;4.0;False;31;penaltyNotAwarded;varDecision;False;{'name': 'Éverton Cardoso', 'slug': 'everton-cardoso', 'shortName': 'É. Cardoso', 'position': 'M', 'userCount': 769, 'id': 76526};90
+INT X CEA 2019-07-27;7.0;False;15;goalAwarded;varDecision;True;{'name': 'Guilherme Parede', 'slug': 'guilherme-parede', 'shortName': 'G. Parede', 'position': 'M', 'userCount': 97, 'id': 823980};90
+CHA X BAH 2019-07-28;;False;24;goalAwarded;varDecision;True;{'name': 'Henrique Almeida', 'slug': 'henrique-almeida', 'shortName': 'Henrique', 'position': 'F', 'userCount': 65, 'id': 39402};40
+CEA X FOR 2019-08-03;;False;59;penaltyNotAwarded;varDecision;False;{'name': 'Wellington Paulista', 'slug': 'wellington-paulista', 'shortName': 'W. Paulista', 'position': 'F', 'userCount': 282, 'id': 29106};45
+BAH X FLA 2019-08-04;;True;69;goalAwarded;varDecision;True;{'name': 'Gilberto', 'slug': 'gilberto', 'shortName': 'Gilberto', 'position': 'F', 'userCount': 594, 'id': 158561};21
+CAM X CRU 2019-08-04;;True;71;penaltyNotAwarded;varDecision;True;{'name': 'Yimmi Chará', 'slug': 'yimmi-chara', 'shortName': 'Y. Chará', 'position': 'M', 'userCount': 824, 'id': 248069};24
+COR X PAL 2019-08-04;;True;72;penaltyNotAwarded;varDecision;True;{'name': 'Vagner Love', 'slug': 'vagner-love', 'shortName': 'Vagner Love', 'position': 'F', 'userCount': 765, 'id': 13313};28
+GRE X CHA 2019-08-05;3.0;False;76;penaltyAwarded;varDecision;True;{'name': 'Paulo Victor', 'slug': 'paulo-victor', 'shortName': 'P. Victor', 'position': 'G', 'userCount': 179, 'id': 34142};90
+CEA X CHA 2019-08-10;;False;118;goalAwarded;varDecision;True;{'name': 'Thiago Galhardo', 'slug': 'thiago-galhardo', 'shortName': 'T. Galhardo', 'position': 'M', 'userCount': 444, 'id': 165677};78
+CEA X CHA 2019-08-10;;False;115;goalAwarded;varDecision;True;{'name': 'Wescley', 'slug': 'wescley', 'shortName': 'Wescley', 'position': 'M', 'userCount': 42, 'id': 869854};14
+FLA X GRE 2019-08-10;1.0;False;120;penaltyNotAwarded;varDecision;False;{'name': 'David Braz', 'slug': 'david-braz', 'shortName': 'D. Braz', 'position': 'D', 'userCount': 213, 'id': 46942};45
+AVA X CRU 2019-08-11;7.0;False;138;goalNotAwarded;varDecision;False;{'name': 'Léo', 'slug': 'leo', 'shortName': 'Léo', 'position': 'D', 'userCount': 148, 'id': 35574};90
+BOT X CAP 2019-08-11;8.0;True;139;penaltyNotAwarded;varDecision;False;{'name': 'Lucas Halter', 'slug': 'lucas-halter', 'shortName': 'L. Halter', 'position': 'D', 'userCount': 115, 'id': 905450};90
+BOT X CAP 2019-08-11;;False;135;penaltyNotAwarded;varDecision;True;{'name': 'Lucas Campos', 'slug': 'lucas-campos', 'shortName': 'L. Campos', 'position': 'F', 'userCount': 24, 'id': 889086};74
+BOT X CAP 2019-08-11;;False;134;goalAwarded;varDecision;True;{'name': 'Joel Carli', 'slug': 'joel-carli', 'shortName': 'J. Carli', 'position': 'D', 'userCount': 83, 'id': 122716};63
+PAL X BAH 2019-08-11;;False;137;penaltyNotAwarded;varDecision;False;{'name': 'Arthur Caíke', 'slug': 'arthur-caike', 'shortName': 'Arthur', 'position': 'F', 'userCount': 162, 'id': 829832};81
+PAL X BAH 2019-08-11;;False;133;penaltyNotAwarded;varDecision;False;{'name': 'Arthur Caíke', 'slug': 'arthur-caike', 'shortName': 'Arthur', 'position': 'F', 'userCount': 162, 'id': 829832};51
+GOI X VAS 2019-08-11;;True;140;cardUpgrade;varDecision;True;{'name': 'Kayke Rodrigues', 'slug': 'kayke-rodrigues', 'shortName': 'K. Rodrigues', 'position': 'F', 'userCount': 110, 'id': 108193};56
+VAS X FLA 2019-08-17;;False;187;penaltyNotAwarded;varDecision;True;{'name': 'Leandro Castán', 'slug': 'leandro-castan', 'shortName': 'L. Castán', 'position': 'D', 'userCount': 281, 'id': 30646};80
+VAS X FLA 2019-08-17;;False;186;penaltyNotAwarded;varDecision;True;{'name': 'Tiago Reis', 'slug': 'tiago-reis', 'shortName': 'T. Reis', 'position': 'F', 'userCount': 148, 'id': 975373};57
+BAH X GOI 2019-08-18;;False;210;cardUpgrade;varDecision;True;{'name': 'Moisés', 'slug': 'moises', 'shortName': 'Moisés', 'position': 'D', 'userCount': 205, 'id': 840158};6
+CRU X SAN 2019-08-18;;False;209;review;varDecision;False;{'name': 'Gustavo Henrique', 'slug': 'gustavo-henrique', 'shortName': 'G. Henrique', 'position': 'D', 'userCount': 630, 'id': 243181};3
+GRE X CAP 2019-08-24;;True;298;penaltyAwarded;varDecision;True;{'name': 'Luan', 'slug': 'luan', 'shortName': 'Luan', 'position': 'M', 'userCount': 1507, 'id': 386210};75
+GOI X INT 2019-08-25;;False;281;cardUpgrade;varDecision;True;{'name': 'Léo Sena', 'slug': 'leo-sena', 'shortName': 'L. Sena', 'position': 'M', 'userCount': 249, 'id': 870893};14
+SAN X FOR 2019-08-25;;False;286;penaltyNotAwarded;varDecision;False;{'name': 'Edinho', 'slug': 'edinho', 'shortName': 'Edinho', 'position': 'M', 'userCount': 96, 'id': 865404};57
+SAN X FOR 2019-08-25;;False;283;goalNotAwarded;varDecision;True;{'name': 'Eduardo Sasha', 'slug': 'eduardo-sasha', 'shortName': 'E. Sasha', 'position': 'F', 'userCount': 585, 'id': 143846};33
+VAS X SPO 2019-08-25;;False;284;cardUpgrade;varDecision;False;{'name': 'Raniel', 'slug': 'raniel', 'shortName': 'Raniel', 'position': 'F', 'userCount': 284, 'id': 988791};33
+AVA X COR 2019-08-25;;True;293;cardUpgrade;varDecision;False;{'name': 'Michel', 'slug': 'michel', 'shortName': 'M. Macedo', 'position': 'D', 'userCount': 162, 'id': 42564};56
+AVA X COR 2019-08-25;;False;291;goalAwarded;varDecision;False;{'name': 'Matheus Jesus', 'slug': 'matheus-jesus', 'shortName': 'M. Jesus', 'position': 'M', 'userCount': 302, 'id': 840298};15
+BAH X CSA 2019-08-31;;False;351;penaltyNotAwarded;varDecision;True;{'name': 'Gilberto', 'slug': 'gilberto', 'shortName': 'Gilberto', 'position': 'F', 'userCount': 594, 'id': 158561};20
+CAP X CEA 2019-08-31;;False;355;goalAwarded;varDecision;True;{'name': 'Nikão', 'slug': 'nikao', 'shortName': 'Nikão', 'position': 'M', 'userCount': 291, 'id': 139300};51
+CHA X SAN 2019-08-31;;True;354;penaltyNotAwarded;varDecision;True;{'name': 'Mauricio Ramos', 'slug': 'mauricio-ramos', 'shortName': 'M. Ramos', 'position': 'D', 'userCount': 26, 'id': 47011};33
+INT X BOT 2019-08-31;;False;359;goalAwarded;varDecision;False;{'name': 'Alex Santana', 'slug': 'alex-santana', 'shortName': 'A. Santana', 'position': 'M', 'userCount': 172, 'id': 358166};57
+FLA X PAL 2019-09-01;;False;391;goalAwarded;varDecision;False;{'name': 'Weverton', 'slug': 'weverton', 'shortName': 'Weverton', 'position': 'G', 'userCount': 585, 'id': 243529};4
+FLU X AVA 2019-09-02;;False;388;penaltyNotAwarded;varDecision;False;{'name': 'Iury', 'slug': 'iury', 'shortName': 'Iury', 'position': 'D', 'userCount': 12, 'id': 950329};84
+COR X CEA 2019-09-07;;False;396;redCardGiven;varDecision;False;{'name': 'Tiago Alves', 'slug': 'tiago-alves', 'shortName': 'T. Alves', 'position': 'D', 'userCount': 57, 'id': 243275};87
+COR X CEA 2019-09-07;;False;394;goalAwarded;varDecision;False;{'name': 'Thiago Galhardo', 'slug': 'thiago-galhardo', 'shortName': 'T. Galhardo', 'position': 'M', 'userCount': 444, 'id': 165677};26
+AVA X FLA 2019-09-07;;False;400;cardUpgrade;varDecision;True;{'name': 'Gustavo Ferrareis', 'slug': 'gustavo-ferrareis', 'shortName': 'G. Ferrareis', 'position': 'M', 'userCount': 67, 'id': 780262};89
+INT X SPO 2019-09-07;;False;402;penaltyNotAwarded;varDecision;True;{'name': 'Rafael Sóbis', 'slug': 'rafael-sobis', 'shortName': 'R. Sóbis', 'position': 'F', 'userCount': 370, 'id': 17789};75
+GOI X PAL 2019-09-07;;False;404;goalNotAwarded;varDecision;False;{'name': 'Willian', 'slug': 'willian', 'shortName': 'Willian', 'position': 'M', 'userCount': 699, 'id': 146308};82
+BOT X CAM 2019-09-08;;False;408;penaltyNotAwarded;varDecision;True;{'name': 'Gilson', 'slug': 'gilson', 'shortName': 'Gilson', 'position': 'D', 'userCount': 42, 'id': 842064};41
+SAN X CAP 2019-09-08;;False;409;penaltyNotAwarded;varDecision;True;{'name': 'Marinho', 'slug': 'marinho', 'shortName': 'Marinho', 'position': 'F', 'userCount': 501, 'id': 798127};88
+CHA X VAS 2019-09-14;4.0;True;451;goalNotAwarded;varDecision;False;{'name': 'Ribamar', 'slug': 'ribamar', 'shortName': 'Ribamar', 'position': 'F', 'userCount': 148, 'id': 839972};45
+CAP X AVA 2019-09-15;4.0;False;484;penaltyAwarded;varDecision;True;{'name': 'Abner', 'slug': 'abner', 'shortName': 'Abner', 'position': 'D', 'userCount': 88, 'id': 973838};90
+GRE X GOI 2019-09-15;1.0;False;477;goalNotAwarded;varDecision;True;{'name': 'Alisson', 'slug': 'alisson', 'shortName': 'Alisson', 'position': 'M', 'userCount': 448, 'id': 291723};45
+CRU X FLA 2019-09-21;;True;521;goalAwarded;varDecision;False;{'name': 'Gabriel Barbosa', 'slug': 'gabriel-barbosa', 'shortName': 'Gabriel', 'position': 'F', 'userCount': 15360, 'id': 358554};9
+COR X BAH 2019-09-21;;False;527;penaltyNotAwarded;varDecision;False;{'name': 'Artur', 'slug': 'artur', 'shortName': 'A. V. Guimaraes', 'position': 'M', 'userCount': 625, 'id': 841128};60
+COR X BAH 2019-09-21;;False;525;penaltyNotAwarded;varDecision;True;{'name': 'Ralf', 'slug': 'ralf', 'shortName': 'Ralf', 'position': 'M', 'userCount': 330, 'id': 105046};42
+COR X BAH 2019-09-21;;True;524;penaltyNotAwarded;varDecision;False;{'name': 'Élber', 'slug': 'elber', 'shortName': 'Élber', 'position': 'M', 'userCount': 165, 'id': 243413};37
+INT X CHA 2019-09-22;;False;538;goalAwarded;varDecision;True;{'name': 'Neílton', 'slug': 'neilton', 'shortName': 'Neílton', 'position': 'M', 'userCount': 248, 'id': 329223};81
+INT X CHA 2019-09-22;;False;535;goalAwarded;varDecision;True;{'name': 'Wellington Silva', 'slug': 'wellington-silva', 'shortName': 'W. Silva', 'position': 'M', 'userCount': 143, 'id': 121264};31
+VAS X CAP 2019-09-22;;False;589;goalAwarded;varDecision;True;{'name': 'Raul', 'slug': 'raul', 'shortName': 'Raul', 'position': 'M', 'userCount': 149, 'id': 870760};89
+VAS X CAP 2019-09-22;;False;588;penaltyNotAwarded;varDecision;True;{'name': 'Danilo Barcelos', 'slug': 'danilo-barcelos', 'shortName': 'D. Barcelos', 'position': 'D', 'userCount': 131, 'id': 551576};66
+GOI X FLU 2019-09-22;;False;547;cardUpgrade;varDecision;True;{'name': 'Breno', 'slug': 'breno', 'shortName': 'Breno', 'position': 'D', 'userCount': 15, 'id': 992610};80
+AVA X CAM 2019-09-23;;True;554;cardUpgrade;varDecision;True;{'name': 'Léo', 'slug': 'leo', 'shortName': 'Léo', 'position': 'D', 'userCount': 57, 'id': 329005};36
+BAH X BOT 2019-09-25;;True;568;penaltyNotAwarded;varDecision;True;{'name': 'Artur', 'slug': 'artur', 'shortName': 'A. V. Guimaraes', 'position': 'M', 'userCount': 625, 'id': 841128};39
+FLU X SAN 2019-09-26;;False;583;cardUpgrade;varDecision;True;{'name': 'Digão', 'slug': 'digao', 'shortName': 'Digão', 'position': 'D', 'userCount': 110, 'id': 76491};71
+CAP X FOR 2019-09-26;;False;584;penaltyNotAwarded;varDecision;False;{'name': 'Wellington Paulista', 'slug': 'wellington-paulista', 'shortName': 'W. Paulista', 'position': 'F', 'userCount': 282, 'id': 29106};8
+CAM X VAS 2019-10-02;;False;673;penaltyNotAwarded;varDecision;False;{'name': 'Marrony', 'slug': 'marrony', 'shortName': 'Marrony', 'position': 'F', 'userCount': 377, 'id': 926871};65
+COR X VAS 2019-09-29;9.0;False;636;goalAwarded;varDecision;True;{'name': 'Jadson', 'slug': 'jadson', 'shortName': 'Jádson', 'position': 'M', 'userCount': 412, 'id': 13635};90
+COR X VAS 2019-09-29;;False;631;goalAwarded;varDecision;False;{'name': 'Werley', 'slug': 'werley', 'shortName': 'Werley', 'position': 'D', 'userCount': 59, 'id': 123212};53
+COR X VAS 2019-09-29;;True;626;goalNotAwarded;varDecision;True;{'name': 'Danilo Avelar', 'slug': 'danilo-avelar', 'shortName': 'D. Avelar', 'position': 'D', 'userCount': 358, 'id': 121221};13
+FLU X GRE 2019-09-29;;True;648;penaltyNotAwarded;varDecision;True;{'name': 'João Pedro', 'slug': 'joao-pedro', 'shortName': 'J. Pedro', 'position': 'F', 'userCount': 2002, 'id': 975079};84
+FLU X GRE 2019-09-29;;True;645;penaltyNotAwarded;varDecision;False;{'name': 'Luciano', 'slug': 'luciano', 'shortName': 'Luciano', 'position': 'M', 'userCount': 454, 'id': 282557};58
+INT X PAL 2019-09-29;;False;649;goalAwarded;varDecision;False;{'name': 'Bruno Henrique', 'slug': 'bruno-henrique', 'shortName': 'B. Henrique', 'position': 'M', 'userCount': 587, 'id': 345113};87
+FOR X BOT 2019-09-30;;False;660;goalAwarded;varDecision;True;{'name': 'André Luís', 'slug': 'andre-luis', 'shortName': 'A. Luís', 'position': 'F', 'userCount': 210, 'id': 876286};50
+GOI X CRU 2019-09-30;;False;661;goalAwarded;varDecision;False;{'name': 'Thiago Neves', 'slug': 'thiago-neves', 'shortName': 'T. Neves', 'position': 'M', 'userCount': 640, 'id': 33534};53
+VAS X SAN 2019-10-05;;False;700;cardUpgrade;varDecision;False;{'name': 'Evandro', 'slug': 'evandro', 'shortName': 'Evandro', 'position': 'M', 'userCount': 137, 'id': 39677};76
+CRU X INT 2019-10-05;;False;702;penaltyNotAwarded;varDecision;True;{'name': 'Luis Orejuela', 'slug': 'luis-orejuela', 'shortName': 'L. Orejuela', 'position': 'D', 'userCount': 518, 'id': 819104};60
+CEA X GOI 2019-10-06;;False;726;penaltyNotAwarded;varDecision;True;{'name': 'Valdo', 'slug': 'valdo', 'shortName': 'Valdo', 'position': 'D', 'userCount': 59, 'id': 870752};69
+CSA X AVA 2019-10-06;;False;731;penaltyNotAwarded;varDecision;True;{'name': 'Ricardo Bueno', 'slug': 'ricardo-bueno', 'shortName': 'R. Bueno', 'position': 'F', 'userCount': 105, 'id': 123217};68
+BOT X GOI 2019-10-09;;False;737;goalAwarded;varDecision;False;{'name': 'Marlone', 'slug': 'marlone', 'shortName': 'Marlone', 'position': 'M', 'userCount': 139, 'id': 281187};61
+FOR X CHA 2019-10-09;;True;739;cardUpgrade;varDecision;True;{'name': 'Juninho', 'slug': 'juninho', 'shortName': 'Juninho', 'position': 'M', 'userCount': 145, 'id': 842073};61
+CRU X FLU 2019-10-09;;False;742;goalAwarded;varDecision;True;{'name': 'Robinho', 'slug': 'robinho', 'shortName': 'Robinho', 'position': 'M', 'userCount': 222, 'id': 125018};53
+CRU X FLU 2019-10-09;7.0;False;741;cardUpgrade;varDecision;True;{'name': 'Fred', 'slug': 'fred', 'shortName': 'Fred', 'position': 'F', 'userCount': 959, 'id': 12764};45
+CRU X FLU 2019-10-09;5.0;False;740;redCardGiven;varDecision;False;{'name': 'Yuri', 'slug': 'yuri', 'shortName': 'Yuri', 'position': 'M', 'userCount': 85, 'id': 842734};45
+SAN X PAL 2019-10-09;;False;743;cardUpgrade;varDecision;False;{'name': 'Willian', 'slug': 'willian', 'shortName': 'Willian', 'position': 'M', 'userCount': 699, 'id': 146308};71
+SAN X PAL 2019-10-09;;False;738;goalNotAwarded;varDecision;True;{'name': 'Marinho', 'slug': 'marinho', 'shortName': 'Marinho', 'position': 'F', 'userCount': 501, 'id': 798127};18
+COR X CAP 2019-10-10;;False;752;penaltyAwarded;varDecision;False;{'name': 'Rony', 'slug': 'rony', 'shortName': 'Roni', 'position': 'M', 'userCount': 625, 'id': 835260};29
+CAP X FLA 2019-10-13;;False;763;penaltyAwarded;varDecision;False;{'name': 'Lucas Silva', 'slug': 'lucas-silva', 'shortName': 'L. Silva', 'position': 'F', 'userCount': 354, 'id': 973294};20
+INT X SAN 2019-10-13;;False;759;goalAwarded;varDecision;True;{'name': 'Guilherme Parede', 'slug': 'guilherme-parede', 'shortName': 'G. Parede', 'position': 'M', 'userCount': 97, 'id': 823980};59
+CAM X GRE 2019-10-13;;False;761;cardUpgrade;varDecision;True;{'name': 'Juan Cazares', 'slug': 'juan-cazares', 'shortName': 'J. Cazares', 'position': 'M', 'userCount': 720, 'id': 158411};68
+CAM X GRE 2019-10-13;3.0;False;760;penaltyNotAwarded;varDecision;True;{'name': 'Luan', 'slug': 'luan', 'shortName': 'Luan', 'position': 'M', 'userCount': 236, 'id': 243427};45
+GRE X BAH 2019-10-16;;False;764;penaltyNotAwarded;varDecision;False;{'name': 'Marco Antonio', 'slug': 'marco-antonio', 'shortName': 'M. Antonio', 'position': 'M', 'userCount': 71, 'id': 870560};88
+FOR X FLA 2019-10-16;;False;765;penaltyNotAwarded;varDecision;False;{'name': 'Rodrigo Caio', 'slug': 'rodrigo-caio', 'shortName': 'R. Caio', 'position': 'D', 'userCount': 1578, 'id': 166273};79
+GOI X COR 2019-10-16;3.0;False;766;penaltyNotAwarded;varDecision;False;{'name': 'Jadson', 'slug': 'jadson', 'shortName': 'Jádson', 'position': 'M', 'userCount': 412, 'id': 13635};90
+AVA X INT 2019-10-17;;False;767;cardUpgrade;varDecision;True;{'name': 'Wesley Soares', 'slug': 'wesley-soares', 'shortName': 'W. Soares', 'position': 'D', 'userCount': 17, 'id': 981011};3
+FLU X CAP 2019-10-17;;False;920;goalAwarded;varDecision;True;{'name': 'João Pedro', 'slug': 'joao-pedro', 'shortName': 'J. Pedro', 'position': 'F', 'userCount': 2002, 'id': 975079};26
+FLU X CAP 2019-10-17;;False;919;goalAwarded;varDecision;False;{'name': 'Rony', 'slug': 'rony', 'shortName': 'Roni', 'position': 'M', 'userCount': 625, 'id': 835260};14
+COR X CRU 2019-10-19;;False;804;penaltyNotAwarded;varDecision;False;{'name': 'Marquinhos Gabriel', 'slug': 'marquinhos-gabriel', 'shortName': 'M. Gabriel', 'position': 'M', 'userCount': 311, 'id': 90812};36
+CAM X SAN 2019-10-20;;False;828;goalNotAwarded;varDecision;True;{'name': 'Luan', 'slug': 'luan', 'shortName': 'Luan', 'position': 'M', 'userCount': 236, 'id': 243427};6
+INT X VAS 2019-10-20;2.0;False;830;goalAwarded;varDecision;True;"{'name': ""Andres D'Alessandro"", 'slug': 'andres-dalessandro', 'shortName': ""A. D'Alessandro"", 'position': 'M', 'userCount': 647, 'id': 17639}";45
+SPO X AVA 2019-10-20;4.0;False;832;mistakenIdentity;varDecision;False;{'name': 'Julinho', 'slug': 'julinho', 'shortName': 'Julinho', 'position': 'M', 'userCount': 9, 'id': 167075};90
+SPO X AVA 2019-10-20;;False;829;cardUpgrade;varDecision;False;{'name': 'Brenner', 'slug': 'brenner', 'shortName': 'Brenner', 'position': 'F', 'userCount': 77, 'id': 840208};22
+FLA X FLU 2019-10-20;;True;833;penaltyNotAwarded;varDecision;True;{'name': 'Gabriel Barbosa', 'slug': 'gabriel-barbosa', 'shortName': 'Gabriel', 'position': 'F', 'userCount': 15360, 'id': 358554};11
+CEA X VAS 2019-10-26;;False;873;goalNotAwarded;varDecision;True;{'name': 'Fabinho', 'slug': 'fabinho', 'shortName': 'Fabinho', 'position': 'M', 'userCount': 57, 'id': 795254};83
+AVA X PAL 2019-10-27;;False;908;penaltyNotAwarded;varDecision;False;{'name': 'Deyverson', 'slug': 'deyverson', 'shortName': 'Deyverson', 'position': 'F', 'userCount': 800, 'id': 270287};83
+AVA X PAL 2019-10-27;;False;907;penaltyNotAwarded;varDecision;True;{'name': 'Vinicius Araujo', 'slug': 'vinicius-araujo', 'shortName': 'V. Araujo', 'position': 'F', 'userCount': 65, 'id': 329237};77
+CAM X CHA 2019-10-30;;False;928;goalAwarded;varDecision;True;{'name': 'Igor Rabello', 'slug': 'igor-rabello', 'shortName': 'I. Rabello', 'position': 'D', 'userCount': 218, 'id': 753662};76
+CAM X CHA 2019-10-30;;False;927;penaltyNotAwarded;varDecision;True;{'name': 'Guga', 'slug': 'guga', 'shortName': 'Guga', 'position': 'D', 'userCount': 384, 'id': 928134};60
+AVA X FOR 2019-10-30;;False;930;cardUpgrade;varDecision;True;{'name': 'Eduardo Kunde', 'slug': 'eduardo-kunde', 'shortName': 'E. Kunde', 'position': 'D', 'userCount': 22, 'id': 931502};87
+SAN X BAH 2019-10-31;;False;940;goalAwarded;varDecision;False;{'name': 'Juninho', 'slug': 'juninho', 'shortName': 'Juninho', 'position': 'D', 'userCount': 150, 'id': 799947};85
+SAN X BAH 2019-10-31;;False;939;goalAwarded;varDecision;True;{'name': 'Eduardo Sasha', 'slug': 'eduardo-sasha', 'shortName': 'E. Sasha', 'position': 'F', 'userCount': 585, 'id': 143846};21
+GOI X FLA 2019-10-31;;False;943;cardUpgrade;varDecision;False;{'name': 'César', 'slug': 'cesar', 'shortName': 'César', 'position': 'G', 'userCount': 580, 'id': 158269};88
+INT X CAP 2019-10-31;;False;947;goalAwarded;varDecision;True;{'name': 'Paolo Guerrero', 'slug': 'paolo-guerrero', 'shortName': 'P. Guerrero', 'position': 'F', 'userCount': 4494, 'id': 338};87
+INT X CAP 2019-10-31;;False;945;penaltyNotAwarded;varDecision;True;{'name': 'Zeca', 'slug': 'zeca', 'shortName': 'Zeca', 'position': 'D', 'userCount': 229, 'id': 555454};80
+INT X CAP 2019-10-31;;False;941;goalNotAwarded;varDecision;True;{'name': 'Rodrigo Lindoso', 'slug': 'rodrigo-lindoso', 'shortName': 'R. Lindoso', 'position': 'M', 'userCount': 278, 'id': 343683};16
+CHA X SPO 2019-11-02;;False;980;goalAwarded;varDecision;False;{'name': 'Bruno Alves', 'slug': 'bruno-alves', 'shortName': 'B. Alves', 'position': 'D', 'userCount': 356, 'id': 551810};90
+CHA X SPO 2019-11-02;;False;978;goalNotAwarded;varDecision;False;{'name': 'Antony Santos', 'slug': 'antony-santos', 'shortName': 'Antony', 'position': 'M', 'userCount': 1545, 'id': 958380};27
+CAP X CSA 2019-11-03;;False;1096;goalAwarded;varDecision;True;{'name': 'Rony', 'slug': 'rony', 'shortName': 'Roni', 'position': 'M', 'userCount': 625, 'id': 835260};58
+CRU X BAH 2019-11-03;;False;999;penaltyNotAwarded;varDecision;False;{'name': 'Fernandão', 'slug': 'fernandao', 'shortName': 'Fernandão', 'position': 'F', 'userCount': 226, 'id': 329251};63
+SAN X BOT 2019-11-03;;False;1000;goalNotAwarded;varDecision;True;{'name': 'Yeferson Soteldo', 'slug': 'yeferson-soteldo', 'shortName': 'Y. Soteldo', 'position': 'F', 'userCount': 1744, 'id': 789960};72
+AVA X SAN 2019-11-06;;True;1016;cardUpgrade;varDecision;True;{'name': 'Léo', 'slug': 'leo', 'shortName': 'Léo', 'position': 'D', 'userCount': 57, 'id': 329005};53
+CAP X CRU 2019-11-06;;False;1095;goalAwarded;varDecision;False;{'name': 'Sassá', 'slug': 'sassa', 'shortName': 'Sassá', 'position': 'F', 'userCount': 176, 'id': 243157};58
+BAH X CHA 2019-11-06;2.0;False;1019;cardUpgrade;varDecision;False;{'name': 'Renato', 'slug': 'renato', 'shortName': 'Renato', 'position': 'M', 'userCount': 28, 'id': 243111};90
+VAS X PAL 2019-11-06;;True;1018;penaltyNotAwarded;varDecision;True;{'name': 'Oswaldo Henriquez', 'slug': 'oswaldo-henriquez', 'shortName': 'O. Henriquez', 'position': 'D', 'userCount': 113, 'id': 249509};87
+VAS X PAL 2019-11-06;;False;1017;mistakenIdentity;varDecision;False;{'name': 'Thiago Santos', 'slug': 'thiago-santos', 'shortName': 'T. Santos', 'position': 'M', 'userCount': 190, 'id': 378590};55
+PAL X COR 2019-11-09;;False;1045;penaltyNotAwarded;varDecision;True;{'name': 'Gustavo Gomez', 'slug': 'gustavo-gomez', 'shortName': 'G. Gómez', 'position': 'D', 'userCount': 919, 'id': 220833};73
+INT X FLU 2019-11-10;;False;1076;goalNotAwarded;varDecision;True;{'name': 'Rodrigo Lindoso', 'slug': 'rodrigo-lindoso', 'shortName': 'R. Lindoso', 'position': 'M', 'userCount': 278, 'id': 343683};42
+CSA X VAS 2019-11-10;;False;1078;penaltyAwarded;varDecision;True;{'name': 'Warley', 'slug': 'warley', 'shortName': 'Warley', 'position': 'M', 'userCount': 47, 'id': 986945};90
+CAP X BOT 2019-11-17;;False;1089;goalAwarded;varDecision;True;{'name': 'Thiago Heleno', 'slug': 'thiago-heleno', 'shortName': 'T. Heleno', 'position': 'D', 'userCount': 104, 'id': 33106};70
+CAP X BOT 2019-11-17;;False;1088;penaltyNotAwarded;varDecision;True;{'name': 'Thonny Anderson', 'slug': 'thonny-anderson', 'shortName': 'T. Anderson', 'position': 'M', 'userCount': 185, 'id': 923836};21
+VAS X GOI 2019-11-18;;False;1087;goalAwarded;varDecision;False;{'name': 'Fábio Sanches', 'slug': 'fabio-sanches', 'shortName': 'F. Sanches', 'position': 'D', 'userCount': 28, 'id': 870544};72
+GOI X BAH 2019-11-24;;False;1143;goalNotAwarded;varDecision;True;{'name': 'Rafael Moura', 'slug': 'rafael-moura', 'shortName': 'R. Moura', 'position': 'F', 'userCount': 139, 'id': 23395};10
+INT X FOR 2019-11-24;2.0;False;1149;penaltyNotAwarded;varDecision;False;{'name': 'Juninho', 'slug': 'juninho', 'shortName': 'Juninho', 'position': 'M', 'userCount': 145, 'id': 842073};90
+INT X FOR 2019-11-24;3.0;False;1148;penaltyAwarded;varDecision;True;{'name': 'Patrick', 'slug': 'patrick', 'shortName': 'Patrick', 'position': 'M', 'userCount': 336, 'id': 594428};45
+INT X GOI 2019-11-27;;False;1164;goalAwarded;varDecision;False;{'name': 'Michael', 'slug': 'michael', 'shortName': 'M. Delgado', 'position': 'M', 'userCount': 1693, 'id': 878084};25
+INT X GOI 2019-11-27;;False;1163;goalNotAwarded;varDecision;False;{'name': 'Rafael Moura', 'slug': 'rafael-moura', 'shortName': 'R. Moura', 'position': 'F', 'userCount': 139, 'id': 23395};16
+CAP X GRE 2019-11-27;;False;1242;penaltyNotAwarded;varDecision;True;{'name': 'Nikão', 'slug': 'nikao', 'shortName': 'Nikão', 'position': 'M', 'userCount': 291, 'id': 139300};61
+FOR X SAN 2019-11-28;;False;1168;penaltyNotAwarded;varDecision;False;{'name': 'Evandro', 'slug': 'evandro', 'shortName': 'Evandro', 'position': 'M', 'userCount': 137, 'id': 39677};83
+CRU X CSA 2019-11-28;;False;1170;penaltyNotAwarded;varDecision;True;{'name': 'Pedro Rocha', 'slug': 'pedro-rocha', 'shortName': 'P. Rocha', 'position': 'M', 'userCount': 672, 'id': 794930};62
+AVA X FLU 2019-12-01;1.0;False;1235;review;varDecision;True;{'name': 'João Paulo', 'slug': 'joao-paulo', 'shortName': 'J. Paulo', 'position': 'M', 'userCount': 69, 'id': 869433};90
+GOI X FOR 2019-12-01;;False;1230;goalNotAwarded;varDecision;True;{'name': 'Rafael Moura', 'slug': 'rafael-moura', 'shortName': 'R. Moura', 'position': 'F', 'userCount': 139, 'id': 23395};45
+PAL X FLA 2019-12-01;;False;1228;goalNotAwarded;varDecision;False;{'name': 'Giorgian De Arrascaeta', 'slug': 'giorgian-de-arrascaeta', 'shortName': 'G. De Arrascaeta', 'position': 'M', 'userCount': 8907, 'id': 333587};4
+VAS X CRU 2019-12-02;;False;1240;penaltyAwarded;varDecision;True;{'name': 'Marrony', 'slug': 'marrony', 'shortName': 'Marrony', 'position': 'F', 'userCount': 377, 'id': 926871};29
+CEA X COR 2019-12-04;;True;1249;penaltyNotAwarded;varDecision;True;{'name': 'Leandro Carvalho', 'slug': 'leandro-carvalho', 'shortName': 'L. Carvalho', 'position': 'M', 'userCount': 109, 'id': 878903};53
+BAH X VAS 2019-12-05;;False;1255;penaltyNotAwarded;varDecision;True;{'name': 'Gilberto', 'slug': 'gilberto', 'shortName': 'Gilberto', 'position': 'F', 'userCount': 594, 'id': 158561};41
+BAH X VAS 2019-12-05;;False;1254;penaltyAwarded;varDecision;False;{'name': 'Raul', 'slug': 'raul', 'shortName': 'Raul', 'position': 'M', 'userCount': 149, 'id': 870760};30
+BOT X CEA 2019-12-08;;False;1307;penaltyNotAwarded;varDecision;False;{'name': 'Thiago Galhardo', 'slug': 'thiago-galhardo', 'shortName': 'T. Galhardo', 'position': 'M', 'userCount': 444, 'id': 165677};64
+COR X FLU 2019-12-08;;False;1310;penaltyAwarded;varDecision;True;{'name': 'Jadson', 'slug': 'jadson', 'shortName': 'Jádson', 'position': 'M', 'userCount': 412, 'id': 13635};79
+COR X FLU 2019-12-08;;False;1306;goalNotAwarded;varDecision;False;{'name': 'Evanilson', 'slug': 'evanilson', 'shortName': 'Evanilson', 'position': 'F', 'userCount': 138, 'id': 998490};30
+VAS X CHA 2019-12-08;;False;1311;penaltyNotAwarded;varDecision;True;{'name': 'Yago Pikachu', 'slug': 'yago-pikachu', 'shortName': 'Y. Pikachu', 'position': 'D', 'userCount': 490, 'id': 363688};81
