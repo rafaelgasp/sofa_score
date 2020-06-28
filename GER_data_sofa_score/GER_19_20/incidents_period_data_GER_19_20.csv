@@ -1,0 +1,50 @@
+game;text;homeScore;awayScore;isLive;time;addedTime;incidentType
+BAY X BCS 2019-08-16;FT;2;2;False;90;999;period
+BAY X BCS 2019-08-16;HT;1;2;False;45;999;period
+BLK X SCP 2019-08-17;FT;3;2;False;90;999;period
+BLK X SCP 2019-08-17;HT;2;2;False;45;999;period
+DOR X AUG 2019-08-17;FT;5;1;False;90;999;period
+DOR X AUG 2019-08-17;HT;1;1;False;45;999;period
+;FT;3;0;False;90;999;period
+;HT;0;0;False;45;999;period
+SVW X DUS 2019-08-17;FT;1;3;False;90;999;period
+SVW X DUS 2019-08-17;HT;0;1;False;45;999;period
+WOB X KOL 2019-08-17;FT;2;1;False;90;999;period
+WOB X KOL 2019-08-17;HT;1;0;False;45;999;period
+BMG X S04 2019-08-17;FT;0;0;False;90;999;period
+SGE X TSG 2019-08-18;FT;1;0;False;90;999;period
+;FT;0;4;False;90;999;period
+;HT;0;3;False;45;999;period
+;FT;1;1;False;90;999;period
+S04 X BAY 2019-08-24;FT;0;3;False;90;999;period
+;FT;6;1;False;90;999;period
+;HT;2;1;False;45;999;period
+SCF X KOL 2019-08-31;FT;1;2;False;90;999;period
+;FT;3;1;False;90;999;period
+KOL X BMG 2019-09-14;FT;0;1;False;90;999;period
+AUG X SGE 2019-09-14;HT;2;0;False;45;999;period
+DOR X BLK 2019-09-14;FT;4;0;False;90;999;period
+TSG X SCF 2019-09-15;HT;0;2;False;45;999;period
+SCP X S04 2019-09-15;FT;1;5;False;90;999;period
+;FT;2;0;False;90;999;period
+SCP X BAY 2019-09-28;FT;2;3;False;90;999;period
+BMG X AUG 2019-10-06;HT;4;0;False;45;999;period
+BMG X SGE 2019-10-27;FT;4;2;False;90;999;period
+TSG X SCP 2019-11-01;HT;3;0;False;45;999;period
+;FT;8;0;False;90;999;period
+;HT;5;0;False;45;999;period
+S04 X DUS 2019-11-09;FT;3;3;False;90;999;period
+BCS X RBL 2019-11-09;FT;2;4;False;90;999;period
+WOB X BLK 2019-11-10;FT;0;2;False;90;999;period
+RBL X KOL 2019-11-23;FT;4;1;False;90;999;period
+RBL X KOL 2019-11-23;HT;3;1;False;45;999;period
+DOR X DUS 2019-12-07;FT;5;0;False;90;999;period
+;FT;0;5;False;90;999;period
+;HT;0;4;False;45;999;period
+AUG X DOR 2020-01-18;FT;3;5;False;90;999;period
+SCP X BLK 2020-01-19;FT;1;4;False;90;999;period
+;HT;1;3;False;45;999;period
+BLK X DOR 2020-02-08;FT;4;3;False;90;999;period
+TSG X BAY 2020-02-29;FT;0;6;False;90;999;period
+BAY X SGE 2020-05-23;FT;5;2;False;90;999;period
+SCP X DOR 2020-05-31;FT;1;6;False;90;999;period

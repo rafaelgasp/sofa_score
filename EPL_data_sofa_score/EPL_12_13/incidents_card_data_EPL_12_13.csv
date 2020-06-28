@@ -1,0 +1,3 @@
+game;player;id;time;isHome;incidentClass;incidentType
+SWA X NEW 2013-03-02;{'name': 'Yohan Cabaye', 'slug': 'yohan-cabaye', 'shortName': 'Y. Cabaye', 'position': 'M', 'userCount': 319, 'id': 3574};35757110;37;False;yellow;card
+SWA X NEW 2013-03-02;{'name': 'Cheik Tiote', 'slug': 'cheik-tiote', 'shortName': 'C. Tiote', 'position': 'M', 'userCount': 66, 'id': 10438};35756820;34;False;yellow;card

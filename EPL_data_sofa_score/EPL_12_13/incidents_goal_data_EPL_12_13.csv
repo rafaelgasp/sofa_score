@@ -1,0 +1,2 @@
+game;homeScore;awayScore;player;id;time;isHome;incidentClass;incidentType
+SWA X NEW 2013-03-02;1;0;{'name': 'Luke Moore', 'slug': 'luke-moore', 'shortName': 'L. Moore', 'position': 'F', 'userCount': 2, 'id': 558};35764272;85;True;regular;goal

@@ -1,0 +1,253 @@
+game;addedTime;id;incidentClass;incidentType;isHome;player;reason;time
+MCI X LIV 2014-08-25;;98652798;yellow;card;False;{'name': 'Emre Can', 'slug': 'emre-can', 'shortName': 'E. Can', 'position': 'M', 'userCount': 5464, 'id': 138156};;76
+MCI X LIV 2014-08-25;;98641490;yellow;card;True;{'name': 'Yaya Touré', 'slug': 'yaya-toure', 'shortName': 'Y. Touré', 'position': 'M', 'userCount': 3103, 'id': 14468};;29
+MCI X TOT 2014-10-18;;107774752;red;card;False;{'name': 'Federico Fazio', 'slug': 'federico-fazio', 'shortName': 'F. Fazio', 'position': 'D', 'userCount': 1226, 'id': 27569};;67
+MCI X TOT 2014-10-18;;107771332;yellow;card;True;{'name': 'Jesús Navas', 'slug': 'jesus-navas', 'shortName': 'J. Navas', 'position': 'D', 'userCount': 1544, 'id': 11869};;55
+MCI X TOT 2014-10-18;;107764318;yellow;card;False;{'name': 'Eric Dier', 'slug': 'eric-dier', 'shortName': 'E. Dier', 'position': 'M', 'userCount': 1968, 'id': 146101};;37
+MCI X TOT 2014-10-18;;107763730;yellow;card;False;{'name': 'Ryan Mason', 'slug': 'ryan-mason', 'shortName': 'R. Mason', 'position': 'M', 'userCount': 38, 'id': 44567};;33
+NEW X CHE 2014-12-06;;116548302;yellowRed;card;True;{'name': 'Steven Taylor', 'slug': 'steven-taylor', 'shortName': 'S. Taylor', 'position': 'D', 'userCount': 8, 'id': 796};;81
+NEW X CHE 2014-12-06;;116548074;yellow;card;False;{'name': 'Diego Costa', 'slug': 'diego-costa', 'shortName': 'D. Costa', 'position': 'F', 'userCount': 8943, 'id': 21212};;80
+NEW X CHE 2014-12-06;;116548096;yellow;card;False;{'name': 'Cesc Fàbregas', 'slug': 'cesc-fabregas', 'shortName': 'C. Fàbregas', 'position': 'M', 'userCount': 5114, 'id': 518};;79
+NEW X CHE 2014-12-06;;116546980;yellow;card;True;{'name': 'Cheik Tiote', 'slug': 'cheik-tiote', 'shortName': 'C. Tiote', 'position': 'M', 'userCount': 66, 'id': 10438};;74
+NEW X CHE 2014-12-06;;116544686;yellow;card;False;{'name': 'Andre Schürrle', 'slug': 'andre-schurrle', 'shortName': 'A. Schürrle', 'position': 'F', 'userCount': 1267, 'id': 70492};;64
+NEW X CHE 2014-12-06;;116542982;yellow;card;True;{'name': 'Steven Taylor', 'slug': 'steven-taylor', 'shortName': 'S. Taylor', 'position': 'D', 'userCount': 8, 'id': 796};;56
+NEW X CHE 2014-12-06;;116541990;yellow;card;True;{'name': 'Moussa Sissoko', 'slug': 'moussa-sissoko', 'shortName': 'M. Sissoko', 'position': 'M', 'userCount': 2424, 'id': 27014};;48
+CHE X MCI 2015-01-31;;118258086;yellow;card;False;{'name': 'Fernando', 'slug': 'fernando', 'shortName': 'Fernando', 'position': 'M', 'userCount': 1018, 'id': 41837};;74
+CHE X MCI 2015-01-31;;118258041;yellow;card;False;{'name': 'David Silva', 'slug': 'david-silva', 'shortName': 'D. Silva', 'position': 'M', 'userCount': 8076, 'id': 11781};;52
+ARS X ASV 2015-02-01;;118258519;yellow;card;False;{'name': 'Carles Gil', 'slug': 'carles-gil', 'shortName': 'C. Gil', 'position': 'M', 'userCount': 130, 'id': 254895};;68
+ARS X ASV 2015-02-01;;118258511;yellow;card;False;{'name': 'Ciaran Clark', 'slug': 'ciaran-clark', 'shortName': 'C. Clark', 'position': 'D', 'userCount': 172, 'id': 45680};;57
+LEI X CHE 2015-04-29;;118302286;yellow;card;True;{'name': 'Paul Konchesky', 'slug': 'paul-konchesky', 'shortName': 'P. Konchesky', 'position': 'D', 'userCount': 12, 'id': 1281};Foul;36
+SWA X LIV 2015-03-16;;118279463;yellow;card;False;{'name': 'Alberto Moreno', 'slug': 'alberto-moreno', 'shortName': 'A. Moreno', 'position': 'D', 'userCount': 1005, 'id': 229740};;50
+SWA X LIV 2015-03-16;;118279426;yellow;card;False;{'name': 'Raheem Sterling', 'slug': 'raheem-sterling', 'shortName': 'R. Sterling', 'position': 'F', 'userCount': 22277, 'id': 138534};;26
+SWA X LIV 2015-03-16;;118279418;yellow;card;False;{'name': 'Jordan Henderson', 'slug': 'jordan-henderson', 'shortName': 'J. Henderson', 'position': 'M', 'userCount': 5308, 'id': 42694};;6
+MCI X WBA 2015-03-21;;118281143;red;card;False;{'name': 'Gareth McAuley', 'slug': 'gareth-mcauley', 'shortName': 'G. McAuley', 'position': 'D', 'userCount': 71, 'id': 13357};;2
+STO X CRY 2015-03-21;;118281543;yellow;card;False;{'name': 'Dwight Gayle', 'slug': 'dwight-gayle', 'shortName': 'D. Gayle', 'position': 'F', 'userCount': 401, 'id': 232118};;88
+STO X CRY 2015-03-21;;118281492;yellow;card;False;{'name': 'Pape Souaré', 'slug': 'pape-souare', 'shortName': 'P. Souaré', 'position': 'D', 'userCount': 194, 'id': 84686};;67
+STO X CRY 2015-03-21;;118281466;yellow;card;False;{'name': 'James McArthur', 'slug': 'james-mcarthur', 'shortName': 'J. McArthur', 'position': 'M', 'userCount': 196, 'id': 39282};;49
+STO X CRY 2015-03-21;;118281433;yellow;card;True;{'name': 'Erik Pieters', 'slug': 'erik-pieters', 'shortName': 'E. Pieters', 'position': 'D', 'userCount': 345, 'id': 17063};;45
+STO X CRY 2015-03-21;;118281440;yellow;card;True;{'name': 'Charlie Adam', 'slug': 'charlie-adam', 'shortName': 'C. Adam', 'position': 'M', 'userCount': 53, 'id': 9360};;42
+STO X CRY 2015-03-21;;118281443;yellow;card;True;{'name': 'Asmir Begović', 'slug': 'asmir-begovic', 'shortName': 'A. Begović', 'position': 'G', 'userCount': 1014, 'id': 13918};;40
+STO X CRY 2015-03-21;;118281386;yellow;card;False;{'name': 'Wilfried Zaha', 'slug': 'wilfried-zaha', 'shortName': 'W. Zaha', 'position': 'M', 'userCount': 5962, 'id': 111850};;33
+WES X SUN 2015-03-21;;118281975;yellow;card;False;{'name': 'Connor Wickham', 'slug': 'connor-wickham', 'shortName': 'C. Wickham', 'position': 'F', 'userCount': 111, 'id': 50485};;63
+ARS X LIV 2015-04-04;;118287341;yellowRed;card;False;{'name': 'Emre Can', 'slug': 'emre-can', 'shortName': 'E. Can', 'position': 'M', 'userCount': 5464, 'id': 138156};;84
+ARS X LIV 2015-04-04;;118287321;yellow;card;True;{'name': 'Héctor Bellerín', 'slug': 'hector-bellerin', 'shortName': 'H. Bellerín', 'position': 'D', 'userCount': 3853, 'id': 188365};;70
+ARS X LIV 2015-04-04;;118287297;yellow;card;False;{'name': 'Emre Can', 'slug': 'emre-can', 'shortName': 'E. Can', 'position': 'M', 'userCount': 5464, 'id': 138156};;49
+SUN X CRY 2015-04-11;;118291740;yellow;card;False;{'name': 'James McArthur', 'slug': 'james-mcarthur', 'shortName': 'J. McArthur', 'position': 'M', 'userCount': 196, 'id': 39282};Foul;67
+SUN X CRY 2015-04-11;;118291625;yellow;card;True;{'name': 'Lee Cattermole', 'slug': 'lee-cattermole', 'shortName': 'L. Cattermole', 'position': 'M', 'userCount': 54, 'id': 14210};Foul;24
+SUN X CRY 2015-04-11;;118291627;yellow;card;False;{'name': 'Scott Dann', 'slug': 'scott-dann', 'shortName': 'S. Dann', 'position': 'D', 'userCount': 94, 'id': 20278};Foul;18
+SUN X CRY 2015-04-11;;118291629;yellow;card;True;{'name': 'Jack Rodwell', 'slug': 'jack-rodwell', 'shortName': 'J. Rodwell', 'position': 'D', 'userCount': 83, 'id': 32002};Foul;16
+TOT X ASV 2015-04-11;7.0;118291767;yellow;card;False;{'name': 'Kieran Richardson', 'slug': 'kieran-richardson', 'shortName': 'K. Richardson', 'position': 'M', 'userCount': 7, 'id': 764};Foul;90
+TOT X ASV 2015-04-11;6.0;118291766;yellow;card;True;{'name': 'Érik Lamela', 'slug': 'erik-lamela', 'shortName': 'É. Lamela', 'position': 'M', 'userCount': 2874, 'id': 122702};Foul;90
+TOT X ASV 2015-04-11;4.0;118291779;yellowRed;card;False;{'name': 'Carlos Sánchez', 'slug': 'carlos-sanchez', 'shortName': 'C. Sánchez', 'position': 'M', 'userCount': 1669, 'id': 26995};Foul;90
+TOT X ASV 2015-04-11;3.0;118291757;yellow;card;True;{'name': 'Danny Rose', 'slug': 'danny-rose', 'shortName': 'D. Rose', 'position': 'D', 'userCount': 1667, 'id': 16586};Foul;90
+TOT X ASV 2015-04-11;;118291750;yellow;card;False;{'name': 'Christian Benteke', 'slug': 'christian-benteke', 'shortName': 'C. Benteke', 'position': 'F', 'userCount': 1763, 'id': 45970};Time wasting;81
+TOT X ASV 2015-04-11;;118291733;yellow;card;True;{'name': 'Nabil Bentaleb', 'slug': 'nabil-bentaleb', 'shortName': 'N. Bentaleb', 'position': 'M', 'userCount': 4096, 'id': 368120};Foul;66
+TOT X ASV 2015-04-11;;118291712;yellow;card;False;{'name': 'Carlos Sánchez', 'slug': 'carlos-sanchez', 'shortName': 'C. Sánchez', 'position': 'M', 'userCount': 1669, 'id': 26995};Foul;58
+WES X STO 2015-04-11;;118291756;yellow;card;True;{'name': 'Carlton Cole', 'slug': 'carlton-cole', 'shortName': 'C. Cole', 'position': 'F', 'userCount': 13, 'id': 9644};Foul;85
+WES X STO 2015-04-11;;118291751;yellow;card;True;{'name': 'Kevin Nolan', 'slug': 'kevin-nolan', 'shortName': 'K. Nolan', 'position': 'M', 'userCount': 14, 'id': 1227};Foul;80
+WES X STO 2015-04-11;;118291746;yellow;card;False;{'name': 'Erik Pieters', 'slug': 'erik-pieters', 'shortName': 'E. Pieters', 'position': 'D', 'userCount': 345, 'id': 17063};Foul;73
+WES X STO 2015-04-11;;118291623;yellow;card;True;{'name': 'James Collins', 'slug': 'james-collins', 'shortName': 'J. Collins', 'position': 'D', 'userCount': 53, 'id': 9729};Foul;21
+ASV X QPR 2015-04-07;;118289963;yellow;card;False;{'name': 'Clint Hill', 'slug': 'clint-hill', 'shortName': 'C. Hill', 'position': 'D', 'userCount': 6, 'id': 10557};Foul;82
+ASV X QPR 2015-04-07;;118289939;yellow;card;False;{'name': 'Charlie Austin', 'slug': 'charlie-austin', 'shortName': 'C. Austin', 'position': 'F', 'userCount': 314, 'id': 97905};Foul;57
+ASV X QPR 2015-04-07;;118289919;yellow;card;False;{'name': 'Niko Kranjčar', 'slug': 'niko-kranjcar', 'shortName': 'N. Kranjčar', 'position': 'M', 'userCount': 99, 'id': 11269};Foul;35
+ASV X QPR 2015-04-07;;118289918;yellow;card;False;{'name': 'Sandro', 'slug': 'sandro', 'shortName': 'Sandro', 'position': 'M', 'userCount': 138, 'id': 43301};Off the ball foul;34
+CRY X WBA 2015-04-18;;118295558;yellow;card;False;{'name': 'Chris Brunt', 'slug': 'chris-brunt', 'shortName': 'C. Brunt', 'position': 'M', 'userCount': 68, 'id': 10540};Foul;79
+CRY X WBA 2015-04-18;;118295557;yellow;card;False;{'name': 'Craig Gardner', 'slug': 'craig-gardner', 'shortName': 'C. Gardner', 'position': 'M', 'userCount': 13, 'id': 14235};Foul;79
+CRY X WBA 2015-04-18;;118295552;yellow;card;True;{'name': 'Yannick Bolasie', 'slug': 'yannick-bolasie', 'shortName': 'Y. Bolasie', 'position': 'F', 'userCount': 1714, 'id': 46620};Simulation;69
+CRY X WBA 2015-04-18;;118295544;yellow;card;True;{'name': 'Jason Puncheon', 'slug': 'jason-puncheon', 'shortName': 'J. Puncheon', 'position': 'M', 'userCount': 51, 'id': 19593};Foul;61
+CRY X WBA 2015-04-18;;118295528;yellow;card;True;{'name': 'Scott Dann', 'slug': 'scott-dann', 'shortName': 'S. Dann', 'position': 'D', 'userCount': 94, 'id': 20278};Foul;54
+CRY X WBA 2015-04-18;;118295433;yellow;card;False;{'name': 'Gareth McAuley', 'slug': 'gareth-mcauley', 'shortName': 'G. McAuley', 'position': 'D', 'userCount': 71, 'id': 13357};Persistent fouling;14
+EVE X BUR 2015-04-18;;118295545;yellow;card;False;{'name': 'Jason Shackell', 'slug': 'jason-shackell', 'shortName': 'J. Shackell', 'position': 'D', 'userCount': 10, 'id': 853};Foul;61
+EVE X BUR 2015-04-18;;118295512;yellow;card;False;{'name': 'Scott Arfield', 'slug': 'scott-arfield', 'shortName': 'S. Arfield', 'position': 'M', 'userCount': 163, 'id': 17056};Foul;53
+EVE X BUR 2015-04-18;;118295505;yellow;card;True;{'name': 'Kevin Mirallas', 'slug': 'kevin-mirallas', 'shortName': 'K. Mirallas', 'position': 'F', 'userCount': 835, 'id': 3593};Foul;51
+EVE X BUR 2015-04-18;2.0;118295488;yellowRed;card;False;{'name': 'Ashley Barnes', 'slug': 'ashley-barnes', 'shortName': 'A. Barnes', 'position': 'F', 'userCount': 709, 'id': 27028};Foul;45
+EVE X BUR 2015-04-18;;118295443;yellow;card;False;{'name': 'Ashley Barnes', 'slug': 'ashley-barnes', 'shortName': 'A. Barnes', 'position': 'F', 'userCount': 709, 'id': 27028};Off the ball foul;23
+LEI X SWA 2015-04-18;;118295570;yellow;card;False;{'name': 'Jonjo Shelvey', 'slug': 'jonjo-shelvey', 'shortName': 'J. Shelvey', 'position': 'M', 'userCount': 517, 'id': 36465};Foul;88
+LEI X SWA 2015-04-18;;118295408;yellow;card;False;{'name': 'Jordi Amat', 'slug': 'jordi-amat', 'shortName': 'J. Amat', 'position': 'D', 'userCount': 66, 'id': 106273};Foul;3
+STO X SOU 2015-04-18;;118295569;yellow;card;False;{'name': 'Eljero Elia', 'slug': 'eljero-elia', 'shortName': 'E. Elia', 'position': 'M', 'userCount': 271, 'id': 10668};Foul;88
+STO X SOU 2015-04-18;;118295502;yellow;card;False;{'name': 'Toby Alderweireld', 'slug': 'toby-alderweireld', 'shortName': 'T. Alderweireld', 'position': 'D', 'userCount': 3746, 'id': 44575};Handball;49
+STO X SOU 2015-04-18;;118295466;yellow;card;False;{'name': 'Nathaniel Clyne', 'slug': 'nathaniel-clyne', 'shortName': 'N. Clyne', 'position': 'D', 'userCount': 1506, 'id': 43215};Foul;38
+STO X SOU 2015-04-18;;118295435;yellow;card;False;{'name': 'José Fonte', 'slug': 'jose-fonte', 'shortName': 'J. Fonte', 'position': 'D', 'userCount': 923, 'id': 27622};Foul;15
+CHE X MUN 2015-04-18;5.0;118296041;yellow;card;False;{'name': 'Ander Herrera', 'slug': 'ander-herrera', 'shortName': 'A. Herrera', 'position': 'M', 'userCount': 4142, 'id': 82474};Simulation;90
+CHE X MUN 2015-04-18;;118295975;yellow;card;True;{'name': 'Oscar', 'slug': 'oscar', 'shortName': 'Oscar', 'position': 'M', 'userCount': 2850, 'id': 39400};Foul;63
+CHE X MUN 2015-04-18;;118295968;yellow;card;True;{'name': 'Branislav Ivanović', 'slug': 'branislav-ivanovic', 'shortName': 'B. Ivanović', 'position': 'D', 'userCount': 887, 'id': 25233};Foul;57
+CHE X MUN 2015-04-18;;118295962;yellow;card;True;{'name': 'Didier Drogba', 'slug': 'didier-drogba', 'shortName': 'D. Drogba', 'position': 'F', 'userCount': 3057, 'id': 1222};Persistent fouling;54
+MCI X WES 2015-04-19;7.0;118296866;yellow;card;False;{'name': 'Stewart Downing', 'slug': 'stewart-downing', 'shortName': 'S. Downing', 'position': 'M', 'userCount': 61, 'id': 816};Foul;90
+MCI X WES 2015-04-19;;118296797;yellow;card;False;{'name': 'Cheikhou Kouyaté', 'slug': 'cheikhou-kouyate', 'shortName': 'C. Kouyaté', 'position': 'M', 'userCount': 1947, 'id': 45944};Foul;67
+MCI X WES 2015-04-19;;118296783;yellow;card;True;{'name': 'David Silva', 'slug': 'david-silva', 'shortName': 'D. Silva', 'position': 'M', 'userCount': 8076, 'id': 11781};Foul;58
+MCI X WES 2015-04-19;;118296689;yellow;card;True;{'name': 'Jesús Navas', 'slug': 'jesus-navas', 'shortName': 'J. Navas', 'position': 'D', 'userCount': 1544, 'id': 11869};Foul;35
+NEW X TOT 2015-04-19;;118297184;yellow;card;False;{'name': 'Nabil Bentaleb', 'slug': 'nabil-bentaleb', 'shortName': 'N. Bentaleb', 'position': 'M', 'userCount': 4096, 'id': 368120};Foul;88
+NEW X TOT 2015-04-19;;118297150;yellow;card;True;{'name': 'Rémy Cabella', 'slug': 'remy-cabella', 'shortName': 'R. Cabella', 'position': 'M', 'userCount': 441, 'id': 72998};Foul;63
+NEW X TOT 2015-04-19;;118297148;yellow;card;False;{'name': 'Jan Vertonghen', 'slug': 'jan-vertonghen', 'shortName': 'J. Vertonghen', 'position': 'D', 'userCount': 3150, 'id': 16921};Foul;61
+NEW X TOT 2015-04-19;;118297074;yellow;card;False;{'name': 'Érik Lamela', 'slug': 'erik-lamela', 'shortName': 'É. Lamela', 'position': 'M', 'userCount': 2874, 'id': 122702};Foul;45
+NEW X TOT 2015-04-19;;118297072;yellow;card;False;{'name': 'Paulinho', 'slug': 'paulinho', 'shortName': 'Paulinho', 'position': 'M', 'userCount': 4019, 'id': 115183};Off the ball foul;42
+NEW X TOT 2015-04-19;;118297052;yellow;card;True;{'name': 'Jack Colback', 'slug': 'jack-colback', 'shortName': 'J. Colback', 'position': 'M', 'userCount': 61, 'id': 40686};Foul;40
+HUL X LIV 2015-04-28;5.0;118301951;yellow;card;True;{'name': 'Gastón Ramírez', 'slug': 'gaston-ramirez', 'shortName': 'G. Ramírez', 'position': 'M', 'userCount': 736, 'id': 135590};Time wasting;90
+HUL X LIV 2015-04-28;;118301856;yellow;card;True;{'name': 'Jake Livermore', 'slug': 'jake-livermore', 'shortName': 'J. Livermore', 'position': 'M', 'userCount': 96, 'id': 34578};Foul;39
+ARS X SUN 2015-05-20;;118313199;yellow;card;True;{'name': 'Aaron Ramsey', 'slug': 'aaron-ramsey', 'shortName': 'A. Ramsey', 'position': 'M', 'userCount': 6366, 'id': 23571};Foul;18
+SOU X TOT 2015-04-25;6.0;118299080;yellow;card;False;{'name': 'Federico Fazio', 'slug': 'federico-fazio', 'shortName': 'F. Fazio', 'position': 'D', 'userCount': 1226, 'id': 27569};Foul;90
+SOU X TOT 2015-04-25;;118299047;yellow;card;True;{'name': 'Steven Davis', 'slug': 'steven-davis', 'shortName': 'S. Davis', 'position': 'M', 'userCount': 147, 'id': 559};Foul;66
+SOU X TOT 2015-04-25;;118299012;yellow;card;False;{'name': 'Ben Davies', 'slug': 'ben-davies', 'shortName': 'B. Davies', 'position': 'D', 'userCount': 1371, 'id': 94758};Foul;34
+SOU X TOT 2015-04-25;;118299011;yellow;card;False;{'name': 'Jan Vertonghen', 'slug': 'jan-vertonghen', 'shortName': 'J. Vertonghen', 'position': 'D', 'userCount': 3150, 'id': 16921};Foul;31
+BUR X LEI 2015-04-25;;118299401;yellow;card;True;{'name': 'Ross Wallace', 'slug': 'ross-wallace', 'shortName': 'R. Wallace', 'position': 'M', 'userCount': 21, 'id': 9046};Foul;85
+BUR X LEI 2015-04-25;;118299375;yellow;card;True;{'name': 'Danny Ings', 'slug': 'danny-ings', 'shortName': 'D. Ings', 'position': 'F', 'userCount': 2756, 'id': 130181};Foul;73
+BUR X LEI 2015-04-25;;118299365;yellow;card;True;{'name': 'Ben Mee', 'slug': 'ben-mee', 'shortName': 'B. Mee', 'position': 'D', 'userCount': 309, 'id': 137774};Foul;66
+NEW X SWA 2015-04-25;4.0;118299448;yellow;card;False;{'name': 'Marvin Emnes', 'slug': 'marvin-emnes', 'shortName': 'M. Emnes', 'position': 'F', 'userCount': 24, 'id': 14212};Unsporting behaviour;90
+NEW X SWA 2015-04-25;;118299289;yellow;card;False;{'name': 'Jordi Amat', 'slug': 'jordi-amat', 'shortName': 'J. Amat', 'position': 'D', 'userCount': 66, 'id': 106273};Foul;42
+NEW X SWA 2015-04-25;;118299230;yellow;card;True;{'name': 'Vurnon Anita', 'slug': 'vurnon-anita', 'shortName': 'V. Anita', 'position': 'M', 'userCount': 83, 'id': 15007};Foul;39
+QPR X WES 2015-04-25;;118299383;yellow;card;True;{'name': 'Charlie Austin', 'slug': 'charlie-austin', 'shortName': 'C. Austin', 'position': 'F', 'userCount': 314, 'id': 97905};Argument;77
+STO X SUN 2015-04-25;;118299399;yellow;card;False;{'name': 'Billy Jones', 'slug': 'billy-jones', 'shortName': 'B. Jones', 'position': 'D', 'userCount': 5, 'id': 27338};Foul;80
+STO X SUN 2015-04-25;;118299363;yellow;card;False;"{'name': ""John O'Shea"", 'slug': 'john-oshea', 'shortName': ""J. O'Shea"", 'position': 'D', 'userCount': 72, 'id': 763}";Foul;62
+STO X SUN 2015-04-25;;118299362;yellow;card;True;{'name': 'Philipp Wollscheid', 'slug': 'philipp-wollscheid', 'shortName': 'P. Wollscheid', 'position': 'D', 'userCount': 14, 'id': 94329};Argument;60
+STO X SUN 2015-04-25;;118299349;yellow;card;True;{'name': 'Mame Biram Diouf', 'slug': 'mame-biram-diouf', 'shortName': 'M. B. Diouf', 'position': 'M', 'userCount': 356, 'id': 22481};Foul;58
+STO X SUN 2015-04-25;;118299176;yellow;card;False;{'name': 'Lee Cattermole', 'slug': 'lee-cattermole', 'shortName': 'L. Cattermole', 'position': 'M', 'userCount': 54, 'id': 14210};Foul;18
+WBA X LIV 2015-04-25;;118299344;yellow;card;True;{'name': 'Craig Dawson', 'slug': 'craig-dawson', 'shortName': 'C. Dawson', 'position': 'D', 'userCount': 132, 'id': 50027};Foul;61
+MCI X ASV 2015-04-25;;118299820;yellow;card;False;{'name': 'Carlos Sánchez', 'slug': 'carlos-sanchez', 'shortName': 'C. Sánchez', 'position': 'M', 'userCount': 1669, 'id': 26995};Foul;65
+MCI X ASV 2015-04-25;;118299798;yellow;card;False;{'name': 'Ashley Westwood', 'slug': 'ashley-westwood', 'shortName': 'A. Westwood', 'position': 'M', 'userCount': 230, 'id': 49647};Off the ball foul;62
+MCI X ASV 2015-04-25;;118299776;yellow;card;True;{'name': 'David Silva', 'slug': 'david-silva', 'shortName': 'D. Silva', 'position': 'M', 'userCount': 8076, 'id': 11781};Foul;46
+EVE X MUN 2015-04-26;;118300746;yellow;card;False;{'name': 'Luke Shaw', 'slug': 'luke-shaw', 'shortName': 'L. Shaw', 'position': 'D', 'userCount': 3887, 'id': 190839};Foul;64
+EVE X MUN 2015-04-26;;118300641;yellow;card;False;{'name': 'Marouane Fellaini', 'slug': 'marouane-fellaini', 'shortName': 'M. Fellaini', 'position': 'M', 'userCount': 2630, 'id': 21764};Foul;12
+ARS X CHE 2015-04-26;5.0;118301140;yellow;card;True;{'name': 'Nacho Monreal', 'slug': 'nacho-monreal', 'shortName': 'N. Monreal', 'position': 'D', 'userCount': 1459, 'id': 17088};Foul;90
+ARS X CHE 2015-04-26;3.0;118301138;yellow;card;True;{'name': 'Santi Cazorla', 'slug': 'santi-cazorla', 'shortName': 'S. Cazorla', 'position': 'M', 'userCount': 2946, 'id': 17651};Foul;90
+ARS X CHE 2015-04-26;;118301134;yellow;card;True;{'name': 'Aaron Ramsey', 'slug': 'aaron-ramsey', 'shortName': 'A. Ramsey', 'position': 'M', 'userCount': 6366, 'id': 23571};Foul;89
+ARS X CHE 2015-04-26;;118301095;yellow;card;False;{'name': 'Branislav Ivanović', 'slug': 'branislav-ivanovic', 'shortName': 'B. Ivanović', 'position': 'D', 'userCount': 887, 'id': 25233};Persistent fouling;72
+ARS X CHE 2015-04-26;;118301074;yellow;card;False;{'name': 'Willian', 'slug': 'willian', 'shortName': 'Willian', 'position': 'F', 'userCount': 22018, 'id': 31417};Foul;68
+ARS X CHE 2015-04-26;;118300960;yellow;card;True;{'name': 'Francis Coquelin', 'slug': 'francis-coquelin', 'shortName': 'F. Coquelin', 'position': 'M', 'userCount': 796, 'id': 40672};Foul;34
+ARS X CHE 2015-04-26;;118300939;yellow;card;False;{'name': 'Cesc Fàbregas', 'slug': 'cesc-fabregas', 'shortName': 'C. Fàbregas', 'position': 'M', 'userCount': 5114, 'id': 518};Simulation;23
+LEI X NEW 2015-05-02;1.0;118303157;yellowRed;card;False;{'name': 'Daryl Janmaat', 'slug': 'daryl-janmaat', 'shortName': 'D. Janmaat', 'position': 'D', 'userCount': 252, 'id': 32213};Foul;90
+LEI X NEW 2015-05-02;;118303128;yellow;card;False;{'name': 'Paul Dummett', 'slug': 'paul-dummett', 'shortName': 'P. Dummett', 'position': 'D', 'userCount': 115, 'id': 185995};Foul;70
+LEI X NEW 2015-05-02;;118303123;yellowRed;card;False;{'name': 'Mike Williamson', 'slug': 'mike-williamson', 'shortName': 'M. Williamson', 'position': 'D', 'userCount': 7, 'id': 20402};Off the ball foul;62
+LEI X NEW 2015-05-02;;118303120;yellow;card;False;{'name': 'Mike Williamson', 'slug': 'mike-williamson', 'shortName': 'M. Williamson', 'position': 'D', 'userCount': 7, 'id': 20402};Foul;55
+LEI X NEW 2015-05-02;;118303108;yellow;card;True;{'name': 'Matty James', 'slug': 'matty-james', 'shortName': 'M. James', 'position': 'M', 'userCount': 81, 'id': 54331};Off the ball foul;29
+LEI X NEW 2015-05-02;;118303107;yellow;card;False;{'name': 'Jonás Gutiérrez', 'slug': 'jonas-gutierrez', 'shortName': 'J. Gutiérrez', 'position': 'M', 'userCount': 39, 'id': 12803};Foul;28
+LEI X NEW 2015-05-02;;118303105;yellow;card;False;{'name': 'Daryl Janmaat', 'slug': 'daryl-janmaat', 'shortName': 'D. Janmaat', 'position': 'D', 'userCount': 252, 'id': 32213};Foul;16
+ASV X EVE 2015-05-02;3.0;118303587;yellow;card;True;{'name': 'Shay Given', 'slug': 'shay-given', 'shortName': 'S. Given', 'position': 'G', 'userCount': 32, 'id': 766};Argument;90
+ASV X EVE 2015-05-02;;118303575;yellow;card;True;{'name': 'Ron Vlaar', 'slug': 'ron-vlaar', 'shortName': 'R. Vlaar', 'position': 'D', 'userCount': 71, 'id': 9965};Foul;84
+ASV X EVE 2015-05-02;;118303547;yellow;card;False;{'name': 'Séamus Coleman', 'slug': 'seamus-coleman', 'shortName': 'S. Coleman', 'position': 'D', 'userCount': 647, 'id': 76632};Foul;73
+LIV X QPR 2015-05-02;3.0;118303585;yellow;card;False;{'name': 'Charlie Austin', 'slug': 'charlie-austin', 'shortName': 'C. Austin', 'position': 'F', 'userCount': 314, 'id': 97905};Foul;90
+LIV X QPR 2015-05-02;;118303562;yellowRed;card;False;{'name': 'Nedum Onuoha', 'slug': 'nedum-onuoha', 'shortName': 'N. Onuoha', 'position': 'D', 'userCount': 11, 'id': 1082};Foul;82
+LIV X QPR 2015-05-02;;118303557;yellow;card;False;{'name': 'Nedum Onuoha', 'slug': 'nedum-onuoha', 'shortName': 'N. Onuoha', 'position': 'D', 'userCount': 11, 'id': 1082};Foul;79
+LIV X QPR 2015-05-02;;118303555;yellow;card;False;{'name': 'Richard Dunne', 'slug': 'richard-dunne', 'shortName': 'R. Dunne', 'position': 'D', 'userCount': 2, 'id': 1089};Foul;76
+LIV X QPR 2015-05-02;;118303553;yellow;card;True;{'name': 'Dejan Lovren', 'slug': 'dejan-lovren', 'shortName': 'D. Lovren', 'position': 'D', 'userCount': 5870, 'id': 39480};Foul;75
+LIV X QPR 2015-05-02;;118303354;yellow;card;False;{'name': 'Sandro', 'slug': 'sandro', 'shortName': 'Sandro', 'position': 'M', 'userCount': 138, 'id': 43301};Foul;43
+LIV X QPR 2015-05-02;;118303312;yellow;card;True;{'name': 'Steven Gerrard', 'slug': 'steven-gerrard', 'shortName': 'S. Gerrard', 'position': 'M', 'userCount': 1393, 'id': 701};Foul;18
+SUN X SOU 2015-05-02;5.0;118303595;yellow;card;False;{'name': 'Graziano Pellè', 'slug': 'graziano-pelle', 'shortName': 'G. Pellè', 'position': 'F', 'userCount': 801, 'id': 11601};Argument;90
+SUN X SOU 2015-05-02;;118303540;yellow;card;False;{'name': 'Victor Wanyama', 'slug': 'victor-wanyama', 'shortName': 'V. Wanyama', 'position': 'M', 'userCount': 3939, 'id': 45956};Foul;63
+SUN X SOU 2015-05-02;;118303537;yellow;card;True;{'name': 'Lee Cattermole', 'slug': 'lee-cattermole', 'shortName': 'L. Cattermole', 'position': 'M', 'userCount': 54, 'id': 14210};Foul;60
+SUN X SOU 2015-05-02;;118303523;red;card;False;{'name': 'James Ward-Prowse', 'slug': 'james-ward-prowse', 'shortName': 'J. Ward-Prowse', 'position': 'M', 'userCount': 840, 'id': 161717};Professional foul;54
+SUN X SOU 2015-05-02;;118303334;yellow;card;True;{'name': 'Billy Jones', 'slug': 'billy-jones', 'shortName': 'B. Jones', 'position': 'D', 'userCount': 5, 'id': 27338};Foul;32
+SWA X STO 2015-05-02;;118303576;yellowRed;card;False;{'name': 'Marc Wilson', 'slug': 'marc-wilson', 'shortName': 'M. Wilson', 'position': 'M', 'userCount': 8, 'id': 9104};Foul;84
+SWA X STO 2015-05-02;;118303548;yellow;card;True;{'name': 'Àngel Rangel', 'slug': 'angel-rangel', 'shortName': 'À. Rangel', 'position': 'D', 'userCount': 42, 'id': 27463};Foul;73
+SWA X STO 2015-05-02;;118303539;yellow;card;False;{'name': 'Marc Wilson', 'slug': 'marc-wilson', 'shortName': 'M. Wilson', 'position': 'M', 'userCount': 8, 'id': 9104};Foul;62
+SWA X STO 2015-05-02;;118303532;yellow;card;False;{'name': 'Marko Arnautović', 'slug': 'marko-arnautovic', 'shortName': 'M. Arnautović', 'position': 'F', 'userCount': 2472, 'id': 21927};Foul;59
+WES X BUR 2015-05-02;3.0;118303586;yellow;card;False;{'name': 'Ben Mee', 'slug': 'ben-mee', 'shortName': 'B. Mee', 'position': 'D', 'userCount': 309, 'id': 137774};Foul;90
+WES X BUR 2015-05-02;;118303577;yellow;card;False;{'name': 'Ross Wallace', 'slug': 'ross-wallace', 'shortName': 'R. Wallace', 'position': 'M', 'userCount': 21, 'id': 9046};Off the ball foul;84
+WES X BUR 2015-05-02;;118303536;yellow;card;True;{'name': 'Stewart Downing', 'slug': 'stewart-downing', 'shortName': 'S. Downing', 'position': 'M', 'userCount': 61, 'id': 816};Simulation;60
+WES X BUR 2015-05-02;;118303359;yellow;card;True;{'name': 'Mark Noble', 'slug': 'mark-noble', 'shortName': 'M. Noble', 'position': 'M', 'userCount': 457, 'id': 9741};Handball;44
+WES X BUR 2015-05-02;;118303351;yellow;card;True;{'name': 'Enner Valencia', 'slug': 'enner-valencia', 'shortName': 'E. Valencia', 'position': 'F', 'userCount': 554, 'id': 106456};Foul;41
+WES X BUR 2015-05-02;;118303321;red;card;False;{'name': 'Michael Duff', 'slug': 'michael-duff', 'shortName': 'M. Duff', 'position': 'D', 'userCount': 3, 'id': 9884};Professional foul;23
+MUN X WBA 2015-05-02;;118303938;yellow;card;True;{'name': 'Paddy McNair', 'slug': 'paddy-mcnair', 'shortName': 'P. McNair', 'position': 'M', 'userCount': 156, 'id': 592876};Foul;62
+CHE X CRY 2015-05-03;2.0;118304565;yellow;card;False;{'name': 'Adrian Mariappa', 'slug': 'adrian-mariappa', 'shortName': 'A. Mariappa', 'position': 'D', 'userCount': 193, 'id': 10597};Foul;45
+CHE X CRY 2015-05-03;;118304542;yellow;card;True;{'name': 'John Terry', 'slug': 'john-terry', 'shortName': 'J. Terry', 'position': 'D', 'userCount': 741, 'id': 1205};Foul;38
+CHE X CRY 2015-05-03;;118304528;yellow;card;True;{'name': 'Branislav Ivanović', 'slug': 'branislav-ivanovic', 'shortName': 'B. Ivanović', 'position': 'D', 'userCount': 887, 'id': 25233};Foul;27
+CHE X CRY 2015-05-03;;118304522;yellow;card;False;{'name': 'Scott Dann', 'slug': 'scott-dann', 'shortName': 'S. Dann', 'position': 'D', 'userCount': 94, 'id': 20278};Foul;23
+TOT X MCI 2015-05-03;5.0;118305045;yellow;card;True;{'name': 'Harry Kane', 'slug': 'harry-kane', 'shortName': 'H. Kane', 'position': 'F', 'userCount': 48930, 'id': 108579};Off the ball foul;90
+TOT X MCI 2015-05-03;;118305000;yellow;card;False;{'name': 'David Silva', 'slug': 'david-silva', 'shortName': 'D. Silva', 'position': 'M', 'userCount': 8076, 'id': 11781};Foul;82
+TOT X MCI 2015-05-03;;118304979;yellow;card;False;{'name': 'Aleksandar Kolarov', 'slug': 'aleksandar-kolarov', 'shortName': 'A. Kolarov', 'position': 'D', 'userCount': 3428, 'id': 26097};Foul;74
+TOT X MCI 2015-05-03;;118304968;yellow;card;False;{'name': 'Pablo Zabaleta', 'slug': 'pablo-zabaleta', 'shortName': 'P. Zabaleta', 'position': 'D', 'userCount': 571, 'id': 11796};Foul;68
+TOT X MCI 2015-05-03;1.0;118304887;yellow;card;True;{'name': 'Ryan Mason', 'slug': 'ryan-mason', 'shortName': 'R. Mason', 'position': 'M', 'userCount': 38, 'id': 44567};Foul;45
+TOT X MCI 2015-05-03;;118304885;yellow;card;True;{'name': 'Nabil Bentaleb', 'slug': 'nabil-bentaleb', 'shortName': 'N. Bentaleb', 'position': 'M', 'userCount': 4096, 'id': 368120};Off the ball foul;42
+TOT X MCI 2015-05-03;;118304849;yellow;card;False;{'name': 'James Milner', 'slug': 'james-milner', 'shortName': 'J. Milner', 'position': 'M', 'userCount': 4415, 'id': 791};Foul;41
+HUL X ARS 2015-05-04;;118305731;yellow;card;True;"{'name': ""Dame N'Doye"", 'slug': 'dame-ndoye', 'shortName': ""D. N'Doye"", 'position': 'F', 'userCount': 468, 'id': 30178}";Foul;30
+HUL X ARS 2015-05-04;;118305727;yellow;card;True;{'name': 'Jake Livermore', 'slug': 'jake-livermore', 'shortName': 'J. Livermore', 'position': 'M', 'userCount': 96, 'id': 34578};Foul;23
+EVE X SUN 2015-05-09;;118306996;yellow;card;True;{'name': 'Luke Garbutt', 'slug': 'luke-garbutt', 'shortName': 'L. Garbutt', 'position': 'M', 'userCount': 29, 'id': 98429};Foul;88
+EVE X SUN 2015-05-09;;118306982;yellow;card;True;{'name': 'Séamus Coleman', 'slug': 'seamus-coleman', 'shortName': 'S. Coleman', 'position': 'D', 'userCount': 647, 'id': 76632};Foul;73
+EVE X SUN 2015-05-09;;118306980;yellow;card;False;{'name': 'Jermain Defoe', 'slug': 'jermain-defoe', 'shortName': 'J. Defoe', 'position': 'F', 'userCount': 662, 'id': 946};Off the ball foul;66
+EVE X SUN 2015-05-09;;118306979;yellow;card;False;{'name': 'Jordi Gomez', 'slug': 'jordi-gomez', 'shortName': 'J. Gomez', 'position': 'M', 'userCount': 42, 'id': 35528};Off the ball foul;65
+EVE X SUN 2015-05-09;;118306960;yellow;card;False;{'name': 'Wes Brown', 'slug': 'wes-brown', 'shortName': 'W. Brown', 'position': 'D', 'userCount': 46, 'id': 749};Off the ball foul;42
+ASV X WES 2015-05-09;;118307234;yellow;card;False;{'name': 'Alex Song', 'slug': 'alex-song', 'shortName': 'A. Song', 'position': 'M', 'userCount': 964, 'id': 12987};Foul;72
+ASV X WES 2015-05-09;;118307149;yellow;card;True;"{'name': ""Charles N'Zogbia"", 'slug': 'charles-nzogbia', 'shortName': ""C. N'Zogbia"", 'position': 'M', 'userCount': 2, 'id': 789}";Foul;45
+HUL X BUR 2015-05-09;;118307250;yellow;card;False;{'name': 'Danny Ings', 'slug': 'danny-ings', 'shortName': 'D. Ings', 'position': 'F', 'userCount': 2756, 'id': 130181};Foul;79
+HUL X BUR 2015-05-09;;118307230;yellow;card;True;{'name': 'Nikica Jelavić', 'slug': 'nikica-jelavic', 'shortName': 'N. Jelavić', 'position': 'F', 'userCount': 95, 'id': 37327};Argument;67
+LEI X SOU 2015-05-09;;118307266;yellow;card;True;{'name': 'Marcin Wasilewski', 'slug': 'marcin-wasilewski', 'shortName': 'M. Wasilewski', 'position': 'D', 'userCount': 233, 'id': 18398};Foul;81
+NEW X WBA 2015-05-09;;118307268;yellow;card;False;{'name': 'Claudio Yacob', 'slug': 'claudio-yacob', 'shortName': 'C. Yacob', 'position': 'M', 'userCount': 52, 'id': 151037};Foul;86
+NEW X WBA 2015-05-09;;118307261;yellow;card;False;{'name': 'James Morrison', 'slug': 'james-morrison', 'shortName': 'J. Morrison', 'position': 'M', 'userCount': 26, 'id': 822};Foul;82
+NEW X WBA 2015-05-09;;118307254;yellow;card;True;{'name': 'Ryan Taylor', 'slug': 'ryan-taylor', 'shortName': 'R. Taylor', 'position': 'M', 'userCount': 3, 'id': 9773};Foul;79
+NEW X WBA 2015-05-09;;118307194;yellow;card;False;{'name': 'Craig Dawson', 'slug': 'craig-dawson', 'shortName': 'C. Dawson', 'position': 'D', 'userCount': 132, 'id': 50027};Foul;52
+NEW X WBA 2015-05-09;;118307086;yellow;card;True;{'name': 'Jonás Gutiérrez', 'slug': 'jonas-gutierrez', 'shortName': 'J. Gutiérrez', 'position': 'M', 'userCount': 39, 'id': 12803};Foul;31
+STO X TOT 2015-05-09;;118307193;yellowRed;card;False;{'name': 'Vlad Chiricheş', 'slug': 'vlad-chiriches', 'shortName': 'V. Chiricheş', 'position': 'D', 'userCount': 706, 'id': 69295};Foul;51
+STO X TOT 2015-05-09;;118307058;yellow;card;False;{'name': 'Vlad Chiricheş', 'slug': 'vlad-chiriches', 'shortName': 'V. Chiricheş', 'position': 'D', 'userCount': 706, 'id': 69295};Foul;16
+CRY X MUN 2015-05-09;;118307513;yellow;card;False;{'name': 'Ander Herrera', 'slug': 'ander-herrera', 'shortName': 'A. Herrera', 'position': 'M', 'userCount': 4142, 'id': 82474};Foul;55
+MCI X QPR 2015-05-10;;118308300;yellow;card;False;{'name': 'Joey Barton', 'slug': 'joey-barton', 'shortName': 'J. Barton', 'position': 'M', 'userCount': 38, 'id': 1095};Foul;62
+CHE X LIV 2015-05-10;;118308622;yellow;card;True;{'name': 'Filipe Luis', 'slug': 'filipe-luis', 'shortName': 'F. Luís', 'position': 'D', 'userCount': 3136, 'id': 26029};Foul;82
+CHE X LIV 2015-05-10;;118308588;yellow;card;True;{'name': 'John Mikel Obi', 'slug': 'john-mikel-obi', 'shortName': 'J. O. Mikel', 'position': 'M', 'userCount': 3361, 'id': 7311};Foul;58
+CHE X LIV 2015-05-10;;118308527;yellow;card;True;{'name': 'Branislav Ivanović', 'slug': 'branislav-ivanovic', 'shortName': 'B. Ivanović', 'position': 'D', 'userCount': 887, 'id': 25233};Foul;43
+CHE X LIV 2015-05-10;;118308493;yellow;card;False;{'name': 'Rickie Lambert', 'slug': 'rickie-lambert', 'shortName': 'R. Lambert', 'position': 'F', 'userCount': 25, 'id': 19659};Foul;29
+CHE X LIV 2015-05-10;;118308489;yellow;card;False;{'name': 'Martin Škrtel', 'slug': 'martin-skrtel', 'shortName': 'M. Škrtel', 'position': 'D', 'userCount': 727, 'id': 12394};Foul;26
+CHE X LIV 2015-05-10;;118308475;yellow;card;False;{'name': 'Adam Lallana', 'slug': 'adam-lallana', 'shortName': 'A. Lallana', 'position': 'M', 'userCount': 3225, 'id': 17054};Foul;20
+CHE X LIV 2015-05-10;;118308416;yellow;card;True;{'name': 'Cesc Fàbregas', 'slug': 'cesc-fabregas', 'shortName': 'C. Fàbregas', 'position': 'M', 'userCount': 5114, 'id': 518};Off the ball foul;2
+ARS X SWA 2015-05-11;;118309426;yellow;card;False;{'name': 'Jonjo Shelvey', 'slug': 'jonjo-shelvey', 'shortName': 'J. Shelvey', 'position': 'M', 'userCount': 517, 'id': 36465};Foul;38
+SOU X ASV 2015-05-16;;118310560;yellow;card;True;{'name': 'Victor Wanyama', 'slug': 'victor-wanyama', 'shortName': 'V. Wanyama', 'position': 'M', 'userCount': 3939, 'id': 45956};Foul;69
+SOU X ASV 2015-05-16;;118310531;yellow;card;False;{'name': 'Ashley Westwood', 'slug': 'ashley-westwood', 'shortName': 'A. Westwood', 'position': 'M', 'userCount': 230, 'id': 49647};Foul;21
+BUR X STO 2015-05-16;;118310840;yellow;card;False;"{'name': ""Steven\u200b N'Zonzi"", 'slug': 'steven-nzonzi', 'shortName': ""S. N'Zonzi"", 'position': 'M', 'userCount': 1458, 'id': 51652}";Foul;49
+BUR X STO 2015-05-16;;118310760;yellow;card;True;{'name': 'George Boyd', 'slug': 'george-boyd', 'shortName': 'G. Boyd', 'position': 'M', 'userCount': 23, 'id': 20653};Foul;42
+BUR X STO 2015-05-16;;118310702;yellow;card;False;{'name': 'Mame Biram Diouf', 'slug': 'mame-biram-diouf', 'shortName': 'M. B. Diouf', 'position': 'M', 'userCount': 356, 'id': 22481};Foul;25
+QPR X NEW 2015-05-16;;118310894;yellow;card;True;{'name': 'Seok-yeong Yun', 'slug': 'seok-yeong-yun', 'shortName': 'S. Y. Yun', 'position': 'D', 'userCount': 2, 'id': 146945};Foul;84
+QPR X NEW 2015-05-16;;118310842;yellow;card;True;{'name': 'Joey Barton', 'slug': 'joey-barton', 'shortName': 'J. Barton', 'position': 'M', 'userCount': 38, 'id': 1095};Foul;50
+SUN X LEI 2015-05-16;;118310889;yellow;card;True;{'name': 'Sebastian Larsson', 'slug': 'sebastian-larsson', 'shortName': 'S. Larsson', 'position': 'M', 'userCount': 241, 'id': 524};Foul;79
+SUN X LEI 2015-05-16;;118310878;yellow;card;True;{'name': 'Connor Wickham', 'slug': 'connor-wickham', 'shortName': 'C. Wickham', 'position': 'F', 'userCount': 111, 'id': 50485};Foul;66
+SUN X LEI 2015-05-16;;118310869;yellow;card;False;{'name': 'Robert Huth', 'slug': 'robert-huth', 'shortName': 'R. Huth', 'position': 'D', 'userCount': 73, 'id': 1203};Foul;63
+SUN X LEI 2015-05-16;;118310763;yellow;card;True;{'name': 'Lee Cattermole', 'slug': 'lee-cattermole', 'shortName': 'L. Cattermole', 'position': 'M', 'userCount': 54, 'id': 14210};Foul;43
+SUN X LEI 2015-05-16;;118310711;yellow;card;True;{'name': 'Liam Bridcutt', 'slug': 'liam-bridcutt', 'shortName': 'L. Bridcutt', 'position': 'M', 'userCount': 17, 'id': 33852};Foul;29
+TOT X HUL 2015-05-16;2.0;118310903;yellow;card;False;{'name': 'David Meyler', 'slug': 'david-meyler', 'shortName': 'D. Meyler', 'position': 'M', 'userCount': 121, 'id': 43442};Argument;90
+TOT X HUL 2015-05-16;;118310863;yellow;card;True;{'name': 'Danny Rose', 'slug': 'danny-rose', 'shortName': 'D. Rose', 'position': 'D', 'userCount': 1667, 'id': 16586};Foul;59
+TOT X HUL 2015-05-16;;118310861;yellow;card;True;{'name': 'Nabil Bentaleb', 'slug': 'nabil-bentaleb', 'shortName': 'N. Bentaleb', 'position': 'M', 'userCount': 4096, 'id': 368120};Foul;57
+TOT X HUL 2015-05-16;;118310756;yellow;card;True;{'name': 'Ryan Mason', 'slug': 'ryan-mason', 'shortName': 'R. Mason', 'position': 'M', 'userCount': 38, 'id': 44567};Foul;42
+WES X EVE 2015-05-16;1.0;118310899;yellow;card;False;{'name': 'Brendon Galloway', 'slug': 'brendon-galloway', 'shortName': 'B. Galloway', 'position': 'D', 'userCount': 31, 'id': 198030};Foul;90
+WES X EVE 2015-05-16;;118310882;yellow;card;False;{'name': 'James McCarthy', 'slug': 'james-mccarthy', 'shortName': 'J. McCarthy', 'position': 'M', 'userCount': 203, 'id': 39283};Foul;74
+WES X EVE 2015-05-16;;118310773;yellow;card;False;{'name': 'Gareth Barry', 'slug': 'gareth-barry', 'shortName': 'G. Barry', 'position': 'M', 'userCount': 136, 'id': 544};Foul;45
+WES X EVE 2015-05-16;;118310724;yellow;card;False;{'name': 'Séamus Coleman', 'slug': 'seamus-coleman', 'shortName': 'S. Coleman', 'position': 'D', 'userCount': 647, 'id': 76632};Foul;33
+WES X EVE 2015-05-16;;118310726;yellow;card;True;{'name': 'Winston Reid', 'slug': 'winston-reid', 'shortName': 'W. Reid', 'position': 'D', 'userCount': 155, 'id': 14120};Foul;26
+LIV X CRY 2015-05-16;;118311171;yellow;card;True;{'name': 'Philippe Coutinho', 'slug': 'philippe-coutinho', 'shortName': 'P. Coutinho', 'position': 'M', 'userCount': 78237, 'id': 119159};Argument;87
+LIV X CRY 2015-05-16;;118311167;yellow;card;False;{'name': 'Jordon Mutch', 'slug': 'jordon-mutch', 'shortName': 'J. Mutch', 'position': 'M', 'userCount': 13, 'id': 38130};Foul;84
+LIV X CRY 2015-05-16;;118311147;yellow;card;False;{'name': 'James McArthur', 'slug': 'james-mcarthur', 'shortName': 'J. McArthur', 'position': 'M', 'userCount': 196, 'id': 39282};Foul;83
+LIV X CRY 2015-05-16;;118311141;yellow;card;False;{'name': 'Joel Ward', 'slug': 'joel-ward', 'shortName': 'J. Ward', 'position': 'D', 'userCount': 171, 'id': 39183};Foul;79
+LIV X CRY 2015-05-16;;118311066;yellow;card;True;{'name': 'Emre Can', 'slug': 'emre-can', 'shortName': 'E. Can', 'position': 'M', 'userCount': 5464, 'id': 138156};Foul;42
+SWA X MCI 2015-05-17;;118311898;yellow;card;False;{'name': 'Fernandinho', 'slug': 'fernandinho', 'shortName': 'Fernandinho', 'position': 'D', 'userCount': 3835, 'id': 13630};Foul;77
+SWA X MCI 2015-05-17;;118311854;yellow;card;False;{'name': 'Pablo Zabaleta', 'slug': 'pablo-zabaleta', 'shortName': 'P. Zabaleta', 'position': 'D', 'userCount': 571, 'id': 11796};Foul;61
+SWA X MCI 2015-05-17;;118311840;yellow;card;False;{'name': 'James Milner', 'slug': 'james-milner', 'shortName': 'J. Milner', 'position': 'M', 'userCount': 4415, 'id': 791};Foul;50
+MUN X ARS 2015-05-17;5.0;118312169;yellow;card;True;{'name': 'Ander Herrera', 'slug': 'ander-herrera', 'shortName': 'A. Herrera', 'position': 'M', 'userCount': 4142, 'id': 82474};Foul;90
+WBA X CHE 2015-05-18;;118312877;yellow;card;False;{'name': 'Juan Cuadrado', 'slug': 'juan-cuadrado', 'shortName': 'J. Cuadrado', 'position': 'M', 'userCount': 10244, 'id': 47743};Foul;82
+WBA X CHE 2015-05-18;;118312871;yellow;card;True;{'name': 'Craig Gardner', 'slug': 'craig-gardner', 'shortName': 'C. Gardner', 'position': 'M', 'userCount': 13, 'id': 14235};Foul;63
+WBA X CHE 2015-05-18;;118312857;yellow;card;True;{'name': 'Jonas Olsson', 'slug': 'jonas-olsson', 'shortName': 'J. Olsson', 'position': 'D', 'userCount': 25, 'id': 7776};Foul;37
+WBA X CHE 2015-05-18;;118312855;yellow;card;True;{'name': 'Darren Fletcher', 'slug': 'darren-fletcher', 'shortName': 'D. Fletcher', 'position': 'M', 'userCount': 86, 'id': 765};Argument;29
+WBA X CHE 2015-05-18;;118312854;red;card;False;{'name': 'Cesc Fàbregas', 'slug': 'cesc-fabregas', 'shortName': 'C. Fàbregas', 'position': 'M', 'userCount': 5114, 'id': 518};Fight;29
+WBA X CHE 2015-05-18;;118312853;yellow;card;False;{'name': 'Diego Costa', 'slug': 'diego-costa', 'shortName': 'D. Costa', 'position': 'F', 'userCount': 8943, 'id': 21212};Argument;28
+ARS X WBA 2015-05-24;;118315174;yellow;card;True;{'name': 'Héctor Bellerín', 'slug': 'hector-bellerin', 'shortName': 'H. Bellerín', 'position': 'D', 'userCount': 3853, 'id': 188365};Foul;48
+ASV X BUR 2015-05-24;;118315200;yellow;card;False;{'name': 'Scott Arfield', 'slug': 'scott-arfield', 'shortName': 'S. Arfield', 'position': 'M', 'userCount': 163, 'id': 17056};Foul;66
+ASV X BUR 2015-05-24;;118315180;yellow;card;True;{'name': 'Ron Vlaar', 'slug': 'ron-vlaar', 'shortName': 'R. Vlaar', 'position': 'D', 'userCount': 71, 'id': 9965};Foul;53
+ASV X BUR 2015-05-24;;118315135;yellow;card;False;{'name': 'Fredrik Ulvestad', 'slug': 'fredrik-ulvestad', 'shortName': 'F. Ulvestad', 'position': 'M', 'userCount': 43, 'id': 36922};Foul;29
+CHE X SUN 2015-05-24;;118315214;yellow;card;True;{'name': 'Nemanja Matić', 'slug': 'nemanja-matic', 'shortName': 'N. Matić', 'position': 'M', 'userCount': 4931, 'id': 44241};Foul;82
+CHE X SUN 2015-05-24;;118315146;yellow;card;True;{'name': 'Juan Cuadrado', 'slug': 'juan-cuadrado', 'shortName': 'J. Cuadrado', 'position': 'M', 'userCount': 10244, 'id': 47743};Foul;42
+CHE X SUN 2015-05-24;;118315137;yellow;card;False;{'name': 'Jack Rodwell', 'slug': 'jack-rodwell', 'shortName': 'J. Rodwell', 'position': 'D', 'userCount': 83, 'id': 32002};Foul;32
+CRY X SWA 2015-05-24;2.0;118315238;yellow;card;True;{'name': 'Brede Hangeland', 'slug': 'brede-hangeland', 'shortName': 'B. Hangeland', 'position': 'D', 'userCount': 1, 'id': 6381};Off the ball foul;90
+CRY X SWA 2015-05-24;1.0;118315227;yellow;card;True;{'name': 'Glenn Murray', 'slug': 'glenn-murray', 'shortName': 'G. Murray', 'position': 'F', 'userCount': 419, 'id': 20097};Foul;89
+EVE X TOT 2015-05-24;;118315215;yellow;card;False;{'name': 'Ryan Mason', 'slug': 'ryan-mason', 'shortName': 'R. Mason', 'position': 'M', 'userCount': 38, 'id': 44567};Foul;83
+EVE X TOT 2015-05-24;;118315210;yellow;card;True;{'name': 'Phil Jagielka', 'slug': 'phil-jagielka', 'shortName': 'P. Jagielka', 'position': 'D', 'userCount': 230, 'id': 10507};Foul;81
+EVE X TOT 2015-05-24;;118315208;yellow;card;False;{'name': 'Benjamin Stambouli', 'slug': 'benjamin-stambouli', 'shortName': 'B. Stambouli', 'position': 'D', 'userCount': 241, 'id': 105951};;80
+HUL X MUN 2015-05-24;3.0;118315234;yellow;card;True;{'name': 'Stephen Quinn', 'slug': 'stephen-quinn', 'shortName': 'S. Quinn', 'position': 'M', 'userCount': 16, 'id': 11807};Foul;90
+HUL X MUN 2015-05-24;2.0;118315232;yellow;card;False;{'name': 'Chris Smalling', 'slug': 'chris-smalling', 'shortName': 'C. Smalling', 'position': 'D', 'userCount': 3530, 'id': 47741};Foul;90
+HUL X MUN 2015-05-24;;118315228;yellow;card;True;{'name': 'Michael Dawson', 'slug': 'michael-dawson', 'shortName': 'M. Dawson', 'position': 'D', 'userCount': 54, 'id': 927};Foul;90
+HUL X MUN 2015-05-24;;118315206;red;card;False;{'name': 'Marouane Fellaini', 'slug': 'marouane-fellaini', 'shortName': 'M. Fellaini', 'position': 'M', 'userCount': 2630, 'id': 21764};Foul;77
+HUL X MUN 2015-05-24;;118315194;yellow;card;False;{'name': 'Daley Blind', 'slug': 'daley-blind', 'shortName': 'D. Blind', 'position': 'D', 'userCount': 2317, 'id': 44864};;57
+MCI X SOU 2015-05-24;;118315132;yellow;card;False;{'name': 'Shane Long', 'slug': 'shane-long', 'shortName': 'S. Long', 'position': 'F', 'userCount': 466, 'id': 10486};Foul;25
+MCI X SOU 2015-05-24;;118315108;yellow;card;True;{'name': 'Martín Demichelis', 'slug': 'martin-demichelis', 'shortName': 'M. Demichelis', 'position': 'D', 'userCount': 69, 'id': 301};Foul;2
+NEW X WES 2015-05-24;;118315223;yellow;card;True;{'name': 'Jonás Gutiérrez', 'slug': 'jonas-gutierrez', 'shortName': 'J. Gutiérrez', 'position': 'M', 'userCount': 39, 'id': 12803};;86
+NEW X WES 2015-05-24;;118315209;yellow;card;False;{'name': 'Morgan Amalfitano', 'slug': 'morgan-amalfitano', 'shortName': 'M. Amalfitano', 'position': 'M', 'userCount': 12, 'id': 16405};Foul;80
+NEW X WES 2015-05-24;;118315191;yellow;card;True;{'name': 'Moussa Sissoko', 'slug': 'moussa-sissoko', 'shortName': 'M. Sissoko', 'position': 'M', 'userCount': 2424, 'id': 27014};;54
+STO X LIV 2015-05-24;;118315207;yellow;card;True;{'name': 'Erik Pieters', 'slug': 'erik-pieters', 'shortName': 'E. Pieters', 'position': 'D', 'userCount': 345, 'id': 17063};Foul;77
+STO X LIV 2015-05-24;;118315176;yellow;card;False;{'name': 'Martin Škrtel', 'slug': 'martin-skrtel', 'shortName': 'M. Škrtel', 'position': 'D', 'userCount': 727, 'id': 12394};Foul;48
+STO X LIV 2015-05-24;1.0;118315149;yellow;card;True;{'name': 'Ryan Shawcross', 'slug': 'ryan-shawcross', 'shortName': 'R. Shawcross', 'position': 'D', 'userCount': 45, 'id': 27314};Foul;45
+STO X LIV 2015-05-24;;118315128;yellow;card;True;{'name': 'Glenn Whelan', 'slug': 'glenn-whelan', 'shortName': 'G. Whelan', 'position': 'M', 'userCount': 61, 'id': 10535};Foul;16
+STO X LIV 2015-05-24;;118315123;yellow;card;False;{'name': 'Lucas Leiva', 'slug': 'lucas-leiva', 'shortName': 'L. Leiva', 'position': 'M', 'userCount': 1021, 'id': 27234};Foul;14
+STO X LIV 2015-05-24;;118315112;yellow;card;True;{'name': 'Charlie Adam', 'slug': 'charlie-adam', 'shortName': 'C. Adam', 'position': 'M', 'userCount': 53, 'id': 9360};Foul;8

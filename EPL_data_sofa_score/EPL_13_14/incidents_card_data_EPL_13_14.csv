@@ -1,0 +1,10 @@
+game;player;id;time;isHome;incidentClass;incidentType
+SOU X HUL 2013-11-09;{'name': 'Morgan Schneiderlin', 'slug': 'morgan-schneiderlin', 'shortName': 'M. Schneiderlin', 'position': 'M', 'userCount': 739, 'id': 27009};59782796;79;True;yellow;card
+SOU X HUL 2013-11-09;{'name': 'Curtis Davies', 'slug': 'curtis-davies', 'shortName': 'C. Davies', 'position': 'D', 'userCount': 35, 'id': 10281};59772374;44;False;yellow;card
+SOU X HUL 2013-11-09;{'name': 'Steve Harper', 'slug': 'steve-harper', 'shortName': 'S. Harper', 'position': 'G', 'userCount': 1, 'id': 788};59769346;29;False;yellow;card
+MUN X LIV 2014-03-16;{'name': 'Nemanja Vidić', 'slug': 'nemanja-vidic', 'shortName': 'N. Vidić', 'position': 'D', 'userCount': 221, 'id': 11184};73025570;77;True;yellowRed;card
+MUN X LIV 2014-03-16;{'name': 'Nemanja Vidić', 'slug': 'nemanja-vidic', 'shortName': 'N. Vidić', 'position': 'D', 'userCount': 221, 'id': 11184};73023768;71;True;yellow;card
+MUN X LIV 2014-03-16;{'name': 'Martin Škrtel', 'slug': 'martin-skrtel', 'shortName': 'M. Škrtel', 'position': 'D', 'userCount': 727, 'id': 12394};73020284;54;False;yellow;card
+MUN X LIV 2014-03-16;{'name': 'Steven Gerrard', 'slug': 'steven-gerrard', 'shortName': 'S. Gerrard', 'position': 'M', 'userCount': 1393, 'id': 701};73012428;37;False;yellow;card
+MUN X LIV 2014-03-16;{'name': 'Rafael', 'slug': 'rafael', 'shortName': 'Rafael', 'position': 'D', 'userCount': 601, 'id': 39623};73010676;32;True;yellow;card
+MUN X LIV 2014-03-16;{'name': 'Jon Flanagan', 'slug': 'jon-flanagan', 'shortName': 'J. Flanagan', 'position': 'D', 'userCount': 150, 'id': 143024};73010470;31;False;yellow;card

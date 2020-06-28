@@ -1,0 +1,112 @@
+game;addedTime;confirmed;id;incidentClass;incidentType;isHome;player;time
+BAY X BCS 2019-08-16;;False;159;penaltyNotAwarded;varDecision;True;{'name': 'Robert Lewandowski', 'slug': 'robert-lewandowski', 'shortName': 'R. Lewandowski', 'position': 'F', 'userCount': 62994, 'id': 41789};58
+SGE X TSG 2019-08-18;;False;201;goalAwarded;varDecision;False;{'name': 'Dennis Geiger', 'slug': 'dennis-geiger', 'shortName': 'D. Geiger', 'position': 'M', 'userCount': 379, 'id': 795004};42
+;;False;204;goalAwarded;varDecision;False;{'name': 'Yussuf Poulsen', 'slug': 'yussuf-poulsen', 'shortName': 'Y. Poulsen', 'position': 'F', 'userCount': 2123, 'id': 135264};24
+TSG X SVW 2019-08-24;;False;245;goalAwarded;varDecision;False;{'name': 'Niclas Füllkrug', 'slug': 'niclas-fullkrug', 'shortName': 'N. Füllkrug', 'position': 'F', 'userCount': 212, 'id': 132645};73
+SCP X SCF 2019-08-24;;True;243;penaltyNotAwarded;varDecision;False;{'name': 'Jérôme Gondorf', 'slug': 'jerome-gondorf', 'shortName': 'J. Gondorf', 'position': 'M', 'userCount': 64, 'id': 38502};44
+BCS X WOB 2019-08-25;;False;269;penaltyAwarded;varDecision;True;{'name': 'Vedad Ibišević', 'slug': 'vedad-ibisevic', 'shortName': 'V. Ibišević', 'position': 'F', 'userCount': 796, 'id': 16189};1
+SCF X KOL 2019-08-31;;False;340;goalAwarded;varDecision;False;{'name': 'Kingsley Schindler', 'slug': 'kingsley-schindler', 'shortName': 'K. Schindler', 'position': 'M', 'userCount': 97, 'id': 169113};38
+;;False;431;penaltyNotAwarded;varDecision;True;{'name': 'Sheraldo Becker', 'slug': 'sheraldo-becker', 'shortName': 'S. Becker', 'position': 'F', 'userCount': 122, 'id': 352544};12
+;;True;430;penaltyAwarded;varDecision;False;{'name': 'Davy Klaassen', 'slug': 'davy-klaassen', 'shortName': 'D. Klaassen', 'position': 'M', 'userCount': 896, 'id': 97410};3
+;;False;432;cardUpgrade;varDecision;True;{'name': 'Jeremiah St. Juste', 'slug': 'jeremiah-st-juste', 'shortName': 'J. S. Juste', 'position': 'D', 'userCount': 332, 'id': 787640};32
+RBL X BAY 2019-09-14;;False;438;penaltyAwarded;varDecision;False;{'name': 'Lucas Hernández', 'slug': 'lucas-hernandez', 'shortName': 'L. Hernández', 'position': 'D', 'userCount': 4802, 'id': 352370};38
+;;False;513;cardUpgrade;varDecision;False;{'name': 'Sebastian Polter', 'slug': 'sebastian-polter', 'shortName': 'S. Polter', 'position': 'F', 'userCount': 135, 'id': 39733};64
+;;False;510;goalAwarded;varDecision;True;{'name': 'Lucas Alario', 'slug': 'lucas-alario', 'shortName': 'L. Alario', 'position': 'F', 'userCount': 1741, 'id': 249893};18
+BAY X KOL 2019-09-21;;False;512;goalAwarded;varDecision;True;{'name': 'Philippe Coutinho', 'slug': 'philippe-coutinho', 'shortName': 'P. Coutinho', 'position': 'M', 'userCount': 78237, 'id': 119159};61
+BCS X SCP 2019-09-21;;False;514;goalAwarded;varDecision;True;{'name': 'Vladimír Darida', 'slug': 'vladimir-darida', 'shortName': 'V. Darida', 'position': 'M', 'userCount': 460, 'id': 109002};70
+BMG X DUS 2019-09-22;;False;537;goalNotAwarded;varDecision;True;{'name': 'Marcus Thuram', 'slug': 'marcus-thuram', 'shortName': 'M. Thuram', 'position': 'F', 'userCount': 2212, 'id': 791702};88
+BMG X DUS 2019-09-22;;True;533;penaltyNotAwarded;varDecision;True;{'name': 'Breel Embolo', 'slug': 'breel-embolo', 'shortName': 'B. Embolo', 'position': 'F', 'userCount': 1624, 'id': 352296};41
+TSG X BMG 2019-09-28;;False;599;penaltyAwarded;varDecision;False;{'name': 'Florian Neuhaus', 'slug': 'florian-neuhaus', 'shortName': 'F. Neuhaus', 'position': 'M', 'userCount': 904, 'id': 837205};81
+TSG X BMG 2019-09-28;;False;597;penaltyAwarded;varDecision;True;{'name': 'Robert Skov', 'slug': 'robert-skov', 'shortName': 'R. Skov', 'position': 'M', 'userCount': 1717, 'id': 327863};55
+RBL X S04 2019-09-28;;False;594;penaltyNotAwarded;varDecision;False;{'name': 'Amine Harit', 'slug': 'amine-harit', 'shortName': 'A. Harit', 'position': 'M', 'userCount': 4088, 'id': 827522};40
+DUS X SCF 2019-09-29;;False;628;penaltyNotAwarded;varDecision;False;{'name': 'Nicolas Höfler', 'slug': 'nicolas-hofler', 'shortName': 'N. Höfler', 'position': 'M', 'userCount': 186, 'id': 49639};62
+KOL X BCS 2019-09-29;;False;637;cardUpgrade;varDecision;True;{'name': 'Jorge Mere', 'slug': 'jorge-mere', 'shortName': 'J. Meré', 'position': 'D', 'userCount': 334, 'id': 355046};40
+BCS X DUS 2019-10-04;;False;679;penaltyNotAwarded;varDecision;False;{'name': 'Oliver Fink', 'slug': 'oliver-fink', 'shortName': 'O. Fink', 'position': 'M', 'userCount': 63, 'id': 2640};31
+BCS X DUS 2019-10-04;;True;677;penaltyNotAwarded;varDecision;False;{'name': 'Lewis Baker', 'slug': 'lewis-baker', 'shortName': 'L. Baker', 'position': 'M', 'userCount': 467, 'id': 190859};25
+;;False;714;penaltyAwarded;varDecision;True;{'name': 'Wout Weghorst', 'slug': 'wout-weghorst', 'shortName': 'W. Weghorst', 'position': 'F', 'userCount': 1847, 'id': 252215};55
+SGE X SVW 2019-10-06;;True;720;penaltyNotAwarded;varDecision;True;{'name': 'Gonçalo Paciência', 'slug': 'goncalo-paciencia', 'shortName': 'G. Paciência', 'position': 'F', 'userCount': 1330, 'id': 138890};51
+SGE X BLK 2019-10-18;;False;773;penaltyAwarded;varDecision;False;{'name': 'Kevin Volland', 'slug': 'kevin-volland', 'shortName': 'K. Volland', 'position': 'F', 'userCount': 1609, 'id': 117373};72
+DOR X BMG 2019-10-19;;False;794;goalAwarded;varDecision;True;{'name': 'Thorgan Hazard', 'slug': 'thorgan-hazard', 'shortName': 'T. Hazard', 'position': 'M', 'userCount': 8251, 'id': 94286};35
+KOL X SCP 2019-10-20;;False;818;goalNotAwarded;varDecision;True;{'name': 'Simon Terodde', 'slug': 'simon-terodde', 'shortName': 'S. Terodde', 'position': 'F', 'userCount': 362, 'id': 26231};11
+;;True;844;penaltyNotAwarded;varDecision;False;{'name': 'Kingsley Schindler', 'slug': 'kingsley-schindler', 'shortName': 'K. Schindler', 'position': 'M', 'userCount': 97, 'id': 169113};63
+;;False;859;goalAwarded;varDecision;True;{'name': 'Robert Lewandowski', 'slug': 'robert-lewandowski', 'shortName': 'R. Lewandowski', 'position': 'F', 'userCount': 62994, 'id': 41789};84
+;;False;858;penaltyNotAwarded;varDecision;False;{'name': 'Christopher Trimmel', 'slug': 'christopher-trimmel', 'shortName': 'C. Trimmel', 'position': 'M', 'userCount': 480, 'id': 48557};57
+BLK X SVW 2019-10-26;;False;867;goalAwarded;varDecision;True;{'name': 'Lucas Alario', 'slug': 'lucas-alario', 'shortName': 'L. Alario', 'position': 'F', 'userCount': 1741, 'id': 249893};72
+WOB X AUG 2019-10-27;;False;895;goalAwarded;varDecision;True;{'name': 'João Victor', 'slug': 'joao-victor', 'shortName': 'J. Victor', 'position': 'F', 'userCount': 405, 'id': 799634};86
+BLK X BMG 2019-11-02;6.0;False;970;cardUpgrade;varDecision;True;{'name': 'Leon Bailey', 'slug': 'leon-bailey', 'shortName': 'L. Bailey', 'position': 'F', 'userCount': 3497, 'id': 808590};90
+SGE X BAY 2019-11-02;;False;961;cardUpgrade;varDecision;False;{'name': 'Jérôme Boateng', 'slug': 'jerome-boateng', 'shortName': 'J. Boateng', 'position': 'D', 'userCount': 4077, 'id': 19382};9
+SGE X BAY 2019-11-02;;False;960;penaltyAwarded;varDecision;True;{'name': 'Gonçalo Paciência', 'slug': 'goncalo-paciencia', 'shortName': 'G. Paciência', 'position': 'F', 'userCount': 1330, 'id': 138890};9
+SVW X SCF 2019-11-02;;False;962;goalAwarded;varDecision;False;{'name': 'Roland Sallai', 'slug': 'roland-sallai', 'shortName': 'R. Sallai', 'position': 'M', 'userCount': 859, 'id': 355088};21
+;;True;976;penaltyAwarded;varDecision;True;{'name': 'Christian Gentner', 'slug': 'christian-gentner', 'shortName': 'C. Gentner', 'position': 'M', 'userCount': 176, 'id': 4725};86
+AUG X S04 2019-11-03;;False;994;penaltyNotAwarded;varDecision;True;{'name': 'Philipp Max', 'slug': 'philipp-max', 'shortName': 'P. Max', 'position': 'D', 'userCount': 858, 'id': 142672};58
+KOL X TSG 2019-11-08;6.0;False;1022;penaltyNotAwarded;varDecision;False;{'name': 'Sargis Adamyan', 'slug': 'sargis-adamyan', 'shortName': 'S. Adamyan', 'position': 'F', 'userCount': 644, 'id': 129927};90
+S04 X DUS 2019-11-09;;False;1031;penaltyNotAwarded;varDecision;False;{'name': 'Kasim Adams', 'slug': 'kasim-adams', 'shortName': 'K. Adams', 'position': 'D', 'userCount': 373, 'id': 609706};60
+BCS X RBL 2019-11-09;;False;1028;penaltyNotAwarded;varDecision;False;{'name': 'Nordi Mukiele', 'slug': 'nordi-mukiele', 'shortName': 'N. Mukiele', 'position': 'D', 'userCount': 1161, 'id': 780014};37
+BAY X DOR 2019-11-09;;False;1038;goalNotAwarded;varDecision;True;{'name': 'Thomas Müller', 'slug': 'thomas-muller', 'shortName': 'T. Müller', 'position': 'M', 'userCount': 12945, 'id': 35166};48
+BMG X SVW 2019-11-10;;False;1054;penaltyNotAwarded;varDecision;False;{'name': 'Miloš Veljković', 'slug': 'milos-veljkovic', 'shortName': 'M. Veljković', 'position': 'D', 'userCount': 347, 'id': 227224};51
+BMG X SVW 2019-11-10;;False;1053;goalAwarded;varDecision;False;{'name': 'Yuya Osako', 'slug': 'yuya-osako', 'shortName': 'Y. Osako', 'position': 'F', 'userCount': 757, 'id': 48240};28
+SCF X SGE 2019-11-10;9.0;False;1074;cardUpgrade;varDecision;True;{'name': 'Vincenzo Grifo', 'slug': 'vincenzo-grifo', 'shortName': 'V. Grifo', 'position': 'M', 'userCount': 713, 'id': 171961};90
+SCF X SGE 2019-11-10;;False;1070;penaltyAwarded;varDecision;False;{'name': 'Gonçalo Paciência', 'slug': 'goncalo-paciencia', 'shortName': 'G. Paciência', 'position': 'F', 'userCount': 1330, 'id': 138890};30
+;1.0;False;1139;cardUpgrade;varDecision;False;{'name': 'Ridle Baku', 'slug': 'ridle-baku', 'shortName': 'R. Baku', 'position': 'M', 'userCount': 282, 'id': 856553};45
+BCS X DOR 2019-11-30;;False;1185;goalAwarded;varDecision;True;{'name': 'Davie Selke', 'slug': 'davie-selke', 'shortName': 'D. Selke', 'position': 'F', 'userCount': 418, 'id': 187437};50
+WOB X SVW 2019-12-01;;False;1225;goalAwarded;varDecision;True;{'name': 'Robin Knoche', 'slug': 'robin-knoche', 'shortName': 'R. Knoche', 'position': 'D', 'userCount': 147, 'id': 130433};62
+WOB X SVW 2019-12-01;;False;1224;penaltyNotAwarded;varDecision;False;{'name': 'Philipp Bargfrede', 'slug': 'philipp-bargfrede', 'shortName': 'P. Bargfrede', 'position': 'M', 'userCount': 107, 'id': 37629};11
+;;False;1239;goalAwarded;varDecision;True;{'name': 'Karim Onisiwo', 'slug': 'karim-onisiwo', 'shortName': 'K. Onisiwo', 'position': 'F', 'userCount': 280, 'id': 165413};54
+SGE X BCS 2019-12-06;;False;1259;goalAwarded;varDecision;True;{'name': 'Daichi Kamada', 'slug': 'daichi-kamada', 'shortName': 'D. Kamada', 'position': 'F', 'userCount': 1126, 'id': 794338};39
+;;False;1272;penaltyNotAwarded;varDecision;True;{'name': 'Ruben Vargas', 'slug': 'ruben-vargas', 'shortName': 'R. Vargas', 'position': 'M', 'userCount': 416, 'id': 872919};64
+DOR X DUS 2019-12-07;;False;1269;goalAwarded;varDecision;True;{'name': 'Jadon Sancho', 'slug': 'jadon-sancho', 'shortName': 'J. Sancho', 'position': 'F', 'userCount': 23898, 'id': 851100};53
+SVW X SCP 2019-12-08;2.0;False;1305;goalNotAwarded;varDecision;False;{'name': 'Streli Mamba', 'slug': 'streli-mamba', 'shortName': 'S. Mamba', 'position': 'F', 'userCount': 198, 'id': 169257};90
+DUS X RBL 2019-12-14;;False;1343;penaltyNotAwarded;varDecision;False;{'name': 'Lukas Klostermann', 'slug': 'lukas-klostermann', 'shortName': 'L. Klostermann', 'position': 'D', 'userCount': 1221, 'id': 319853};56
+BMG X SCP 2019-12-18;;False;1366;penaltyNotAwarded;varDecision;True;{'name': 'Alassane Pléa', 'slug': 'alassane-plea', 'shortName': 'A. Pléa', 'position': 'F', 'userCount': 2374, 'id': 192308};65
+;;False;1381;goalAwarded;varDecision;False;{'name': 'Kevin Volland', 'slug': 'kevin-volland', 'shortName': 'K. Volland', 'position': 'F', 'userCount': 1609, 'id': 117373};67
+S04 X SCF 2019-12-21;;False;1380;penaltyNotAwarded;varDecision;False;{'name': 'Lucas Höler', 'slug': 'lucas-holer', 'shortName': 'L. Höler', 'position': 'F', 'userCount': 184, 'id': 280009};52
+SCP X SGE 2019-12-22;;False;1403;penaltyAwarded;varDecision;False;{'name': 'Filip Kostić', 'slug': 'filip-kostic', 'shortName': 'F. Kostić', 'position': 'M', 'userCount': 2731, 'id': 126588};18
+AUG X DOR 2020-01-18;;False;1568;goalNotAwarded;varDecision;False;{'name': 'Thorgan Hazard', 'slug': 'thorgan-hazard', 'shortName': 'T. Hazard', 'position': 'M', 'userCount': 8251, 'id': 94286};71
+BCS X BAY 2020-01-19;;False;1599;goalAwarded;varDecision;False;{'name': 'Robert Lewandowski', 'slug': 'robert-lewandowski', 'shortName': 'R. Lewandowski', 'position': 'F', 'userCount': 62994, 'id': 41789};64
+DOR X KOL 2020-01-24;;False;1631;goalNotAwarded;varDecision;True;{'name': 'Mats Hummels', 'slug': 'mats-hummels', 'shortName': 'M. Hummels', 'position': 'D', 'userCount': 4525, 'id': 16632};30
+DOR X KOL 2020-01-24;;False;1630;penaltyAwarded;varDecision;True;{'name': 'Marco Reus', 'slug': 'marco-reus', 'shortName': 'M. Reus', 'position': 'M', 'userCount': 21696, 'id': 37092};13
+BAY X S04 2020-01-25;;False;1655;goalAwarded;varDecision;True;{'name': 'Robert Lewandowski', 'slug': 'robert-lewandowski', 'shortName': 'R. Lewandowski', 'position': 'F', 'userCount': 62994, 'id': 41789};38
+DUS X SGE 2020-02-01;4.0;False;1724;goalNotAwarded;varDecision;False;{'name': 'Timothy Chandler', 'slug': 'timothy-chandler', 'shortName': 'T. Chandler', 'position': 'M', 'userCount': 205, 'id': 40239};90
+DUS X SGE 2020-02-01;;False;1719;goalAwarded;varDecision;True;{'name': 'Nana Ampomah', 'slug': 'nana-ampomah', 'shortName': 'N. Ampomah', 'position': 'F', 'userCount': 258, 'id': 845137};52
+SCP X WOB 2020-02-02;;True;1757;redCardGiven;varDecision;True;{'name': 'Gerrit Holtmann', 'slug': 'gerrit-holtmann', 'shortName': 'G. Holtmann', 'position': 'M', 'userCount': 61, 'id': 253517};34
+WOB X DUS 2020-02-08;;False;1805;cardUpgrade;varDecision;True;{'name': 'Marin Pongračić', 'slug': 'marin-pongracic', 'shortName': 'M. Pongračić', 'position': 'D', 'userCount': 697, 'id': 847467};47
+BLK X DOR 2020-02-08;;False;1814;goalAwarded;varDecision;False;{'name': 'Jadon Sancho', 'slug': 'jadon-sancho', 'shortName': 'J. Sancho', 'position': 'F', 'userCount': 23898, 'id': 851100};54
+BAY X RBL 2020-02-09;;False;1840;penaltyAwarded;varDecision;True;{'name': 'Robert Lewandowski', 'slug': 'robert-lewandowski', 'shortName': 'R. Lewandowski', 'position': 'F', 'userCount': 62994, 'id': 41789};55
+TSG X WOB 2020-02-15;;False;1877;penaltyNotAwarded;varDecision;True;{'name': 'Robert Skov', 'slug': 'robert-skov', 'shortName': 'R. Skov', 'position': 'M', 'userCount': 1717, 'id': 327863};59
+TSG X WOB 2020-02-15;;False;1876;penaltyNotAwarded;varDecision;False;{'name': 'Kevin Mbabu', 'slug': 'kevin-mbabu', 'shortName': 'K. Mbabu', 'position': 'D', 'userCount': 875, 'id': 227900};50
+TSG X WOB 2020-02-15;;False;1872;goalAwarded;varDecision;False;{'name': 'Wout Weghorst', 'slug': 'wout-weghorst', 'shortName': 'W. Weghorst', 'position': 'F', 'userCount': 1847, 'id': 252215};41
+SCP X BCS 2020-02-15;;False;1870;goalAwarded;varDecision;False;{'name': 'Krzysztof Piątek', 'slug': 'krzysztof-piatek', 'shortName': 'K. Piątek', 'position': 'F', 'userCount': 22782, 'id': 558738};18
+KOL X BAY 2020-02-16;;False;1907;goalAwarded;varDecision;True;{'name': 'Jhon Córdoba', 'slug': 'jhon-cordoba', 'shortName': 'J. Córdoba', 'position': 'F', 'userCount': 1196, 'id': 281253};47
+BMG X TSG 2020-02-22;;False;1960;goalAwarded;varDecision;True;{'name': 'Alassane Pléa', 'slug': 'alassane-plea', 'shortName': 'A. Pléa', 'position': 'F', 'userCount': 2374, 'id': 192308};84
+BMG X TSG 2020-02-22;;False;1957;penaltyNotAwarded;varDecision;True;{'name': 'Lars Stindl', 'slug': 'lars-stindl', 'shortName': 'L. Stindl', 'position': 'F', 'userCount': 743, 'id': 23996};72
+BCS X KOL 2020-02-22;;False;1954;goalNotAwarded;varDecision;False;{'name': 'Florian Kainz', 'slug': 'florian-kainz', 'shortName': 'F. Kainz', 'position': 'M', 'userCount': 483, 'id': 78781};38
+S04 X TSG 2020-03-07;;False;2108;goalAwarded;varDecision;False;{'name': 'Benjamin Hübner', 'slug': 'benjamin-hubner', 'shortName': 'B. Hübner', 'position': 'D', 'userCount': 261, 'id': 35921};67
+BCS X SVW 2020-03-07;;False;2111;penaltyAwarded;varDecision;True;{'name': 'Vladimír Darida', 'slug': 'vladimir-darida', 'shortName': 'V. Darida', 'position': 'M', 'userCount': 460, 'id': 109002};80
+;;False;2160;goalNotAwarded;varDecision;True;{'name': 'Jean-Philippe Mateta', 'slug': 'jean-philippe-mateta', 'shortName': 'J. Mateta', 'position': 'F', 'userCount': 792, 'id': 848276};62
+AUG X WOB 2020-05-16;;False;2214;goalAwarded;varDecision;True;{'name': 'Felix Uduokhai', 'slug': 'felix-uduokhai', 'shortName': 'F. Uduokhai', 'position': 'D', 'userCount': 261, 'id': 792142};68
+RBL X SCF 2020-05-16;4.0;False;2215;goalAwarded;varDecision;False;{'name': 'Robin Koch', 'slug': 'robin-koch', 'shortName': 'R. Koch', 'position': 'D', 'userCount': 566, 'id': 581302};90
+;;False;2219;goalAwarded;varDecision;False;{'name': 'Thomas Müller', 'slug': 'thomas-muller', 'shortName': 'T. Müller', 'position': 'M', 'userCount': 12945, 'id': 35166};19
+BMG X BLK 2020-05-23;;True;2226;penaltyAwarded;varDecision;False;{'name': 'Karim Bellarabi', 'slug': 'karim-bellarabi', 'shortName': 'K. Bellarabi', 'position': 'M', 'userCount': 613, 'id': 108574};56
+SCF X SVW 2020-05-23;;False;2228;goalAwarded;varDecision;True;{'name': 'Manuel Gulde', 'slug': 'manuel-gulde', 'shortName': 'M. Gulde', 'position': 'D', 'userCount': 120, 'id': 71952};90
+WOB X DOR 2020-05-23;;False;2227;cardUpgrade;varDecision;True;{'name': 'Felix Klaus', 'slug': 'felix-klaus', 'shortName': 'F. Klaus', 'position': 'F', 'userCount': 151, 'id': 116570};81
+TSG X KOL 2020-05-27;;False;2238;penaltyNotAwarded;varDecision;False;{'name': 'Mark Uth', 'slug': 'mark-uth', 'shortName': 'M. Uth', 'position': 'M', 'userCount': 751, 'id': 110508};76
+TSG X KOL 2020-05-27;;False;2237;goalAwarded;varDecision;True;{'name': 'Christoph Baumgartner', 'slug': 'christoph-baumgartner', 'shortName': 'C. Baumgartner', 'position': 'M', 'userCount': 463, 'id': 825956};43
+TSG X KOL 2020-05-27;;False;2236;cardUpgrade;varDecision;False;{'name': 'Sebastiaan Bornauw', 'slug': 'sebastiaan-bornauw', 'shortName': 'S. Bornauw', 'position': 'D', 'userCount': 513, 'id': 826167};25
+KOL X RBL 2020-06-01;;False;2249;penaltyAwarded;varDecision;True;{'name': 'Anthony Modeste', 'slug': 'anthony-modeste', 'shortName': 'A. Modeste', 'position': 'F', 'userCount': 620, 'id': 21931};72
+BLK X BAY 2020-06-06;;False;2258;goalNotAwarded;varDecision;True;{'name': 'Lucas Alario', 'slug': 'lucas-alario', 'shortName': 'L. Alario', 'position': 'F', 'userCount': 1741, 'id': 249893};10
+DUS X TSG 2020-06-06;;False;2259;goalAwarded;varDecision;True;{'name': 'Kenan Karaman', 'slug': 'kenan-karaman', 'shortName': 'K. Karaman', 'position': 'F', 'userCount': 899, 'id': 168943};20
+TSG X RBL 2020-06-12;;False;2267;penaltyAwarded;varDecision;True;{'name': 'Munas Dabbur', 'slug': 'munas-dabbur', 'shortName': 'M. Dabbur', 'position': 'F', 'userCount': 1679, 'id': 114379};8
+;;False;2280;penaltyAwarded;varDecision;False;{'name': 'Christian Gentner', 'slug': 'christian-gentner', 'shortName': 'C. Gentner', 'position': 'M', 'userCount': 176, 'id': 4725};32
+DUS X DOR 2020-06-13;;False;2283;goalAwarded;varDecision;False;{'name': 'Raphaël Guerreiro', 'slug': 'raphael-guerreiro', 'shortName': 'R. Guerreiro', 'position': 'D', 'userCount': 4120, 'id': 246999};67
+BCS X SGE 2020-06-13;2.0;False;2282;cardUpgrade;varDecision;True;{'name': 'Dedryck Boyata', 'slug': 'dedryck-boyata', 'shortName': 'D. Boyata', 'position': 'D', 'userCount': 891, 'id': 103928};45
+BCS X SGE 2020-06-13;1.0;False;2281;penaltyAwarded;varDecision;False;{'name': 'Bas Dost', 'slug': 'bas-dost', 'shortName': 'B. Dost', 'position': 'F', 'userCount': 1676, 'id': 32260};45
+WOB X SCF 2020-06-13;;False;2279;goalAwarded;varDecision;True;{'name': 'Daniel Ginczek', 'slug': 'daniel-ginczek', 'shortName': 'D. Ginczek', 'position': 'F', 'userCount': 169, 'id': 48022};30
+WOB X SCF 2020-06-13;;False;2278;goalAwarded;varDecision;True;{'name': 'Wout Weghorst', 'slug': 'wout-weghorst', 'shortName': 'W. Weghorst', 'position': 'F', 'userCount': 1847, 'id': 252215};24
+BAY X BMG 2020-06-13;;False;2286;goalAwarded;varDecision;False;{'name': 'Jonas Hofmann', 'slug': 'jonas-hofmann', 'shortName': 'J. Hofmann', 'position': 'M', 'userCount': 379, 'id': 142390};17
+S04 X BLK 2020-06-14;;False;2292;penaltyNotAwarded;varDecision;True;{'name': 'Jonjoe Kenny', 'slug': 'jonjoe-kenny', 'shortName': 'J. Kenny', 'position': 'D', 'userCount': 499, 'id': 361310};50
+SCF X BCS 2020-06-16;;False;2299;goalAwarded;varDecision;False;{'name': 'Dodi Lukebakio', 'slug': 'dodi-lukebakio', 'shortName': 'D. Lukebakio', 'position': 'F', 'userCount': 1277, 'id': 823631};52
+DUS X AUG 2020-06-20;;False;2323;goalAwarded;varDecision;True;{'name': 'Rouwen Hennings', 'slug': 'rouwen-hennings', 'shortName': 'R. Hennings', 'position': 'F', 'userCount': 510, 'id': 13009};8
+SCP X BMG 2020-06-20;;False;2324;goalNotAwarded;varDecision;False;{'name': 'Lars Stindl', 'slug': 'lars-stindl', 'shortName': 'L. Stindl', 'position': 'F', 'userCount': 743, 'id': 23996};74
+AUG X RBL 2020-06-27;;False;2376;goalNotAwarded;varDecision;False;{'name': 'Timo Werner', 'slug': 'timo-werner', 'shortName': 'T. Werner', 'position': 'F', 'userCount': 14278, 'id': 232306};81
+AUG X RBL 2020-06-27;;False;2374;redCardGiven;varDecision;True;{'name': 'Philipp Max', 'slug': 'philipp-max', 'shortName': 'P. Max', 'position': 'D', 'userCount': 858, 'id': 142672};60
+;;False;2375;goalAwarded;varDecision;True;{'name': 'Julian Baumgartlinger', 'slug': 'julian-baumgartlinger', 'shortName': 'J. Baumgartlinger', 'position': 'M', 'userCount': 334, 'id': 24006};68
