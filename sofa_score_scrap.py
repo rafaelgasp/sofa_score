@@ -119,17 +119,22 @@ def get_live_form(resp, prefix = "form_minute_"):
     return(ret)
 
 def game_statistics(resp, players_df, de_para_siglas, periods = [0, 1, 2]):
-    ret = parse_event_info(players_df, de_para_siglas)
-    for period in periods:
-        if period in resp.json()["statistics"]["periods"]:
-            period_suffix = resp.json()["statistics"]["periods"][period]['period']
-            groups = resp.json()["statistics"]["periods"][period]["groups"]
-            for i in range(len(groups)):
-                items = groups[i]["statisticsItems"]
-                for item in items:
-                    nome = item["name"]
-                    ret[nome + "_home_" + period_suffix] = item["home"]
-                    ret[nome + "_away_" + period_suffix] = item["away"]
+    if players_df is not None:
+        ret = parse_event_info(players_df, de_para_siglas)
+    else:
+        ret = {}
+
+    if resp.json()["statistics"] is not None:
+        for period in periods:
+            if period in resp.json()["statistics"]["periods"]:
+                period_suffix = resp.json()["statistics"]["periods"][period]['period']
+                groups = resp.json()["statistics"]["periods"][period]["groups"]
+                for i in range(len(groups)):
+                    items = groups[i]["statisticsItems"]
+                    for item in items:
+                        nome = item["name"]
+                        ret[nome + "_home_" + period_suffix] = item["home"]
+                        ret[nome + "_away_" + period_suffix] = item["away"]
     
     ret.update(get_live_form(resp))
     try:

@@ -46,6 +46,7 @@ FIG X CAP 19-06-2011;5;1690008;FIG;CAP;19-06-2011;https://www.sofascore.com/pt/f
 FLA X BOT 19-06-2011;5;1690004;FLA;BOT;19-06-2011;https://www.sofascore.com/pt/flamengo-botafogo/iOsGuc;0;0
 GRE X VAS 19-06-2011;5;1690006;GRE;VAS;19-06-2011;https://www.sofascore.com/pt/gremio-vasco-da-gama/zOsBtc;1;1
 PAL X AVA 19-06-2011;5;1690002;PAL;AVA;19-06-2011;https://www.sofascore.com/pt/avai-palmeiras/nOspWc;5;0
+SAN X COR 19-06-2011;5;1690003;SAN;COR;19-06-2011;https://www.sofascore.com/pt/santos-corinthians/hOstO;-1;-1
 CAM X ATG 19-06-2011;5;1690007;CAM;ATG;19-06-2011;https://www.sofascore.com/pt/atletico-goianiense-atletico-mineiro/COsoWc;2;2
 CFC X INT 19-06-2011;5;1690009;CFC;INT;19-06-2011;https://www.sofascore.com/pt/coritiba-internacional/qOsHO;1;1
 SAN X COR 11-08-2011;5;1761576;SAN;COR;11-08-2011;https://www.sofascore.com/pt/santos-corinthians/hOstO;0;0
@@ -93,6 +94,9 @@ ATG X AVA 16-07-2011;10;1690058;ATG;AVA;16-07-2011;https://www.sofascore.com/pt/
 CFC X FLU 16-07-2011;10;1690057;CFC;FLU;16-07-2011;https://www.sofascore.com/pt/coritiba-fluminense/lOsHO;3;1
 VAS X CAP 16-07-2011;10;1690054;VAS;CAP;16-07-2011;https://www.sofascore.com/pt/vasco-da-gama-athletico-paranaense/rOszO;2;1
 SAN X CAM 17-07-2011;10;1690053;SAN;CAM;17-07-2011;https://www.sofascore.com/pt/atletico-mineiro-santos/tOsCO;2;1
+BOT X COR 17-07-2011;10;1690055;BOT;COR;17-07-2011;https://www.sofascore.com/pt/botafogo-corinthians/hOsiO;-1;-1
+FIG X GRE 17-07-2011;10;1690060;FIG;GRE;17-07-2011;https://www.sofascore.com/pt/gremio-figueirense/KOsBtc;-1;-1
+PAL X FLA 17-07-2011;10;1690052;PAL;FLA;17-07-2011;https://www.sofascore.com/pt/flamengo-palmeiras/nOsGuc;-1;-1
 CEA X AME 17-07-2011;10;1690059;CEA;AME;17-07-2011;https://www.sofascore.com/pt/ceara-sc-america-mineiro/yOsbP;4;0
 CRU X BAH 17-07-2011;10;1690061;CRU;BAH;17-07-2011;https://www.sofascore.com/pt/bahia-cruzeiro/eOsfO;2;1
 INT X SPO 17-07-2011;10;1690056;INT;SPO;17-07-2011;https://www.sofascore.com/pt/sao-paulo-internacional/qOsGO;0;3
@@ -207,6 +211,7 @@ CFC X COR 04-09-2011;21;1690169;CFC;COR;04-09-2011;https://www.sofascore.com/pt/
 FLA X BAH 04-09-2011;21;1690164;FLA;BAH;04-09-2011;https://www.sofascore.com/pt/flamengo-bahia/fOsGuc;1;3
 GRE X CAP 04-09-2011;21;1690166;GRE;CAP;04-09-2011;https://www.sofascore.com/pt/gremio-athletico-paranaense/rOsBtc;4;0
 PAL X CRU 04-09-2011;21;1690162;PAL;CRU;04-09-2011;https://www.sofascore.com/pt/palmeiras-cruzeiro/eOsnO;1;1
+SAN X BOT 04-09-2011;21;1690163;SAN;BOT;04-09-2011;https://www.sofascore.com/pt/santos-botafogo/iOstO;-1;-1
 CEA X INT 04-09-2011;21;1690171;CEA;INT;04-09-2011;https://www.sofascore.com/pt/ceara-sc-internacional/qOsbP;1;1
 SAN X BOT 19-10-2011;21;1953707;SAN;BOT;19-10-2011;https://www.sofascore.com/pt/santos-botafogo/iOstO;2;0
 AVA X SAN 07-09-2011;22;1690178;AVA;SAN;07-09-2011;https://www.sofascore.com/pt/avai-santos/tOspWc;1;2
