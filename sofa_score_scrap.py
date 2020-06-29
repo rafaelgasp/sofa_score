@@ -162,6 +162,9 @@ def get_info_rodada(resp, de_para_siglas):
     for game in games:
         resp["fixture"].append(game['roundInfo']["round"])
         resp["id"].append(game["id"])
+        #print(game["homeTeam"]["name"], de_para_siglas.loc[game["homeTeam"]["name"]].iloc[0])
+        #print(game["awayTeam"]["name"], de_para_siglas.loc[game["awayTeam"]["name"]].iloc[0])
+        
         resp["team_home"].append(de_para_siglas.loc[game["homeTeam"]["name"]].iloc[0])
         resp["team_away"].append(de_para_siglas.loc[game["awayTeam"]["name"]].iloc[0])
         
@@ -184,13 +187,15 @@ def get_incidents_database(
 
     incidents_per_type = {}
 
-    for el in resp_incidents.json()["incidents"]:
-        if el['incidentType'] in types:
-            if not el['incidentType'] in incidents_per_type:
-                incidents_per_type[el['incidentType']] = []
-            incidents_per_type[el['incidentType']].append(el)
+    r_json = resp_incidents.json()
+    if 'incidents' in r_json:
+        for el in r_json["incidents"]:
+            if el['incidentType'] in types:
+                if not el['incidentType'] in incidents_per_type:
+                    incidents_per_type[el['incidentType']] = []
+                incidents_per_type[el['incidentType']].append(el)
     
-    for key in incidents_per_type:
-        incidents_per_type[key] = pd.DataFrame(incidents_per_type[key])
+        for key in incidents_per_type:
+            incidents_per_type[key] = pd.DataFrame(incidents_per_type[key])
     
     return incidents_per_type
