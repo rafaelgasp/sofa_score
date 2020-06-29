@@ -77,7 +77,7 @@ def get_per_player_data(players_df, de_para_siglas):
     
     players_data["game"] = [game_info["game"] for i in range(len(players_data))]
     players_data["team"] = [de_para_siglas.loc[x].iloc[0] for x in players_data.team_name]
-    return(players_data.set_index("game"))
+    return(players_data)
     
 def get_odds(resp, map_odds = {0: "final_result",
                                1: "double_chance",
