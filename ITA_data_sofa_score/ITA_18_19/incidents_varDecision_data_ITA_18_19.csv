@@ -1,0 +1,6 @@
+game;confirmed;player;isHome;id;time;incidentClass;incidentType
+SAM X INT 22-09-2018;False;{'name': 'Grégoire Defrel', 'slug': 'gregoire-defrel', 'shortName': 'G. Defrel', 'position': 'F', 'userCount': 646, 'id': 148566};True;497;90;goalNotAwarded;varDecision
+SAM X INT 22-09-2018;False;{'name': 'Kwadwo Asamoah', 'slug': 'kwadwo-asamoah', 'shortName': 'K. Asamoah', 'position': 'M', 'userCount': 6511, 'id': 32742};False;496;88;goalNotAwarded;varDecision
+SAM X INT 22-09-2018;False;{'name': 'Radja Nainggolan', 'slug': 'radja-nainggolan', 'shortName': 'R. Nainggolan', 'position': 'M', 'userCount': 6180, 'id': 44001};False;495;45;goalAwarded;varDecision
+CAG X ROM 08-12-2018;True;{'name': 'Paolo Faragò', 'slug': 'paolo-farago', 'shortName': 'P. Faragò', 'position': 'D', 'userCount': 100, 'id': 253387};True;646;69;penaltyNotAwarded;varDecision
+ROM X GEN 16-12-2018;False;{'name': 'Christian Kouamé', 'slug': 'christian-kouame', 'shortName': 'C. Kouamé', 'position': 'F', 'userCount': 1458, 'id': 812946};False;647;49;goalAwarded;varDecision

@@ -1,0 +1,15 @@
+game;length;time;addedTime;incidentType
+CHV X JUV 18-08-2018;5;90;0;injuryTime
+CHV X JUV 18-08-2018;2;45;0;injuryTime
+LAZ X NAP 18-08-2018;4;90;0;injuryTime
+LAZ X NAP 18-08-2018;3;45;0;injuryTime
+TOR X ROM 19-08-2018;6;90;0;injuryTime
+BGN X SPA 19-08-2018;1;45;0;injuryTime
+ATT X FRO 20-08-2018;3;90;0;injuryTime
+CAG X SAS 26-08-2018;7;90;0;injuryTime
+PRM X CAG 22-09-2018;4;45;0;injuryTime
+ROM X FRO 26-09-2018;2;90;0;injuryTime
+CAG X BGN 06-10-2018;5;45;0;injuryTime
+LAZ X SAM 08-12-2018;9;90;0;injuryTime
+JUV X SAM 29-12-2018;8;90;0;injuryTime
+NAP X UDI 17-03-2019;6;45;0;injuryTime
