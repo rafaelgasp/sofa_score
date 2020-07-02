@@ -124,18 +124,18 @@ def game_statistics(resp, players_df, de_para_siglas, periods = [0, 1, 2]):
     else:
         ret = {}
 
+    
     if resp.json()["statistics"] is not None:
         for period in periods:
-            if period in resp.json()["statistics"]["periods"]:
-                period_suffix = resp.json()["statistics"]["periods"][period]['period']
-                groups = resp.json()["statistics"]["periods"][period]["groups"]
-                for i in range(len(groups)):
-                    items = groups[i]["statisticsItems"]
-                    for item in items:
-                        nome = item["name"]
-                        ret[nome + "_home_" + period_suffix] = item["home"]
-                        ret[nome + "_away_" + period_suffix] = item["away"]
-    
+            period_suffix = resp.json()["statistics"]["periods"][period]['period']
+            groups = resp.json()["statistics"]["periods"][period]["groups"]
+            for i in range(len(groups)):
+                items = groups[i]["statisticsItems"]
+                for item in items:
+                    nome = item["name"]
+                    ret[nome + "_home_" + period_suffix] = item["home"]
+                    ret[nome + "_away_" + period_suffix] = item["away"]
+        
     ret.update(get_live_form(resp))
     try:
         ret.update(get_odds(resp))
