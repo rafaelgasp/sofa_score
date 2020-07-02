@@ -1,0 +1,14 @@
+game;length;time;addedTime;incidentType
+ROM X UDI 20-08-2016;3;90;0;injuryTime
+ROM X UDI 20-08-2016;1;45;0;injuryTime
+JUV X FIO 20-08-2016;5;90;0;injuryTime
+MIL X TOR 21-08-2016;4;90;0;injuryTime
+MIL X TOR 21-08-2016;2;45;0;injuryTime
+ATT X LAZ 21-08-2016;4;45;0;injuryTime
+LAZ X JUV 27-08-2016;3;45;0;injuryTime
+JUV X SAS 10-09-2016;6;90;0;injuryTime
+PAL X NAP 10-09-2016;2;90;0;injuryTime
+MIL X UDI 11-09-2016;8;90;0;injuryTime
+CRO X PAL 18-09-2016;6;45;0;injuryTime
+MIL X PES 30-10-2016;7;90;0;injuryTime
+FIO X NAP 22-12-2016;5;45;0;injuryTime

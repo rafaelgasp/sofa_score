@@ -10,7 +10,11 @@ from datetime import datetime
 # de_para_siglas.set_index("time", inplace=True)
 
 def parse_event_info(players_df, de_para_siglas, player_i = 0):
-    jogo = players_df.iloc[player_i].eventData
+    try:
+        jogo = players_df.iloc[player_i].eventData
+    except IndexError:
+        return {}
+
     resp = {}
     
     resp["team_away"] = de_para_siglas.loc[jogo["awayTeam"]["name"]].iloc[0]
